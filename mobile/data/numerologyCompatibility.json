@@ -1,0 +1,12 @@
+{
+  "_note": "Best/Good/Worst compatibility between a birth number (row) and a candidate name number (column), 1-9 each. Built from the classical Vedic 'Graha Maitri' (planetary friendship) chart applied to the standard Chaldean number-planet rulership (1=Sun,2=Moon,3=Jupiter,4=Rahu,5=Mercury,6=Venus,7=Ketu,8=Saturn,9=Mars): friend=best, neutral=good, enemy=worst. Rows/columns for 4 (Rahu) and 7 (Ketu) are marked 'good' throughout because the classical 7-planet friendship texts (Brihat Parashara Hora Shastra) don't define friendships for the two shadow/nodal planets -- this is the most debatable part of the whole app and different numerologists rank these differently, so treat it as a reasonable default rather than settled doctrine. Graha Maitri relationships are asymmetric by classical design (e.g. Saturn treats Mars as an enemy, but Mars treats Saturn as neutral) -- differing values across the diagonal are intentional, not a bug.",
+  "1": { "1": "best", "2": "best", "3": "best", "4": "good", "5": "good", "6": "worst", "7": "good", "8": "worst", "9": "best" },
+  "2": { "1": "best", "2": "best", "3": "good", "4": "good", "5": "best", "6": "good", "7": "good", "8": "good", "9": "good" },
+  "3": { "1": "best", "2": "best", "3": "best", "4": "good", "5": "worst", "6": "worst", "7": "good", "8": "good", "9": "best" },
+  "4": { "1": "good", "2": "good", "3": "good", "4": "good", "5": "good", "6": "good", "7": "good", "8": "good", "9": "good" },
+  "5": { "1": "best", "2": "worst", "3": "good", "4": "good", "5": "best", "6": "best", "7": "good", "8": "good", "9": "good" },
+  "6": { "1": "worst", "2": "worst", "3": "good", "4": "good", "5": "best", "6": "best", "7": "good", "8": "best", "9": "good" },
+  "7": { "1": "good", "2": "good", "3": "good", "4": "good", "5": "good", "6": "good", "7": "good", "8": "good", "9": "good" },
+  "8": { "1": "worst", "2": "worst", "3": "good", "4": "good", "5": "best", "6": "best", "7": "good", "8": "best", "9": "worst" },
+  "9": { "1": "best", "2": "best", "3": "best", "4": "good", "5": "worst", "6": "good", "7": "good", "8": "good", "9": "best" }
+}
