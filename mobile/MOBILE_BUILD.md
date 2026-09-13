@@ -109,14 +109,16 @@ npx expo start          # scan the QR with Expo Go (expo.dev/go) on your phone
 
 ## Before shipping — things to revisit
 
-- **App icon/splash**: `assets/icon.png`, `assets/adaptive-icon.png`, `assets/splash.png`,
-  and `assets/favicon.png` are currently placeholders copied over from CareerBandhu for
-  scaffolding purposes — swap in real NaamKaran branding before a store submission.
-- **Names dataset** (`data/names.json`): seeded with ~100 well-known names covering about
-  half of the 108 Nakshatra-pada syllables. Expand it over time — the ranking pipeline
-  (`lib/suggest.ts`) already falls back gracefully to the rest of the Nakshatra when a
-  specific syllable has too few names.
-- **Numerology compatibility table** (`data/numerologyCompatibility.json`): built from the
-  classical Vedic planetary-friendship chart, but numerologists differ on this table (especially
-  the rows for numbers 4 and 7, tied to the shadow planets Rahu/Ketu). Worth a sanity check
-  against a source/pandit you trust before treating it as authoritative.
+- **Names dataset** (`data/names.json`): 441 names covering 71 of the 95 pada syllables.
+  24 syllables still have no names and 13 have only one — see `DATA_SOURCES.md`. Filling
+  those needs regional/modern name sources, not more Sanskrit scripture.
+- **Gender tags on scriptural epithets**: names were tagged from the text they appear in.
+  A masculine epithet of Vishnu is not automatically a workable modern boy's name. A few
+  were corrected by hand; more deserve a review by someone who knows current usage.
+- **Numerology compatibility table** (`data/numerologyCompatibility.json`): the most
+  debatable file in the project. Worth checking against a source or pandit you trust.
+- **City provinces are dated** in the bundled `city-timezones` data (Hyderabad shows as
+  Andhra Pradesh, not Telangana). Coordinates and timezones — what the maths actually
+  uses — are correct.
+- **Privacy policy**: both stores require one. The honest version is short: this app makes
+  no network calls and collects nothing; birth details never leave the device.
