@@ -14,7 +14,7 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: Colors.background },
         }}
       >
-        <Stack.Screen name="index" options={{ title: "NaamKaran" }} />
+        <Stack.Screen name="index" options={{ title: "HinduNaamKaran" }} />
         <Stack.Screen name="results" options={{ title: "Suggested Names", headerBackTitle: "Back" }} />
         <Stack.Screen name="name/[id]" options={{ title: "Name Details", headerBackTitle: "Back" }} />
       </Stack>

@@ -21,3 +21,8 @@ npm-debug.*
 
 expo-env.d.ts
 # @end expo-cli
+
+# Google Play service-account key for `eas submit` -- never commit
+play-service-account.json
+*.keystore
+*.jks

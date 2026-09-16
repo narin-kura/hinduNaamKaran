@@ -57,7 +57,7 @@ export default function BirthDetailsScreen() {
         <Ionicons name="sparkles" size={28} color={Colors.primary} />
         <Text style={styles.introTitle}>Find an auspicious name</Text>
         <Text style={styles.introText}>
-          Enter the baby's birth date, time, and place. NaamKaran finds the traditional
+          Enter the baby's birth date, time, and place. HinduNaamKaran finds the traditional
           Nakshatra-based naming syllable, then ranks matching names using numerology.
         </Text>
       </View>

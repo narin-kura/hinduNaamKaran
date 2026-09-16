@@ -1,4 +1,4 @@
-# NaamKaran — data sources, provenance and licensing
+# HinduNaamKaran — data sources, provenance and licensing
 
 Everything the app shows is bundled on-device. There is no backend. This file records
 where each dataset came from and why we are entitled to ship it.

@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "NaamKaran",
-    "slug": "naamkaran",
+    "name": "HinduNaamKaran",
+    "slug": "hindunaamkaran",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "naamkaran",
+    "scheme": "hindunaamkaran",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.naamkaran.app"
+      "bundleIdentifier": "com.vigyatri.hindunaamkaran"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#c2410c"
       },
-      "package": "com.naamkaran.app"
+      "package": "com.vigyatri.hindunaamkaran"
     },
     "web": {
       "bundler": "metro",
