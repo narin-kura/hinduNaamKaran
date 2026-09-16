@@ -5,14 +5,18 @@ where each dataset came from and why we are entitled to ship it.
 
 ---
 
-## 1. Names (`data/names.json`) — 441 entries
+## 1. Names (`data/names.json`) — 644 entries
 
 | Origin | Entries | Gender |
 |---|---|---|
-| Vishnu Sahasranama | ~185 | masculine (some unisex) |
-| Lalita Sahasranama | ~145 | feminine (some unisex) |
-| Ganesha Ashtottara Shatanamavali | ~33 | masculine |
-| Common Sanskrit/Hindi usage | 99 | mixed |
+| Vishnu Sahasranama | 187 | masculine (some unisex) |
+| Lalita Sahasranama | 134 | feminine (some unisex) |
+| Ganesha Ashtottara Shatanamavali | 21 | masculine |
+| Common Sanskrit/Hindi usage | 302 | mixed (322 M / 285 F / 37 U overall) |
+
+Add names in batches with `node scripts/merge-names.js batch.json`. It rejects any entry whose
+syllable is not one of the 108, whose "exact" match does not actually start with that syllable
+(vowel-length aware: Deepika ↔ `Di`), or that duplicates an existing name.
 
 ### Licensing position — read this before adding more names
 
@@ -46,15 +50,13 @@ the name detail screen, so every meaning shown to a user is attributed to the pr
 
 ### Known gaps
 
-24 of the 95 distinct pada syllables still have **no** names: Cho, Vu, Vo, Gha, Ing, Chha,
-Ho, Do, To, Tha, Po, Nu, No, Yi, Ye, Pha, Khi, Khu, Khe, Kho, Ge, Se, Jha, Yna. These sounds
-barely occur word-initially in Sanskrit — even across ~2,000 scriptural names there were no
-candidates. `lib/suggest.ts` handles this by widening to the rest of the nakshatra and
-telling the user it has done so. Filling these properly needs regional and modern name
-sources, not more scripture.
+14 of the 95 distinct pada syllables still have **no** names: Cho, Vu, Vo, Ing, Ho, Do, Tha, Po, No, Yi, Ye, Khi, Kho, Ge.
+These sounds essentially never begin a Sanskrit or Hindi given name — a search across
+~2,000 scriptural names and the common modern vocabulary found nothing honest to add.
+`lib/suggest.ts` handles this by widening to the rest of the nakshatra and telling the user
+it has done so. Do not fill these with invented names.
 
-13 more syllables have only one name each: Chu, Che, Li, Lu, Le, Hu, Du, Pi, Pe, Re, Yu,
-Bhi, Bhe.
+5 syllables have only one name: Gha, Pe, Bhe, Khe, Jha.
 
 ### Gender tagging caveat
 
