@@ -18,12 +18,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Abhayada",
+  "gender": "M",
+  "meaning": "Giver of fearlessness",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #49",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Abhirama",
+  "gender": "M",
+  "meaning": "Pleasing, delightful",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #944",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Achyuta",
   "gender": "M",
   "meaning": "The one who never falls or fails; unchanging",
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #100",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Adi",
+  "gender": "M",
+  "meaning": "The first; the origin",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #57",
   "syllableMatch": "exact"
  },
  {
@@ -45,12 +72,57 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Adya",
+  "gender": "F",
+  "meaning": "The primordial one; the first",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Durga Ashtottara Shatanamavali #9",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Agama",
+  "gender": "M",
+  "meaning": "Sacred tradition; scripture",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #524",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aindri",
+  "gender": "F",
+  "meaning": "The power of Indra",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Durga Ashtottara Shatanamavali #52",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ajita",
   "gender": "M",
   "meaning": "Unconquered",
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #549",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Akasha",
+  "gender": "M",
+  "meaning": "The sky; open space",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #279",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Akhila",
+  "gender": "F",
+  "meaning": "Whole, entire",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Gauri Ashtottara Shatanamavali #75",
   "syllableMatch": "exact"
  },
  {
@@ -63,12 +135,57 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Akshaya",
+  "gender": "M",
+  "meaning": "Imperishable; undiminishing",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #756",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aloka",
+  "gender": "F",
+  "meaning": "Light; vision",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Gauri Ashtottara Shatanamavali #106",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Amala",
+  "gender": "F",
+  "meaning": "Spotless, pure",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #682",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Amaresha",
+  "gender": "M",
+  "meaning": "Lord of the immortals",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #585",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Amba",
   "gender": "F",
   "meaning": "Mother",
   "origin": "Lalita Sahasranama",
   "startingSound": "A",
   "source": "Lalita Sahasranama #985",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ambara",
+  "gender": "U",
+  "meaning": "The sky; garment",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #919",
   "syllableMatch": "exact"
  },
  {
@@ -153,6 +270,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Antaratma",
+  "gender": "M",
+  "meaning": "The inner self",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #453",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anuja",
+  "gender": "F",
+  "meaning": "Younger sister; born after",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Gauri Ashtottara Shatanamavali #8",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Aparna",
   "gender": "F",
   "meaning": "She who needed not even a leaf; the goddess of great austerity",
@@ -180,6 +315,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Arya",
+  "gender": "U",
+  "meaning": "Noble; honourable",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "A",
+  "source": "Durga Ashtottara Shatanamavali #6",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Atula",
   "gender": "M",
   "meaning": "Unequalled; beyond compare",
@@ -195,6 +339,24 @@
   "origin": "Ganesha Ashtottara Shatanamavali",
   "startingSound": "A",
   "source": "Ganesha Ashtottara Shatanamavali #9",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Bhadrakali",
+  "gender": "F",
+  "meaning": "The auspicious Kali",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Bha",
+  "source": "Durga Ashtottara Shatanamavali #97",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Bhagavan",
+  "gender": "M",
+  "meaning": "The blessed lord; possessor of all glories",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Bha",
+  "source": "Shiva Sahasranama (Linga Purana) #27",
   "syllableMatch": "exact"
  },
  {
@@ -252,6 +414,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Bhaskari",
+  "gender": "F",
+  "meaning": "Radiant like the sun",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Bha",
+  "source": "Lakshmi Ashtottara Shatanamavali #77",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Bhava",
   "gender": "M",
   "meaning": "Existence; being itself",
@@ -270,12 +441,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Bhavaprita",
+  "gender": "F",
+  "meaning": "Beloved of Shiva",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Bha",
+  "source": "Durga Ashtottara Shatanamavali #3",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Bhavesh",
   "gender": "M",
   "meaning": "Lord of the world; Shiva",
   "origin": "Sanskrit",
   "startingSound": "Bha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Bhavini",
+  "gender": "F",
+  "meaning": "A radiant, noble woman",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Bha",
+  "source": "Durga Ashtottara Shatanamavali #26",
   "syllableMatch": "exact"
  },
  {
@@ -303,6 +492,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Bhe",
   "source": "Vishnu Sahasranama #578",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Bhikshu",
+  "gender": "M",
+  "meaning": "A mendicant; one who has renounced",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Bhi",
+  "source": "Shiva Sahasranama (Linga Purana) #284",
   "syllableMatch": "exact"
  },
  {
@@ -369,6 +567,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Bhutapati",
+  "gender": "M",
+  "meaning": "Lord of all beings",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Bhu",
+  "source": "Shiva Sahasranama (Linga Purana) #679",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Bhuti",
   "gender": "M",
   "meaning": "Well-being; prosperity",
@@ -414,6 +621,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Chamunda",
+  "gender": "F",
+  "meaning": "Slayer of the demons Chanda and Munda",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Cha",
+  "source": "Durga Ashtottara Shatanamavali #55",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Chandan",
   "gender": "M",
   "meaning": "Sandalwood",
@@ -441,12 +657,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Chandrarupa",
+  "gender": "F",
+  "meaning": "Whose form is the moon",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Cha",
+  "source": "Lakshmi Ashtottara Shatanamavali #61",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Chandrika",
   "gender": "F",
   "meaning": "Moonlight",
   "origin": "Sanskrit",
   "startingSound": "Cha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Charana",
+  "gender": "M",
+  "meaning": "The feet; a wanderer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Cha",
+  "source": "Shiva Sahasranama (Linga Purana) #727",
   "syllableMatch": "exact"
  },
  {
@@ -474,6 +708,15 @@
   "origin": "Ganesha Ashtottara Shatanamavali",
   "startingSound": "Cha",
   "source": "Ganesha Ashtottara Shatanamavali #30",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Chaturmukha",
+  "gender": "M",
+  "meaning": "Four-faced; Brahma",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Cha",
+  "source": "Shiva Sahasranama (Linga Purana) #359",
   "syllableMatch": "exact"
  },
  {
@@ -558,6 +801,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Chiti",
+  "gender": "F",
+  "meaning": "Pure consciousness",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Chi",
+  "source": "Durga Ashtottara Shatanamavali #21",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Chitra",
   "gender": "F",
   "meaning": "Picture; a nakshatra name, and Arjuna's wife in the Mahabharata",
@@ -603,6 +855,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Dakshakanya",
+  "gender": "F",
+  "meaning": "Daughter of Daksha",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Da",
+  "source": "Durga Ashtottara Shatanamavali #35",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Dakshayani",
   "gender": "F",
   "meaning": "Daughter of Daksha",
@@ -636,6 +897,33 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Da",
   "source": "Vishnu Sahasranama #367",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dandi",
+  "gender": "M",
+  "meaning": "Bearer of the staff; one who upholds discipline",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #14",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Darpana",
+  "gender": "M",
+  "meaning": "Mirror",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #399",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Datri",
+  "gender": "M",
+  "meaning": "The giver",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #376",
   "syllableMatch": "exact"
  },
  {
@@ -684,6 +972,33 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Devadeva",
+  "gender": "M",
+  "meaning": "God of gods",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "De",
+  "source": "Shiva Sahasranama (Linga Purana) #639",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Devamatri",
+  "gender": "F",
+  "meaning": "Mother of the gods",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "De",
+  "source": "Durga Ashtottara Shatanamavali #32",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Devarshi",
+  "gender": "M",
+  "meaning": "A divine sage",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "De",
+  "source": "Shiva Sahasranama (Linga Purana) #905",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Devendra",
   "gender": "M",
   "meaning": "Lord of the gods; Indra",
@@ -720,6 +1035,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Dhana",
+  "gender": "M",
+  "meaning": "Wealth",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #506",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Dhananjaya",
   "gender": "M",
   "meaning": "Winner of wealth; one who gains true riches",
@@ -735,6 +1059,15 @@
   "origin": "Sanskrit",
   "startingSound": "Dha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dhanvantari",
+  "gender": "M",
+  "meaning": "The divine physician; god of medicine",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #596",
   "syllableMatch": "exact"
  },
  {
@@ -756,6 +1089,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Dharadhatri",
+  "gender": "M",
+  "meaning": "Upholder of the earth",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #719",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Dharma",
   "gender": "M",
   "meaning": "Righteousness; the order that upholds all things",
@@ -771,6 +1113,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Dha",
   "source": "Lalita Sahasranama #916",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Dhishana",
+  "gender": "M",
+  "meaning": "Intellect; understanding",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #413",
   "syllableMatch": "consonant-family"
  },
  {
@@ -801,6 +1152,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Dhumaketu",
+  "gender": "M",
+  "meaning": "The smoke-bannered one; fire; a comet",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #597",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Dinesh",
   "gender": "M",
   "meaning": "Lord of the day; the sun",
@@ -816,6 +1176,24 @@
   "origin": "Sanskrit",
   "startingSound": "Di",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dipta",
+  "gender": "F",
+  "meaning": "Radiant, shining",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Di",
+  "source": "Lakshmi Ashtottara Shatanamavali #23",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dirgha",
+  "gender": "M",
+  "meaning": "Long; tall and far-reaching",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Di",
+  "source": "Shiva Sahasranama (Linga Purana) #126",
   "syllableMatch": "exact"
  },
  {
@@ -918,6 +1296,33 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ganadhipa",
+  "gender": "M",
+  "meaning": "Chief of the celestial hosts",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #735",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ganapati",
+  "gender": "M",
+  "meaning": "Lord of the celestial hosts",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #101",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Gandharva",
+  "gender": "M",
+  "meaning": "A celestial musician",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #546",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ganesh",
   "gender": "M",
   "meaning": "Lord of the Ganas; the elephant-headed god of wisdom and new beginnings",
@@ -1008,6 +1413,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ghana",
+  "gender": "M",
+  "meaning": "Dense; the rain cloud",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Gha",
+  "source": "Shiva Sahasranama (Linga Purana) #73",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ghanshyam",
   "gender": "M",
   "meaning": "Dark as a rain cloud; a name of Krishna",
@@ -1041,6 +1455,15 @@
   "origin": "Sanskrit",
   "startingSound": "Gi",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Gojanani",
+  "gender": "F",
+  "meaning": "Mother of the earth and of cows",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Go",
+  "source": "Gauri Ashtottara Shatanamavali #2",
   "syllableMatch": "exact"
  },
  {
@@ -1206,6 +1629,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Hara",
+  "gender": "M",
+  "meaning": "The remover of sorrow; Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #106",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Hardik",
   "gender": "M",
   "meaning": "Heartfelt",
@@ -1221,6 +1653,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ha",
   "source": "Vishnu Sahasranama #650",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Harikesha",
+  "gender": "M",
+  "meaning": "Golden-haired",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #127",
   "syllableMatch": "exact"
  },
  {
@@ -1242,12 +1683,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Harita",
+  "gender": "U",
+  "meaning": "Green; verdant",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #748",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Harsha",
   "gender": "U",
   "meaning": "Joy, happiness",
   "origin": "Sanskrit",
   "startingSound": "Ha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Hasti",
+  "gender": "M",
+  "meaning": "The elephant",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #921",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Havya",
+  "gender": "M",
+  "meaning": "An oblation; worthy of offering",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #400",
   "syllableMatch": "exact"
  },
  {
@@ -1266,6 +1734,15 @@
   "origin": "Sanskrit",
   "startingSound": "He",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Hemamalini",
+  "gender": "F",
+  "meaning": "Garlanded in gold",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "He",
+  "source": "Lakshmi Ashtottara Shatanamavali #84",
   "syllableMatch": "exact"
  },
  {
@@ -1296,6 +1773,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Hiranmayi",
+  "gender": "F",
+  "meaning": "Golden",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Hi",
+  "source": "Lakshmi Ashtottara Shatanamavali #17",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Hita",
+  "gender": "M",
+  "meaning": "Beneficial; the good of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Hi",
+  "source": "Shiva Sahasranama (Linga Purana) #714",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Hitesh",
   "gender": "M",
   "meaning": "One who wishes well for others",
@@ -1314,12 +1809,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Hridaya",
+  "gender": "U",
+  "meaning": "The heart",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Hi",
+  "source": "Shiva Sahasranama (Linga Purana) #891",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Hridya",
   "gender": "F",
   "meaning": "Dear to the heart; heartfelt",
   "origin": "Lalita Sahasranama",
   "startingSound": "Hi",
   "source": "Lalita Sahasranama #303",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Hrishta",
+  "gender": "M",
+  "meaning": "Joyful, delighted",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Hi",
+  "source": "Shiva Sahasranama (Linga Purana) #692",
   "syllableMatch": "consonant-family"
  },
  {
@@ -1338,6 +1851,33 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Hu",
   "source": "Vishnu Sahasranama #879",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Hutashana",
+  "gender": "M",
+  "meaning": "Fire, the consumer of offerings",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Hu",
+  "source": "Shiva Sahasranama (Linga Purana) #218",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Indu",
+  "gender": "U",
+  "meaning": "The moon",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "I",
+  "source": "Shiva Sahasranama (Linga Purana) #809",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Indushitala",
+  "gender": "F",
+  "meaning": "Cool as the moon",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "I",
+  "source": "Lakshmi Ashtottara Shatanamavali #63",
   "syllableMatch": "exact"
  },
  {
@@ -1386,6 +1926,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Jagat",
+  "gender": "M",
+  "meaning": "The world; all that moves",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ja",
+  "source": "Shiva Sahasranama (Linga Purana) #965",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Jagdish",
   "gender": "M",
   "meaning": "Lord of the world",
@@ -1419,6 +1968,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ja",
   "source": "Lalita Sahasranama #823",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Jati",
+  "gender": "M",
+  "meaning": "One with matted locks; an ascetic",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ja",
+  "source": "Shiva Sahasranama (Linga Purana) #13",
   "syllableMatch": "exact"
  },
  {
@@ -1503,6 +2061,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Jitendriya",
+  "gender": "M",
+  "meaning": "One who has mastered the senses",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ji",
+  "source": "Shiva Sahasranama (Linga Purana) #710",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Jitesh",
   "gender": "M",
   "meaning": "Lord of victory",
@@ -1584,12 +2151,75 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Kaishori",
+  "gender": "F",
+  "meaning": "Youthful",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Durga Ashtottara Shatanamavali #81",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kalakantha",
+  "gender": "M",
+  "meaning": "Sweet-voiced; also the dark-throated Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #236",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kalaratri",
+  "gender": "F",
+  "meaning": "The dark night; the fierce form of Durga",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Durga Ashtottara Shatanamavali #94",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kalasha",
+  "gender": "M",
+  "meaning": "The sacred pot",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #542",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kalavati",
   "gender": "F",
   "meaning": "Rich in art and skill",
   "origin": "Lalita Sahasranama",
   "startingSound": "Ka",
   "source": "Lalita Sahasranama #327",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kalayogi",
+  "gender": "M",
+  "meaning": "Master of time",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #155",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kali",
+  "gender": "F",
+  "meaning": "The dark one; the goddess beyond time",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Gauri Ashtottara Shatanamavali #43",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kalpa",
+  "gender": "M",
+  "meaning": "An aeon; the sacred rule",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #371",
   "syllableMatch": "exact"
  },
  {
@@ -1665,6 +2295,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Kanaka",
+  "gender": "U",
+  "meaning": "Gold",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #497",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kanta",
   "gender": "U",
   "meaning": "Beloved; one of graceful beauty",
@@ -1680,6 +2319,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ka",
   "source": "Lalita Sahasranama #449",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kapardi",
+  "gender": "M",
+  "meaning": "One whose hair is bound in a crown of locks; Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #136",
   "syllableMatch": "exact"
  },
  {
@@ -1710,6 +2358,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Karuna",
+  "gender": "F",
+  "meaning": "Compassion",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Lakshmi Ashtottara Shatanamavali #39",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Karunamayi",
+  "gender": "F",
+  "meaning": "Full of compassion",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Gauri Ashtottara Shatanamavali #89",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Katyayani",
   "gender": "F",
   "meaning": "The goddess honoured in the Katyayana line",
@@ -1725,6 +2391,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ka",
   "source": "Lalita Sahasranama #94",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kaumari",
+  "gender": "F",
+  "meaning": "The maiden power; the energy of Kumara",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Durga Ashtottara Shatanamavali #53",
   "syllableMatch": "exact"
  },
  {
@@ -1890,6 +2565,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Krita",
+  "gender": "M",
+  "meaning": "Accomplished; done well",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #79",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Kritajna",
   "gender": "U",
   "meaning": "She who remembers every kindness",
@@ -1908,6 +2592,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Kriya",
+  "gender": "F",
+  "meaning": "Action; sacred rite",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ka",
+  "source": "Durga Ashtottara Shatanamavali #62",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Kshama",
   "gender": "M",
   "meaning": "Patience; forgiveness",
@@ -1923,6 +2616,24 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ku",
   "source": "Lalita Sahasranama #92",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kuleshvari",
+  "gender": "F",
+  "meaning": "Goddess of the family line",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ku",
+  "source": "Gauri Ashtottara Shatanamavali #52",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kumari",
+  "gender": "F",
+  "meaning": "Maiden; the virgin goddess",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ku",
+  "source": "Durga Ashtottara Shatanamavali #79",
   "syllableMatch": "exact"
  },
  {
@@ -2043,6 +2754,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Lava",
+  "gender": "M",
+  "meaning": "A son of Rama; a fragment of time",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "La",
+  "source": "Shiva Sahasranama (Linga Purana) #868",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Leela",
   "gender": "F",
   "meaning": "Divine play; the cosmic play of the gods",
@@ -2085,6 +2805,33 @@
   "origin": "Sanskrit",
   "startingSound": "Li",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Loka",
+  "gender": "M",
+  "meaning": "The world",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Lo",
+  "source": "Shiva Sahasranama (Linga Purana) #836",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Lokamatri",
+  "gender": "F",
+  "meaning": "Mother of the world",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Lo",
+  "source": "Lakshmi Ashtottara Shatanamavali #40",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Lokapala",
+  "gender": "M",
+  "meaning": "Guardian of the world",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Lo",
+  "source": "Shiva Sahasranama (Linga Purana) #46",
   "syllableMatch": "exact"
  },
  {
@@ -2133,12 +2880,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Madhavi",
+  "gender": "F",
+  "meaning": "The spring creeper; sweet blossom",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ma",
+  "source": "Gauri Ashtottara Shatanamavali #61",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Madhu",
   "gender": "U",
   "meaning": "Honey; sweetness itself",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ma",
   "source": "Vishnu Sahasranama #168",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Madhukara",
+  "gender": "M",
+  "meaning": "The honey-maker; a bee",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #332",
   "syllableMatch": "exact"
  },
  {
@@ -2157,6 +2922,24 @@
   "origin": "Sanskrit",
   "startingSound": "Ma",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahabahu",
+  "gender": "M",
+  "meaning": "Mighty-armed",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #172",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahabala",
+  "gender": "M",
+  "meaning": "Of great strength",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #87",
   "syllableMatch": "exact"
  },
  {
@@ -2187,12 +2970,57 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Mahaketu",
+  "gender": "M",
+  "meaning": "Of the great banner",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #718",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mahamaya",
   "gender": "F",
   "meaning": "The great creative mystery",
   "origin": "Lalita Sahasranama",
   "startingSound": "Ma",
   "source": "Lalita Sahasranama #215",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahamuni",
+  "gender": "M",
+  "meaning": "The great sage",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #474",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahanada",
+  "gender": "M",
+  "meaning": "The great sound",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #156",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahasena",
+  "gender": "M",
+  "meaning": "Leader of the great army; Skanda",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #322",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahatapa",
+  "gender": "F",
+  "meaning": "Of great austerity",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ma",
+  "source": "Durga Ashtottara Shatanamavali #15",
   "syllableMatch": "exact"
  },
  {
@@ -2205,12 +3033,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Mahatma",
+  "gender": "M",
+  "meaning": "Great soul",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #41",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahavapu",
+  "gender": "M",
+  "meaning": "Of great form",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #752",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mahavidya",
   "gender": "F",
   "meaning": "The great wisdom",
   "origin": "Lalita Sahasranama",
   "startingSound": "Ma",
   "source": "Lalita Sahasranama #584",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahayogi",
+  "gender": "M",
+  "meaning": "The great yogi",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #782",
   "syllableMatch": "exact"
  },
  {
@@ -2241,6 +3096,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Maheshvara",
+  "gender": "M",
+  "meaning": "The great lord",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #162",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Maheshvari",
   "gender": "F",
   "meaning": "The great ruling goddess",
@@ -2256,6 +3120,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ma",
   "source": "Lalita Sahasranama #718",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Makara",
+  "gender": "M",
+  "meaning": "The mythical sea creature; Capricorn",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #515",
   "syllableMatch": "exact"
  },
  {
@@ -2322,12 +3195,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Manonmani",
+  "gender": "F",
+  "meaning": "The mind's highest state; the jewel of the mind",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ma",
+  "source": "Gauri Ashtottara Shatanamavali #67",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mansi",
   "gender": "F",
   "meaning": "Of the mind",
   "origin": "Sanskrit",
   "startingSound": "Ma",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mantra",
+  "gender": "M",
+  "meaning": "Sacred utterance; the power of thought",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #80",
   "syllableMatch": "exact"
  },
  {
@@ -2367,12 +3258,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Matangi",
+  "gender": "F",
+  "meaning": "The goddess of speech and the arts; a Mahavidya",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ma",
+  "source": "Durga Ashtottara Shatanamavali #48",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mati",
   "gender": "F",
   "meaning": "Intelligence; considered thought",
   "origin": "Lalita Sahasranama",
   "startingSound": "Ma",
   "source": "Lalita Sahasranama #445",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Matrika",
+  "gender": "F",
+  "meaning": "The divine mothers; the sacred letters",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ma",
+  "source": "Gauri Ashtottara Shatanamavali #60",
   "syllableMatch": "exact"
  },
  {
@@ -2448,6 +3357,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Mitra",
+  "gender": "U",
+  "meaning": "Friend; the Vedic sun-god",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Mi",
+  "source": "Shiva Sahasranama (Linga Purana) #603",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Modakari",
+  "gender": "F",
+  "meaning": "She who brings joy",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Mo",
+  "source": "Gauri Ashtottara Shatanamavali #65",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mohan",
   "gender": "M",
   "meaning": "Charming, attractive; a name of Lord Krishna",
@@ -2484,12 +3411,30 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Mridu",
+  "gender": "U",
+  "meaning": "Soft, gentle",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Mi",
+  "source": "Shiva Sahasranama (Linga Purana) #320",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Mrigakshi",
   "gender": "F",
   "meaning": "She with the eyes of a doe",
   "origin": "Lalita Sahasranama",
   "startingSound": "Mi",
   "source": "Lalita Sahasranama #561",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Mrigapriya",
+  "gender": "F",
+  "meaning": "Fond of deer",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Mi",
+  "source": "Gauri Ashtottara Shatanamavali #56",
   "syllableMatch": "consonant-family"
  },
  {
@@ -2520,6 +3465,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Muktakeshi",
+  "gender": "F",
+  "meaning": "With hair flowing free",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Mu",
+  "source": "Durga Ashtottara Shatanamavali #89",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mukul",
   "gender": "M",
   "meaning": "Bud of a flower",
@@ -2544,6 +3498,33 @@
   "origin": "Hindi",
   "startingSound": "Mu",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nabha",
+  "gender": "M",
+  "meaning": "The sky",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Na",
+  "source": "Shiva Sahasranama (Linga Purana) #625",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nabhi",
+  "gender": "M",
+  "meaning": "The navel; the centre of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Na",
+  "source": "Shiva Sahasranama (Linga Purana) #499",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Naga",
+  "gender": "M",
+  "meaning": "The serpent; the mountain",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Na",
+  "source": "Shiva Sahasranama (Linga Purana) #511",
   "syllableMatch": "exact"
  },
  {
@@ -2601,6 +3582,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Nandi",
+  "gender": "M",
+  "meaning": "The joyful one; Shiva's bull",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Na",
+  "source": "Shiva Sahasranama (Linga Purana) #348",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Nandini",
   "gender": "F",
   "meaning": "She who brings joy; a cherished daughter",
@@ -2643,6 +3633,15 @@
   "origin": "Sanskrit",
   "startingSound": "Na",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nartana",
+  "gender": "M",
+  "meaning": "The dancer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Na",
+  "source": "Shiva Sahasranama (Linga Purana) #169",
   "syllableMatch": "exact"
  },
  {
@@ -2736,12 +3735,48 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Nila",
+  "gender": "U",
+  "meaning": "Blue; the sapphire",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #418",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nilakantha",
+  "gender": "M",
+  "meaning": "Blue-throated; Shiva who held the poison",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #94",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Nilesh",
   "gender": "M",
   "meaning": "Lord of the blue; Krishna",
   "origin": "Sanskrit",
   "startingSound": "Ni",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nira",
+  "gender": "F",
+  "meaning": "Water",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #617",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Niramaya",
+  "gender": "U",
+  "meaning": "Free from illness; wholesome",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #943",
   "syllableMatch": "exact"
  },
  {
@@ -2781,6 +3816,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Nishchala",
+  "gender": "M",
+  "meaning": "Unmoving; steady",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #685",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Nishkala",
   "gender": "F",
   "meaning": "Undivided; without parts",
@@ -2799,6 +3843,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Nishtha",
+  "gender": "U",
+  "meaning": "Steadfast devotion; firmness",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #456",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Nitin",
   "gender": "M",
   "meaning": "Master of the right path",
@@ -2814,6 +3867,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ni",
   "source": "Lalita Sahasranama #136",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Nivritti",
+  "gender": "F",
+  "meaning": "Turning inward; renunciation",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #22",
   "syllableMatch": "exact"
  },
  {
@@ -2871,6 +3933,33 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Padma",
+  "gender": "F",
+  "meaning": "Lotus",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #11",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Padmakshi",
+  "gender": "F",
+  "meaning": "Lotus-eyed",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #43",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Padmalaya",
+  "gender": "F",
+  "meaning": "She who dwells in the lotus",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #10",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Padmanabha",
   "gender": "M",
   "meaning": "One from whose navel the lotus of creation rose",
@@ -2880,12 +3969,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Padmapriya",
+  "gender": "F",
+  "meaning": "She who loves the lotus",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #41",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Padmasana",
   "gender": "F",
   "meaning": "She who is seated on the lotus",
   "origin": "Lalita Sahasranama",
   "startingSound": "Pa",
   "source": "Lalita Sahasranama #278",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Padmini",
+  "gender": "F",
+  "meaning": "A lotus pond; a woman of grace",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #51",
   "syllableMatch": "exact"
  },
  {
@@ -2952,6 +4059,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Parinata",
+  "gender": "F",
+  "meaning": "Fully matured; ripened",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Gauri Ashtottara Shatanamavali #74",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Parth",
   "gender": "M",
   "meaning": "Another name of Arjuna, the Mahabharata hero",
@@ -2961,12 +4077,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Parvata",
+  "gender": "M",
+  "meaning": "Mountain",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #608",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Parvati",
   "gender": "F",
   "meaning": "Daughter of the mountain",
   "origin": "Lalita Sahasranama",
   "startingSound": "Pa",
   "source": "Lalita Sahasranama #246",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Pashupati",
+  "gender": "M",
+  "meaning": "Lord of all creatures; Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #381",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Pashyanti",
+  "gender": "F",
+  "meaning": "The seeing one; speech at its subtle stage",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Gauri Ashtottara Shatanamavali #79",
   "syllableMatch": "exact"
  },
  {
@@ -2985,6 +4128,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Pa",
   "source": "Vishnu Sahasranama #291",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Pavitra",
+  "gender": "U",
+  "meaning": "Pure, sacred",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #51",
   "syllableMatch": "exact"
  },
  {
@@ -3042,6 +4194,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Pitamaha",
+  "gender": "M",
+  "meaning": "Grandfather; Brahma",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pi",
+  "source": "Shiva Sahasranama (Linga Purana) #885",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Piya",
   "gender": "F",
   "meaning": "Beloved",
@@ -3078,12 +4239,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Prabha",
+  "gender": "F",
+  "meaning": "Light, radiance",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #56",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Prabhamayi",
+  "gender": "F",
+  "meaning": "Made of light",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Gauri Ashtottara Shatanamavali #102",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Prabharupa",
   "gender": "F",
   "meaning": "Whose form is light",
   "origin": "Lalita Sahasranama",
   "startingSound": "Pa",
   "source": "Lalita Sahasranama #394",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Prabhasa",
+  "gender": "M",
+  "meaning": "Splendour; a sacred place of light",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #607",
   "syllableMatch": "consonant-family"
  },
  {
@@ -3141,6 +4329,24 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Prakasha",
+  "gender": "M",
+  "meaning": "Light; illumination",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #489",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Prakriti",
+  "gender": "F",
+  "meaning": "Nature; the primal creative energy",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Lakshmi Ashtottara Shatanamavali #1",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Prana",
   "gender": "M",
   "meaning": "Breath; the life force",
@@ -3165,6 +4371,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Pa",
   "source": "Vishnu Sahasranama #409",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Pranesha",
+  "gender": "M",
+  "meaning": "Lord of life",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #638",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Prasada",
+  "gender": "M",
+  "meaning": "Grace; a blessing bestowed",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #48",
   "syllableMatch": "consonant-family"
  },
  {
@@ -3195,12 +4419,39 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Pratyaksha",
+  "gender": "F",
+  "meaning": "Manifest; directly seen",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Pa",
+  "source": "Durga Ashtottara Shatanamavali #106",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Pravara",
+  "gender": "M",
+  "meaning": "Excellent; chief among all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #5",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Praveen",
   "gender": "M",
   "meaning": "Skilled, expert",
   "origin": "Sanskrit",
   "startingSound": "Pa",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Pravritti",
+  "gender": "F",
+  "meaning": "Engagement with the world; activity",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #21",
   "syllableMatch": "consonant-family"
  },
  {
@@ -3267,6 +4518,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Punyagandha",
+  "gender": "F",
+  "meaning": "Of holy fragrance",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Pu",
+  "source": "Lakshmi Ashtottara Shatanamavali #53",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Purana",
+  "gender": "M",
+  "meaning": "Ancient; the old lore",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pu",
+  "source": "Shiva Sahasranama (Linga Purana) #629",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Purna",
   "gender": "U",
   "meaning": "Complete, whole, wanting nothing",
@@ -3291,6 +4560,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Pu",
   "source": "Vishnu Sahasranama #14",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Pushkara",
+  "gender": "U",
+  "meaning": "The blue lotus; a sacred lake",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pu",
+  "source": "Shiva Sahasranama (Linga Purana) #502",
   "syllableMatch": "exact"
  },
  {
@@ -3354,6 +4632,15 @@
   "origin": "Sanskrit",
   "startingSound": "Ra",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Rajaraja",
+  "gender": "M",
+  "meaning": "King of kings",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ra",
+  "source": "Shiva Sahasranama (Linga Purana) #942",
   "syllableMatch": "exact"
  },
  {
@@ -3462,6 +4749,15 @@
   "origin": "Sanskrit",
   "startingSound": "Ra",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ratri",
+  "gender": "F",
+  "meaning": "Night",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ra",
+  "source": "Gauri Ashtottara Shatanamavali #21",
   "syllableMatch": "exact"
  },
  {
@@ -3654,6 +4950,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sadagati",
+  "gender": "F",
+  "meaning": "Ever-moving; the path to liberation",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Sa",
+  "source": "Durga Ashtottara Shatanamavali #30",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sadhana",
   "gender": "F",
   "meaning": "Spiritual practice",
@@ -3690,6 +4995,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sahasraksha",
+  "gender": "M",
+  "meaning": "Thousand-eyed; all-seeing",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #60",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sahil",
   "gender": "M",
   "meaning": "Shore",
@@ -3705,6 +5019,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sa",
   "source": "Vishnu Sahasranama #144",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sakala",
+  "gender": "M",
+  "meaning": "Whole, entire",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #829",
   "syllableMatch": "exact"
  },
  {
@@ -3750,6 +5073,33 @@
   "origin": "Sanskrit",
   "startingSound": "Sa",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sampatti",
+  "gender": "F",
+  "meaning": "Prosperity, success",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Sa",
+  "source": "Gauri Ashtottara Shatanamavali #85",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Samudra",
+  "gender": "M",
+  "meaning": "The ocean",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #214",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Samyama",
+  "gender": "M",
+  "meaning": "Self-control; restraint",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #691",
   "syllableMatch": "exact"
  },
  {
@@ -3816,12 +5166,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Santana",
+  "gender": "M",
+  "meaning": "Offspring; unbroken lineage",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #826",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarala",
   "gender": "F",
   "meaning": "Simple, straightforward",
   "origin": "Sanskrit",
   "startingSound": "Sa",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Saranga",
+  "gender": "M",
+  "meaning": "The deer; the bow of Vishnu",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #674",
   "syllableMatch": "exact"
  },
  {
@@ -3870,12 +5238,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvaga",
+  "gender": "M",
+  "meaning": "All-pervading; present everywhere",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #16",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvajna",
+  "gender": "U",
+  "meaning": "All-knowing",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #89",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvatmaka",
   "gender": "M",
   "meaning": "The self of all",
   "origin": "Ganesha Ashtottara Shatanamavali",
   "startingSound": "Sa",
   "source": "Ganesha Ashtottara Shatanamavali #91",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvavidya",
+  "gender": "F",
+  "meaning": "All knowledge",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Sa",
+  "source": "Durga Ashtottara Shatanamavali #34",
   "syllableMatch": "exact"
  },
  {
@@ -3969,6 +5364,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Senapati",
+  "gender": "M",
+  "meaning": "Commander of the army; Skanda",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Se",
+  "source": "Shiva Sahasranama (Linga Purana) #143",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sevanti",
   "gender": "F",
   "meaning": "Chrysanthemum",
@@ -3984,6 +5388,24 @@
   "origin": "Urdu-Hindi",
   "startingSound": "Sha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Shakra",
+  "gender": "M",
+  "meaning": "The mighty one; Indra",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #602",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Shakti",
+  "gender": "F",
+  "meaning": "Power; the divine feminine energy",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Gauri Ashtottara Shatanamavali #97",
   "syllableMatch": "exact"
  },
  {
@@ -4050,6 +5472,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Shankara",
+  "gender": "M",
+  "meaning": "Bringer of good; Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #414",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Shankari",
   "gender": "F",
   "meaning": "She who does good; consort of Shankara",
@@ -4074,6 +5505,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sha",
   "source": "Vishnu Sahasranama #584 / Lalita Sahasranama",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sharana",
+  "gender": "M",
+  "meaning": "Refuge, shelter",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #243",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sharanya",
+  "gender": "F",
+  "meaning": "Giver of refuge",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #856",
   "syllableMatch": "exact"
  },
  {
@@ -4176,12 +5625,39 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Shivaduti",
+  "gender": "F",
+  "meaning": "She who made Shiva her messenger",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Durga Ashtottara Shatanamavali #100",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shivakari",
+  "gender": "F",
+  "meaning": "She who brings auspiciousness",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Lakshmi Ashtottara Shatanamavali #67",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Shivam",
   "gender": "M",
   "meaning": "Auspiciousness; Shiva",
   "origin": "Sanskrit",
   "startingSound": "Sha",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shivangana",
+  "gender": "F",
+  "meaning": "Shiva's beloved",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Gauri Ashtottara Shatanamavali #107",
   "syllableMatch": "consonant-family"
  },
  {
@@ -4209,6 +5685,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Sha",
   "source": "Lalita Sahasranama #462",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shraddha",
+  "gender": "F",
+  "meaning": "Faith; reverent trust",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Lakshmi Ashtottara Shatanamavali #5",
   "syllableMatch": "consonant-family"
  },
  {
@@ -4311,12 +5796,39 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Shrutadhara",
+  "gender": "F",
+  "meaning": "She who holds the scriptures",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Gauri Ashtottara Shatanamavali #16",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Shruti",
   "gender": "F",
   "meaning": "That which is heard; revealed scripture",
   "origin": "Lalita Sahasranama",
   "startingSound": "Sha",
   "source": "Lalita Sahasranama #539",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shubha",
+  "gender": "F",
+  "meaning": "Auspicious; bright",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Lakshmi Ashtottara Shatanamavali #92",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shubhada",
+  "gender": "F",
+  "meaning": "Giver of good fortune",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Sha",
+  "source": "Gauri Ashtottara Shatanamavali #17",
   "syllableMatch": "consonant-family"
  },
  {
@@ -4353,6 +5865,24 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Sha",
   "source": "Lalita Sahasranama #765",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shukla",
+  "gender": "U",
+  "meaning": "Bright, white; the waxing moon",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #528",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shukra",
+  "gender": "M",
+  "meaning": "Bright; the planet Venus",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #388",
   "syllableMatch": "consonant-family"
  },
  {
@@ -4401,12 +5931,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Siddhi",
+  "gender": "U",
+  "meaning": "Attainment; spiritual accomplishment",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Si",
+  "source": "Lakshmi Ashtottara Shatanamavali #86",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Simha",
   "gender": "M",
   "meaning": "The lion",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Si",
   "source": "Vishnu Sahasranama #200",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Simhanada",
+  "gender": "M",
+  "meaning": "The lion's roar",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Si",
+  "source": "Shiva Sahasranama (Linga Purana) #664",
   "syllableMatch": "exact"
  },
  {
@@ -4527,6 +6075,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Sthapati",
+  "gender": "M",
+  "meaning": "Master architect",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #503",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Sthira",
   "gender": "M",
   "meaning": "Steady, firm, unwavering",
@@ -4572,6 +6129,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sudeva",
+  "gender": "M",
+  "meaning": "The good god",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #743",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sudha",
   "gender": "F",
   "meaning": "Nectar",
@@ -4605,6 +6171,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Su",
   "source": "Vishnu Sahasranama #459",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sukrita",
+  "gender": "M",
+  "meaning": "A good deed; well made",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #698",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sulochana",
+  "gender": "F",
+  "meaning": "Beautiful-eyed",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #799",
   "syllableMatch": "exact"
  },
  {
@@ -4698,12 +6282,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Suprasanna",
+  "gender": "F",
+  "meaning": "Wholly gracious; serene",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Su",
+  "source": "Lakshmi Ashtottara Shatanamavali #54",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Supriya",
   "gender": "F",
   "meaning": "Very dear; beloved",
   "origin": "Sanskrit",
   "startingSound": "Su",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Surabhi",
+  "gender": "F",
+  "meaning": "Fragrant; the divine wish-fulfilling cow",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Su",
+  "source": "Lakshmi Ashtottara Shatanamavali #7",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Surasundari",
+  "gender": "F",
+  "meaning": "Beautiful among the gods",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Su",
+  "source": "Durga Ashtottara Shatanamavali #46",
   "syllableMatch": "exact"
  },
  {
@@ -4761,6 +6372,33 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sutirtha",
+  "gender": "M",
+  "meaning": "A sacred ford; a fine place of pilgrimage",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #128",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Suvaktra",
+  "gender": "M",
+  "meaning": "Fair-faced; one of pleasing speech",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #123",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Suvarna",
+  "gender": "U",
+  "meaning": "Gold; of beautiful colour",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #432",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Suvira",
   "gender": "M",
   "meaning": "Truly valiant",
@@ -4777,6 +6415,33 @@
   "startingSound": "Su",
   "source": "Vishnu Sahasranama #455",
   "syllableMatch": "exact"
+ },
+ {
+  "name": "Svadha",
+  "gender": "F",
+  "meaning": "The offering to the ancestors; one's own nature",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Sa",
+  "source": "Lakshmi Ashtottara Shatanamavali #14",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Svaha",
+  "gender": "F",
+  "meaning": "The sacred call that carries an offering to the gods",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Sa",
+  "source": "Lakshmi Ashtottara Shatanamavali #13",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Svara",
+  "gender": "U",
+  "meaning": "Musical note; sound",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #721",
+  "syllableMatch": "consonant-family"
  },
  {
   "name": "Svastha",
@@ -4833,6 +6498,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Tanu",
+  "gender": "F",
+  "meaning": "Slender; the body",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #633",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Tanuja",
   "gender": "F",
   "meaning": "Daughter",
@@ -4851,12 +6525,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Tapasvi",
+  "gender": "M",
+  "meaning": "One devoted to austerity",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #32",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Tapasvini",
+  "gender": "F",
+  "meaning": "A woman of austerity",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ta",
+  "source": "Durga Ashtottara Shatanamavali #95",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Tapasya",
   "gender": "F",
   "meaning": "Austerity, penance",
   "origin": "Sanskrit",
   "startingSound": "Ta",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Taponidhi",
+  "gender": "M",
+  "meaning": "A treasury of austerity",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #776",
   "syllableMatch": "exact"
  },
  {
@@ -4875,6 +6576,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ta",
   "source": "Vishnu Sahasranama #337",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Tarkshya",
+  "gender": "M",
+  "meaning": "Garuda, the divine eagle",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #548",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Taru",
+  "gender": "M",
+  "meaning": "Tree",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #672",
   "syllableMatch": "exact"
  },
  {
@@ -4905,6 +6624,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Teja",
+  "gender": "M",
+  "meaning": "Radiance; fiery brilliance",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Te",
+  "source": "Shiva Sahasranama (Linga Purana) #119",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Tejas",
   "gender": "M",
   "meaning": "Brilliance, radiance, sharpness",
@@ -4920,6 +6648,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Te",
   "source": "Lalita Sahasranama #452",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Tirtha",
+  "gender": "U",
+  "meaning": "A sacred ford; a place of pilgrimage",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ti",
+  "source": "Shiva Sahasranama (Linga Purana) #618",
   "syllableMatch": "exact"
  },
  {
@@ -4986,6 +6723,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Trinetra",
+  "gender": "U",
+  "meaning": "Three-eyed",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Ti",
+  "source": "Durga Ashtottara Shatanamavali #10",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Tripura",
   "gender": "F",
   "meaning": "Mistress of the three cities",
@@ -5001,6 +6747,15 @@
   "origin": "Sanskrit",
   "startingSound": "Ti",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Trishikha",
+  "gender": "F",
+  "meaning": "Three-crested; bearer of the trident",
+  "origin": "Gauri Ashtottara Shatanamavali",
+  "startingSound": "Ti",
+  "source": "Gauri Ashtottara Shatanamavali #12",
   "syllableMatch": "consonant-family"
  },
  {
@@ -5067,6 +6822,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Tvashtri",
+  "gender": "M",
+  "meaning": "The divine craftsman",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ta",
+  "source": "Shiva Sahasranama (Linga Purana) #604",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Udbhava",
   "gender": "M",
   "meaning": "Origin; that from which things arise",
@@ -5103,6 +6867,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Umapati",
+  "gender": "M",
+  "meaning": "Consort of Uma; Shiva",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "U",
+  "source": "Shiva Sahasranama (Linga Purana) #95",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Upendra",
   "gender": "M",
   "meaning": "The younger brother of Indra",
@@ -5118,6 +6891,24 @@
   "origin": "Sanskrit",
   "startingSound": "U",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Utkarshini",
+  "gender": "F",
+  "meaning": "She who uplifts",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "U",
+  "source": "Durga Ashtottara Shatanamavali #60",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Uttama",
+  "gender": "M",
+  "meaning": "The highest; the best",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "U",
+  "source": "Shiva Sahasranama (Linga Purana) #928",
   "syllableMatch": "exact"
  },
  {
@@ -5175,6 +6966,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vamadeva",
+  "gender": "M",
+  "meaning": "The gracious god; one of Shiva's five faces",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #312",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vamadevi",
   "gender": "F",
   "meaning": "The gracious goddess",
@@ -5190,6 +6990,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Va",
   "source": "Vishnu Sahasranama #152",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vamsha",
+  "gender": "M",
+  "meaning": "Lineage; the bamboo flute",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #377",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vanadurga",
+  "gender": "F",
+  "meaning": "Durga of the forest",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Durga Ashtottara Shatanamavali #47",
   "syllableMatch": "exact"
  },
  {
@@ -5229,6 +7047,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vara",
+  "gender": "M",
+  "meaning": "A boon; the best",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #7",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Varada",
   "gender": "U",
   "meaning": "Giver of boons",
@@ -5238,12 +7065,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Varahi",
+  "gender": "F",
+  "meaning": "The boar-faced power; energy of Varaha",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Durga Ashtottara Shatanamavali #56",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Varalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi, the giver of boons",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Lakshmi Ashtottara Shatanamavali #90",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Varanga",
   "gender": "M",
   "meaning": "One of excellent form",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Va",
   "source": "Vishnu Sahasranama #739",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Varchasvi",
+  "gender": "M",
+  "meaning": "Radiant; full of vigour",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #416",
   "syllableMatch": "exact"
  },
  {
@@ -5274,6 +7128,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vasava",
+  "gender": "M",
+  "meaning": "Lord of the Vasus; Indra",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #273",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vasu",
   "gender": "M",
   "meaning": "Precious; a dweller in all things",
@@ -5298,6 +7161,33 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Va",
   "source": "Vishnu Sahasranama #332",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vasudha",
+  "gender": "F",
+  "meaning": "The earth, giver of wealth",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Lakshmi Ashtottara Shatanamavali #24",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vasundhara",
+  "gender": "F",
+  "meaning": "The earth, bearer of treasures",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Lakshmi Ashtottara Shatanamavali #81",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vasuprada",
+  "gender": "F",
+  "meaning": "Giver of wealth",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Va",
+  "source": "Lakshmi Ashtottara Shatanamavali #91",
   "syllableMatch": "exact"
  },
  {
@@ -5400,6 +7290,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vibhavari",
+  "gender": "F",
+  "meaning": "The starry night; radiant",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Vi",
+  "source": "Lakshmi Ashtottara Shatanamavali #20",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vibhu",
   "gender": "M",
   "meaning": "All-pervading; mighty",
@@ -5409,12 +7308,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vibhuti",
+  "gender": "F",
+  "meaning": "Glory; divine splendour",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Vi",
+  "source": "Lakshmi Ashtottara Shatanamavali #6",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vidhata",
   "gender": "M",
   "meaning": "The ordainer; one who arranges all",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Vi",
   "source": "Vishnu Sahasranama #44",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vidhi",
+  "gender": "M",
+  "meaning": "Sacred ordinance; destiny",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #121",
   "syllableMatch": "exact"
  },
  {
@@ -5490,6 +7407,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vikriti",
+  "gender": "F",
+  "meaning": "Transformation; nature in its many forms",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Vi",
+  "source": "Lakshmi Ashtottara Shatanamavali #2",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vilasini",
   "gender": "F",
   "meaning": "Graceful; full of playful charm",
@@ -5505,6 +7431,24 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Vi",
   "source": "Lalita Sahasranama #347",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vimochana",
+  "gender": "M",
+  "meaning": "The liberator",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #242",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vimukta",
+  "gender": "M",
+  "meaning": "Fully liberated",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #961",
   "syllableMatch": "exact"
  },
  {
@@ -5562,12 +7506,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vishakha",
+  "gender": "U",
+  "meaning": "A nakshatra; a name of Skanda",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #323",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vishal",
   "gender": "M",
   "meaning": "Vast, great",
   "origin": "Sanskrit",
   "startingSound": "Vi",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vishalaksha",
+  "gender": "M",
+  "meaning": "Large-eyed; wide of vision",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #61",
   "syllableMatch": "exact"
  },
  {
@@ -5580,12 +7542,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vishnumaya",
+  "gender": "F",
+  "meaning": "The creative power of Vishnu",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Vi",
+  "source": "Durga Ashtottara Shatanamavali #98",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vishnupatni",
+  "gender": "F",
+  "meaning": "Consort of Vishnu",
+  "origin": "Lakshmi Ashtottara Shatanamavali",
+  "startingSound": "Vi",
+  "source": "Lakshmi Ashtottara Shatanamavali #97",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vishoka",
   "gender": "M",
   "meaning": "Free from sorrow",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Vi",
   "source": "Vishnu Sahasranama #631",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vishvarupa",
+  "gender": "M",
+  "meaning": "Whose form is the universe",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #96",
   "syllableMatch": "exact"
  },
  {
@@ -5769,6 +7758,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Yuga",
+  "gender": "M",
+  "meaning": "An age of the world",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Yu",
+  "source": "Shiva Sahasranama (Linga Purana) #783",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Yukta",
   "gender": "F",
   "meaning": "United; joined in harmony",
@@ -5784,6 +7782,15 @@
   "origin": "Sanskrit",
   "startingSound": "Yu",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Yuvati",
+  "gender": "F",
+  "meaning": "A young woman",
+  "origin": "Durga Ashtottara Shatanamavali",
+  "startingSound": "Yu",
+  "source": "Durga Ashtottara Shatanamavali #82",
   "syllableMatch": "exact"
  },
  {

@@ -5,14 +5,20 @@ where each dataset came from and why we are entitled to ship it.
 
 ---
 
-## 1. Names (`data/names.json`) — 644 entries
+## 1. Names (`data/names.json`) — 867 entries
 
-| Origin | Entries | Gender |
-|---|---|---|
-| Vishnu Sahasranama | 187 | masculine (some unisex) |
-| Lalita Sahasranama | 134 | feminine (some unisex) |
-| Ganesha Ashtottara Shatanamavali | 21 | masculine |
-| Common Sanskrit/Hindi usage | 302 | mixed (322 M / 285 F / 37 U overall) |
+| Origin | Entries |
+|---|---|
+| Common Sanskrit/Hindi usage | 302 |
+| Vishnu Sahasranama | 187 |
+| Shiva Sahasranama (Linga Purana) | 139 |
+| Lalita Sahasranama | 134 |
+| Lakshmi Ashtottara Shatanamavali | 32 |
+| Durga Ashtottara Shatanamavali | 30 |
+| Gauri Ashtottara Shatanamavali | 22 |
+| Ganesha Ashtottara Shatanamavali | 21 |
+
+Overall: 436 masculine, 373 feminine, 58 unisex.
 
 Add names in batches with `node scripts/merge-names.js batch.json`. It rejects any entry whose
 syllable is not one of the 108, whose "exact" match does not actually start with that syllable
