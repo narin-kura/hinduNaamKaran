@@ -91,7 +91,12 @@ export function suggestNames(
     };
   });
 
-  const sortByName = (a: RankedName, b: RankedName) => a.name.localeCompare(b.name);
+  // Everyday names first, then scriptural epithets; alphabetical within each.
+  // With ~60 names per syllable, a parent should see Sagar and Sahil before
+  // Sahasraksha, not interleaved with it.
+  const familiarity = (n: RankedName) => (n.source.startsWith("Common") ? 0 : 1);
+  const sortByName = (a: RankedName, b: RankedName) =>
+    familiarity(a) - familiarity(b) || a.name.localeCompare(b.name);
 
   return {
     syllableUsed,

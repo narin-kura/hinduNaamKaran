@@ -32,3 +32,15 @@ describe("findNameById", () => {
     expect(findNameById("arjun")?.name).toBe("Arjun");
   });
 });
+
+describe("result ordering", () => {
+  it("lists everyday names before scriptural epithets within a rank", () => {
+    const chart = getBirthChart({ date: "2026-09-04", time: "12:00", timeZone: "Asia/Kolkata" });
+    const result = suggestNames(chart, 4);
+    for (const bucket of [result.best, result.good, result.worst]) {
+      const tiers = bucket.map((n) => (n.source.startsWith("Common") ? 0 : 1));
+      const sorted = [...tiers].sort((a, b) => a - b);
+      expect(tiers).toEqual(sorted);
+    }
+  });
+});
