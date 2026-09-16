@@ -81,22 +81,37 @@ Suggested screenshot sequence: (1) birth-details form, (2) results with Best/Goo
 
 ## First-time setup for the Vigyatri organization account
 
-You only do this once.
+The legal entity is the **Indian LLP**. Publishing from an Indian entity to a worldwide (or
+India-only) audience is completely normal; the entity's country does not limit where the app
+is sold. You only do this once.
 
-1. **Google account for the org.** Use a Google Workspace account on the vigyatri.com domain
-   if you have one; otherwise a Gmail account you control. Google verifies the *organization*,
-   not the email domain, but a matching domain looks legitimate and avoids questions.
-2. **D-U-N-S number.** Organization accounts require one. Free from Dun & Bradstreet
-   (https://www.dnb.com/duns.html). Usually a few days; can take up to 30. **Start this first
-   — it is the long pole.**
+1. **D-U-N-S number from D&B India** — https://www.dnb.co.in/duns/get-a-duns
+   Apply in the LLP's **exact legal name as on the MCA Certificate of Incorporation**.
+   Have ready: Certificate of Incorporation / LLPIN, PAN, registered-office address proof,
+   and a partner's name and contact details.
+   - **Free route: 30-45 days.** D&B India first sends a basic form, then emails a link for
+     detailed information 1-2 weeks later, then issues the number.
+   - **Paid express: about 5-7 days.** Check D&B India's current price. Given the goal of
+     going live soon, this is the difference between roughly two weeks and roughly six weeks
+     to launch, and the number is reused for the Apple organization account later.
+2. **Google account for the org.** Any Google account you control works; Google verifies the
+   *organization*, not the email domain. Use one you will keep long-term — it becomes the
+   account owner.
 3. **Register** at https://play.google.com/console → choose **Organization** → pay the
-   one-time $25 → enter legal name, address, website (vigyatri.com), D-U-N-S, and contact
-   phone/email. Google verifies identity; allow a few days.
+   one-time $25 → enter the LLP's legal name (must match the D-U-N-S record exactly), Indian
+   registered address, website (vigyatri.com), D-U-N-S, and a contact phone and email. Google
+   verifies the organization and your identity; allow a few days. Have the Certificate of
+   Incorporation as a PDF in case a document is requested.
 4. **Create the app** in the Console: name `HinduNaamKaran`, free, app (not game).
 5. **Service account for `eas submit`** (optional but saves manual uploads):
    Play Console → Setup → API access → create a Google Cloud service account → grant it
    *Release manager* on the app → download the JSON key → save it as
    `mobile/play-service-account.json` (already gitignored).
+
+**Timeline reality check:** organization route with express D-U-N-S ≈ 2 weeks to a live
+listing, and no closed-test requirement. The personal-account alternative is ≈ 3 weeks and
+publishes under your own name. The organization route with the *free* D-U-N-S is the slowest
+of the three (≈ 6 weeks).
 
 ## Build and submit
 
