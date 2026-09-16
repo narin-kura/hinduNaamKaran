@@ -1,4 +1,4 @@
-# Google Play listing — HinduNaamKaran (Vigyatri Solutions)
+# Google Play listing — HinduNaamKaran (Vigyatri Solutions LLP)
 
 Paste-ready content for the Play Console. Character limits are Google's.
 
@@ -8,7 +8,7 @@ Paste-ready content for the Play Console. Character limits are Google's.
 
 | Field | Value |
 |---|---|
-| Developer account | **Vigyatri Solutions** (organization account — exempt from the 12-tester rule) |
+| Developer account | **Vigyatri Solutions LLP** (organization account — exempt from the 12-tester rule) |
 | App name (≤30) | `HinduNaamKaran` |
 | Package name | `com.vigyatri.hindunaamkaran` — **cannot change after first upload** |
 | Category | Parenting |
@@ -52,7 +52,7 @@ WHAT YOU SEE
 A NOTE ON TRADITION
 Naming customs vary by region and family. Numerology systems differ between practitioners. Treat these suggestions as a starting point for reflection and family discussion, not a substitute for guidance from your family priest or astrologer.
 
-Made by Vigyatri Solutions.
+Made by Vigyatri Solutions LLP.
 ```
 
 ## Data safety form
@@ -86,7 +86,7 @@ India-only) audience is completely normal; the entity's country does not limit w
 is sold. You only do this once.
 
 1. **D-U-N-S number from D&B India** — https://www.dnb.co.in/duns/get-a-duns
-   Apply in the LLP's **exact legal name as on the MCA Certificate of Incorporation**.
+   Apply as **Vigyatri Solutions LLP** — the exact legal name on the MCA Certificate of Incorporation.
    Have ready: Certificate of Incorporation / LLPIN, PAN, registered-office address proof,
    and a partner's name and contact details.
    - **Free route: 30-45 days.** D&B India first sends a basic form, then emails a link for
@@ -98,7 +98,7 @@ is sold. You only do this once.
    *organization*, not the email domain. Use one you will keep long-term — it becomes the
    account owner.
 3. **Register** at https://play.google.com/console → choose **Organization** → pay the
-   one-time $25 → enter the LLP's legal name (must match the D-U-N-S record exactly), Indian
+   one-time $25 → enter **Vigyatri Solutions LLP** (must match the D-U-N-S record exactly), Indian
    registered address, website (vigyatri.com), D-U-N-S, and a contact phone and email. Google
    verifies the organization and your identity; allow a few days. Have the Certificate of
    Incorporation as a PDF in case a document is requested.

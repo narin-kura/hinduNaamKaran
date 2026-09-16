@@ -65,7 +65,7 @@ eas build --platform android --profile preview
 
 ### Android (Google Play) — publishing as Vigyatri Solutions
 
-Publishing under the **Vigyatri Solutions organization account** sidesteps Google's
+Publishing under the **Vigyatri Solutions LLP organization account** sidesteps Google's
 12-tester / 14-day closed-testing requirement, which only applies to *personal* accounts
 created after 13 Nov 2023. Organization accounts can release straight to Production.
 
