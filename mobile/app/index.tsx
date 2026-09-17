@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Alert } from "react-native";
+import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../constants/Colors";
@@ -33,6 +33,7 @@ export default function BirthDetailsScreen() {
   const [time, setTime] = useState(new Date());
   const [city, setCity] = useState<CityMatch | null>(null);
   const [gender, setGender] = useState<Gender | "ANY">("ANY");
+  const [cityError, setCityError] = useState(false);
 
   const birthParams = () =>
     city && {
@@ -46,17 +47,19 @@ export default function BirthDetailsScreen() {
   const onCheck = () => {
     const p = birthParams();
     if (!p) {
-      Alert.alert("Birth place needed", "Please search for and select the baby's birth city.");
+      setCityError(true);
       return;
     }
+    setCityError(false);
     router.push({ pathname: "/check", params: p });
   };
 
   const onSubmit = () => {
     if (!city) {
-      Alert.alert("Birth place needed", "Please search for and select the baby's birth city.");
+      setCityError(true);
       return;
     }
+    setCityError(false);
     router.push({
       pathname: "/results",
       params: {
@@ -89,7 +92,21 @@ export default function BirthDetailsScreen() {
         </View>
         <View style={styles.fieldGroup}>
           <Text style={styles.label}>Place of Birth</Text>
-          <CityPicker value={city} onChange={setCity} />
+          <CityPicker
+            value={city}
+            onChange={(c) => {
+              setCity(c);
+              setCityError(false);
+            }}
+          />
+          {cityError && (
+            <View style={styles.errorRow}>
+              <Ionicons name="alert-circle" size={14} color={Colors.worst} />
+              <Text style={styles.errorText}>
+                Please search for and select the baby's birth city above.
+              </Text>
+            </View>
+          )}
         </View>
 
         <View style={styles.fieldGroup}>
@@ -149,6 +166,8 @@ const styles = StyleSheet.create({
   },
   fieldGroup: { gap: 0 },
   label: { fontSize: 13, fontWeight: "600", color: Colors.textSecondary, marginBottom: 6 },
+  errorRow: { flexDirection: "row", alignItems: "center", gap: 5, marginTop: 7 },
+  errorText: { fontSize: 12, color: Colors.worst, fontWeight: "600", flex: 1 },
   genderRow: { flexDirection: "row", gap: 8 },
   genderPill: {
     flex: 1,
