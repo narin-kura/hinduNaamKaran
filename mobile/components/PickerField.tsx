@@ -26,6 +26,7 @@ export function PickerField({ label, value, mode, icon, onChange }: Props) {
 
   // The native picker library has no web implementation, so on web use the
   // browser's own date/time input. Keeps the other half of the Date intact.
+  // Nothing else ever sets the date, so the input can stay uncontrolled.
   if (Platform.OS === "web") {
     const onWebChange = (e: { target: { value: string } }) => {
       const v = e.target.value;
@@ -47,7 +48,9 @@ export function PickerField({ label, value, mode, icon, onChange }: Props) {
           <Ionicons name={icon} size={18} color={Colors.primary} />
           {React.createElement("input", {
             type: mode,
-            value: mode === "date" ? toDateInput(value) : toTimeInput(value),
+            // Uncontrolled on purpose: re-setting `value` on every keystroke
+            // resets the browser's segment editor and drops typed digits.
+            defaultValue: mode === "date" ? toDateInput(value) : toTimeInput(value),
             max: mode === "date" ? toDateInput(new Date()) : undefined,
             onChange: onWebChange,
             style: webInputStyle,
