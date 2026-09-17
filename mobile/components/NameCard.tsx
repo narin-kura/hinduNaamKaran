@@ -2,15 +2,20 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../constants/Colors";
-import { RankedName } from "../lib/suggest";
+import { RankedName, Gender } from "../lib/suggest";
 import { RankBadge } from "./RankBadge";
+
+const GENDER_LABEL: Record<Gender, string> = { M: "Boy", F: "Girl", U: "Either" };
 
 export function NameCard({ entry, onPress }: { entry: RankedName; onPress: () => void }) {
   return (
     <TouchableOpacity style={styles.card} onPress={onPress}>
       <View style={{ flex: 1 }}>
         <View style={styles.headerRow}>
-          <Text style={styles.name}>{entry.name}</Text>
+          <View style={styles.nameRow}>
+            <Text style={styles.name}>{entry.name}</Text>
+            <Text style={styles.gender}>{GENDER_LABEL[entry.gender]}</Text>
+          </View>
           <RankBadge rank={entry.rank} />
         </View>
         <Text style={styles.meaning} numberOfLines={2}>{entry.meaning}</Text>
@@ -33,6 +38,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   headerRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: 8 },
+  nameRow: { flexDirection: "row", alignItems: "baseline", gap: 8, flexShrink: 1 },
   name: { fontSize: 16, fontWeight: "700", color: Colors.textPrimary },
+  gender: { fontSize: 11, color: Colors.textMuted, fontWeight: "600", textTransform: "uppercase", letterSpacing: 0.3 },
   meaning: { fontSize: 13, color: Colors.textSecondary, marginTop: 3, lineHeight: 18 },
 });

@@ -27,7 +27,12 @@ export default function NameDetailScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 18, paddingBottom: 40 }}>
       <View style={styles.hero}>
-        <Text style={styles.name}>{entry.name}</Text>
+        <View>
+          <Text style={styles.name}>{entry.name}</Text>
+          <Text style={styles.genderLine}>
+            {entry.gender === "M" ? "Boy's name" : entry.gender === "F" ? "Girl's name" : "Used for boys and girls"}
+          </Text>
+        </View>
         <RankBadge rank={rank} />
       </View>
 
@@ -90,6 +95,7 @@ const styles = StyleSheet.create({
   notFound: { color: Colors.textMuted, fontSize: 14 },
   hero: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 18 },
   name: { fontSize: 26, fontWeight: "800", color: Colors.textPrimary },
+  genderLine: { fontSize: 12, color: Colors.textMuted, fontWeight: "600", marginTop: 2 },
   card: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
