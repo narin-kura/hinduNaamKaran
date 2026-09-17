@@ -14,6 +14,9 @@ export function NameCard({ entry, onPress }: { entry: RankedName; onPress: () =>
         <View style={styles.headerRow}>
           <View style={styles.nameRow}>
             <Text style={styles.name}>{entry.name}</Text>
+            <View style={[styles.sylChip, entry.padaMatch && styles.sylChipPada]}>
+              <Text style={[styles.sylText, entry.padaMatch && styles.sylTextPada]}>{entry.startingSound}</Text>
+            </View>
             <Text style={styles.gender}>{GENDER_LABEL[entry.gender]}</Text>
           </View>
           <RankBadge rank={entry.rank} />
@@ -44,6 +47,10 @@ const styles = StyleSheet.create({
   nameRow: { flexDirection: "row", alignItems: "baseline", gap: 8, flexShrink: 1 },
   name: { fontSize: 16, fontWeight: "700", color: Colors.textPrimary },
   gender: { fontSize: 11, color: Colors.textMuted, fontWeight: "600", textTransform: "uppercase", letterSpacing: 0.3 },
+  sylChip: { borderRadius: 6, paddingHorizontal: 6, paddingVertical: 2, borderWidth: 1, borderColor: Colors.border },
+  sylChipPada: { backgroundColor: Colors.primary, borderColor: Colors.primary },
+  sylText: { fontSize: 10, fontWeight: "700", color: Colors.textMuted },
+  sylTextPada: { color: "#fff" },
   meaning: { fontSize: 13, color: Colors.textSecondary, marginTop: 3, lineHeight: 18 },
   reason: { fontSize: 11, color: Colors.textMuted, marginTop: 5 },
 });

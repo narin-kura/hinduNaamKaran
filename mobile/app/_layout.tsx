@@ -17,6 +17,8 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ title: "HinduNaamKaran" }} />
         <Stack.Screen name="results" options={{ title: "Suggested Names", headerBackTitle: "Back" }} />
         <Stack.Screen name="name/[id]" options={{ title: "Name Details", headerBackTitle: "Back" }} />
+        <Stack.Screen name="check" options={{ title: "Check a Name", headerBackTitle: "Back" }} />
+        <Stack.Screen name="method" options={{ title: "How It Works", headerBackTitle: "Back" }} />
       </Stack>
     </>
   );

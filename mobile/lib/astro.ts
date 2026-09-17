@@ -71,8 +71,18 @@ export function getBirthChart(input: BirthInput): BirthChart {
   };
 }
 
-/** Syllables of the other 3 padas in the same nakshatra, used as a fallback when too few names match. */
-export function getSiblingPadaSyllables(nakshatraIndex: number, padaIndex: number): string[] {
-  const entry = nakshatraPadaSyllables[nakshatraIndex];
-  return entry.padas.filter((_, i) => i !== padaIndex);
+// All 108 pada syllables in zodiac order. Nakshatra k, pada j is index 4k + j;
+// each rashi spans nine consecutive padas, so rashi r is indices 9r .. 9r+8.
+const ALL_PADA_SYLLABLES: string[] = nakshatraPadaSyllables.flatMap((n) => n.padas);
+
+const unique = (xs: string[]) => xs.filter((x, i) => xs.indexOf(x) === i);
+
+/** The four syllables of a nakshatra. Common practice accepts any of them. */
+export function getNakshatraSyllables(nakshatraIndex: number): string[] {
+  return unique(nakshatraPadaSyllables[nakshatraIndex].padas);
+}
+
+/** The nine pada syllables that fall within a rashi. Also widely used for naming. */
+export function getRashiSyllables(rashiIndex: number): string[] {
+  return unique(ALL_PADA_SYLLABLES.slice(rashiIndex * 9, rashiIndex * 9 + 9));
 }

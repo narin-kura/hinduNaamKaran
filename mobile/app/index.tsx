@@ -34,6 +34,24 @@ export default function BirthDetailsScreen() {
   const [city, setCity] = useState<CityMatch | null>(null);
   const [gender, setGender] = useState<Gender | "ANY">("ANY");
 
+  const birthParams = () =>
+    city && {
+      date: toDateParam(date),
+      time: toTimeParam(time),
+      timeZone: city.timeZone,
+      cityLabel: city.city,
+      gender,
+    };
+
+  const onCheck = () => {
+    const p = birthParams();
+    if (!p) {
+      Alert.alert("Birth place needed", "Please search for and select the baby's birth city.");
+      return;
+    }
+    router.push({ pathname: "/check", params: p });
+  };
+
   const onSubmit = () => {
     if (!city) {
       Alert.alert("Birth place needed", "Please search for and select the baby's birth city.");
@@ -97,6 +115,16 @@ export default function BirthDetailsScreen() {
         <Ionicons name="arrow-forward" size={18} color="#fff" />
       </TouchableOpacity>
 
+      <TouchableOpacity style={styles.secondaryBtn} onPress={onCheck}>
+        <Ionicons name="search-outline" size={17} color={Colors.primary} />
+        <Text style={styles.secondaryText}>Check a name I already have in mind</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.methodLink} onPress={() => router.push("/method")}>
+        <Ionicons name="book-outline" size={14} color={Colors.textMuted} />
+        <Text style={styles.methodText}>How it works: panchang, ayanamsa and numerology used</Text>
+      </TouchableOpacity>
+
       <Text style={styles.disclaimer}>
         Suggestions blend traditional Nakshatra naming with Chaldean numerology. They're a
         starting point for reflection and family discussion, not a substitute for guidance
@@ -145,5 +173,13 @@ const styles = StyleSheet.create({
     marginTop: 18,
   },
   submitText: { color: "#fff", fontSize: 16, fontWeight: "700" },
+  secondaryBtn: {
+    flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 8,
+    borderWidth: 1.5, borderColor: Colors.primary, borderRadius: 14, paddingVertical: 13, marginTop: 10,
+    backgroundColor: Colors.surface,
+  },
+  secondaryText: { color: Colors.primary, fontSize: 15, fontWeight: "700" },
+  methodLink: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, marginTop: 14 },
+  methodText: { fontSize: 12, color: Colors.textMuted, fontWeight: "600" },
   disclaimer: { fontSize: 11, color: Colors.textMuted, textAlign: "center", marginTop: 16, lineHeight: 16, paddingHorizontal: 8 },
 });
