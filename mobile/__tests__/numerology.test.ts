@@ -34,3 +34,35 @@ describe("getCompatibility", () => {
     expect(getCompatibility(9, 8)).toBe("good");
   });
 });
+
+import { explainCompatibility, getNameNumberBreakdown } from "../lib/numerology";
+
+describe("explainCompatibility", () => {
+  it("names the planets and the friendship relation", () => {
+    const e = explainCompatibility(3, 6); // Jupiter vs Venus -> enemy -> worst
+    expect(e.rank).toBe("worst");
+    expect(e.relation).toBe("enemy");
+    expect(e.long).toContain("Jupiter");
+    expect(e.long).toContain("Venus");
+    expect(e.long).toContain("enemy");
+  });
+
+  it("treats a shared planet as reinforcing", () => {
+    expect(explainCompatibility(3, 3).relation).toBe("same");
+  });
+
+  it("flags Rahu and Ketu as having no classical rule", () => {
+    expect(explainCompatibility(7, 1).relation).toBe("no-rule");
+    expect(explainCompatibility(1, 4).relation).toBe("no-rule");
+  });
+});
+
+describe("getNameNumberBreakdown", () => {
+  it("shows the letters, total and reduction steps", () => {
+    const b = getNameNumberBreakdown("Shanta"); // S3 H5 A1 N5 T4 A1 = 19 -> 10 -> 1
+    expect(b.letters.map((l) => l.value)).toEqual([3, 5, 1, 5, 4, 1]);
+    expect(b.total).toBe(19);
+    expect(b.steps).toEqual([10, 1]);
+    expect(b.result).toBe(1);
+  });
+});

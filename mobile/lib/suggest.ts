@@ -1,6 +1,6 @@
 import namesData from "../data/names.json";
 import { BirthChart, getSiblingPadaSyllables } from "./astro";
-import { getBirthNumber, getCompatibility, getNameNumber, Rank } from "./numerology";
+import { getBirthNumber, getCompatibility, getNameNumber, explainCompatibility, Rank } from "./numerology";
 
 export type Gender = "M" | "F" | "U";
 
@@ -25,6 +25,8 @@ export type RankedName = NameEntry & {
   id: string;
   nameNumber: number;
   rank: Rank;
+  /** Why it got that rank, in one line. */
+  reason: string;
 };
 
 export type SuggestionResult = {
@@ -88,6 +90,7 @@ export function suggestNames(
       id: nameId(entry),
       nameNumber,
       rank: getCompatibility(birthNumber, nameNumber),
+      reason: explainCompatibility(birthNumber, nameNumber).short,
     };
   });
 

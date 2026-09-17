@@ -19,6 +19,9 @@ export function NameCard({ entry, onPress }: { entry: RankedName; onPress: () =>
           <RankBadge rank={entry.rank} />
         </View>
         <Text style={styles.meaning} numberOfLines={2}>{entry.meaning}</Text>
+        <Text style={styles.reason} numberOfLines={1}>
+          Name number {entry.nameNumber} · {entry.reason}
+        </Text>
       </View>
       <Ionicons name="chevron-forward" size={18} color={Colors.textMuted} />
     </TouchableOpacity>
@@ -42,4 +45,5 @@ const styles = StyleSheet.create({
   name: { fontSize: 16, fontWeight: "700", color: Colors.textPrimary },
   gender: { fontSize: 11, color: Colors.textMuted, fontWeight: "600", textTransform: "uppercase", letterSpacing: 0.3 },
   meaning: { fontSize: 13, color: Colors.textSecondary, marginTop: 3, lineHeight: 18 },
+  reason: { fontSize: 11, color: Colors.textMuted, marginTop: 5 },
 });

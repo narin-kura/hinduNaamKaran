@@ -115,6 +115,18 @@ export default function ResultsScreen() {
         )
       }
       renderItem={({ item }) => <NameCard entry={item} onPress={() => openName(item.id)} />}
+      ListFooterComponent={
+        <View style={styles.howCard}>
+          <Text style={styles.howTitle}>How the ranks are decided</Text>
+          <Text style={styles.howText}>
+            Each name gets a Chaldean number from its letters. Your baby's birth number is the day of
+            the month reduced to one digit ({birthDay} → {birthNumber}). Every number is ruled by a
+            planet, and the classical planetary friendship chart says whether the birth planet
+            treats the name's planet as a friend (Best), neutral (Good) or an enemy (Worst). Tap any
+            name to see its planets and the letter arithmetic.
+          </Text>
+        </View>
+      }
     />
   );
 }
@@ -157,4 +169,7 @@ const styles = StyleSheet.create({
   sectionCount: { fontSize: 13, fontWeight: "800" },
   sectionGap: { height: 8 },
   emptyText: { fontSize: 13, color: Colors.textMuted, fontStyle: "italic", paddingHorizontal: 4, marginBottom: 18 },
+  howCard: { backgroundColor: Colors.surface, borderRadius: 14, borderWidth: 1, borderColor: Colors.border, padding: 14, marginTop: 6 },
+  howTitle: { fontSize: 12, fontWeight: "700", color: Colors.textPrimary, textTransform: "uppercase", letterSpacing: 0.3, marginBottom: 6 },
+  howText: { fontSize: 13, color: Colors.textSecondary, lineHeight: 19 },
 });
