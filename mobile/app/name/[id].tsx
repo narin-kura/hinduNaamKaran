@@ -47,8 +47,8 @@ export default function NameDetailScreen() {
         <Text style={styles.sourceCite}>{entry.source}</Text>
         {entry.syllableMatch === "consonant-family" && (
           <Text style={styles.sourceNote}>
-            Grouped under the "{entry.startingSound}" syllable by consonant family: this name
-            begins with a cluster that is not itself one of the 108 pada syllables.
+            Grouped under the "{entry.startingSound}" syllable: this name's first sound is not
+            itself one of the 108 pada syllables, so it is placed with the closest one.
           </Text>
         )}
       </View>

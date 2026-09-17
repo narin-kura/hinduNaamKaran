@@ -5,11 +5,11 @@ where each dataset came from and why we are entitled to ship it.
 
 ---
 
-## 1. Names (`data/names.json`) — 867 entries
+## 1. Names (`data/names.json`) — 944 entries
 
 | Origin | Entries |
 |---|---|
-| Common Sanskrit/Hindi usage | 302 |
+| Common Sanskrit/Hindi usage | 379 |
 | Vishnu Sahasranama | 187 |
 | Shiva Sahasranama (Linga Purana) | 139 |
 | Lalita Sahasranama | 134 |
@@ -18,7 +18,9 @@ where each dataset came from and why we are entitled to ship it.
 | Gauri Ashtottara Shatanamavali | 22 |
 | Ganesha Ashtottara Shatanamavali | 21 |
 
-Overall: 436 masculine, 373 feminine, 58 unisex.
+Overall: 469 masculine, 408 feminine, 67 unisex.
+
+`__tests__/names-data.test.ts` runs the same checks over the whole file on every `npm test`.
 
 Add names in batches with `node scripts/merge-names.js batch.json`. It rejects any entry whose
 syllable is not one of the 108, whose "exact" match does not actually start with that syllable

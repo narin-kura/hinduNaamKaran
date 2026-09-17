@@ -1,8 +1,35 @@
 [
  {
+  "name": "Aahana",
+  "gender": "F",
+  "meaning": "First rays of the sun",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aakash",
+  "gender": "M",
+  "meaning": "Sky",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Aarav",
   "gender": "M",
   "meaning": "Peaceful, calm; also evokes the sound of the ocean",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aarohi",
+  "gender": "F",
+  "meaning": "The ascending scale in music",
   "origin": "Sanskrit",
   "startingSound": "A",
   "source": "Common Sanskrit/Hindi usage",
@@ -27,6 +54,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Abhinav",
+  "gender": "M",
+  "meaning": "New, novel",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Abhirama",
   "gender": "M",
   "meaning": "Pleasing, delightful",
@@ -36,12 +72,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Abhishek",
+  "gender": "M",
+  "meaning": "Ritual anointing; consecration",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Achyuta",
   "gender": "M",
   "meaning": "The one who never falls or fails; unchanging",
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #100",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Adarsh",
+  "gender": "M",
+  "meaning": "Ideal; a model to follow",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -72,6 +126,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Advait",
+  "gender": "M",
+  "meaning": "Non-dual; unique, without a second",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Adya",
   "gender": "F",
   "meaning": "The primordial one; the first",
@@ -90,12 +153,48 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Agastya",
+  "gender": "M",
+  "meaning": "The great Vedic sage",
+  "origin": "Vedic",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ahalya",
+  "gender": "F",
+  "meaning": "Wife of the sage Gautama, freed by Rama",
+  "origin": "Ramayana",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Aindri",
   "gender": "F",
   "meaning": "The power of Indra",
   "origin": "Durga Ashtottara Shatanamavali",
   "startingSound": "A",
   "source": "Durga Ashtottara Shatanamavali #52",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aishwarya",
+  "gender": "F",
+  "meaning": "Prosperity, wealth, divine power",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Ajay",
+  "gender": "M",
+  "meaning": "Unconquerable",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -135,12 +234,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Akshay",
+  "gender": "M",
+  "meaning": "Indestructible, eternal",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Akshaya",
   "gender": "M",
   "meaning": "Imperishable; undiminishing",
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "A",
   "source": "Shiva Sahasranama (Linga Purana) #756",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Alka",
+  "gender": "F",
+  "meaning": "A lock of curly hair; the city of Kubera",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -162,12 +279,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Amar",
+  "gender": "M",
+  "meaning": "Immortal",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Amaresha",
   "gender": "M",
   "meaning": "Lord of the immortals",
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "A",
   "source": "Shiva Sahasranama (Linga Purana) #585",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Amaya",
+  "gender": "F",
+  "meaning": "Without illusion; night rain",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -198,6 +333,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Amit",
+  "gender": "M",
+  "meaning": "Boundless, infinite",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Amogha",
   "gender": "M",
   "meaning": "Never in vain; unfailing",
@@ -222,6 +366,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #146 / Lalita Sahasranama",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anamika",
+  "gender": "F",
+  "meaning": "The ring finger; nameless",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anand",
+  "gender": "M",
+  "meaning": "Bliss, joy",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -252,6 +414,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Aniket",
+  "gender": "M",
+  "meaning": "Lord of the world; one without a fixed abode",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anil",
+  "gender": "M",
+  "meaning": "Wind; the god of wind",
+  "origin": "Vedic",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Anila",
   "gender": "M",
   "meaning": "The wind",
@@ -267,6 +447,69 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #185",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anirudh",
+  "gender": "M",
+  "meaning": "Unobstructed; grandson of Krishna",
+  "origin": "Krishna",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anita",
+  "gender": "F",
+  "meaning": "Full of grace",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anjali",
+  "gender": "F",
+  "meaning": "Offering made with joined palms",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anjana",
+  "gender": "F",
+  "meaning": "Mother of Hanuman",
+  "origin": "Ramayana",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ankit",
+  "gender": "M",
+  "meaning": "Marked, distinguished",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ankur",
+  "gender": "M",
+  "meaning": "Sprout, new life",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Annapurna",
+  "gender": "F",
+  "meaning": "Goddess of food and nourishment",
+  "origin": "Parvati",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -288,12 +531,48 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Anurag",
+  "gender": "M",
+  "meaning": "Love, devotion",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anushka",
+  "gender": "F",
+  "meaning": "Grace; a ray of light",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Aparna",
   "gender": "F",
   "meaning": "She who needed not even a leaf; the goddess of great austerity",
   "origin": "Lalita Sahasranama",
   "startingSound": "A",
   "source": "Lalita Sahasranama #754",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aradhya",
+  "gender": "F",
+  "meaning": "Worshipped",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Archana",
+  "gender": "F",
+  "meaning": "Worship, homage",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -315,12 +594,93 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Arnav",
+  "gender": "M",
+  "meaning": "Ocean",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Arpita",
+  "gender": "F",
+  "meaning": "Offered, dedicated",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Arya",
   "gender": "U",
   "meaning": "Noble; honourable",
   "origin": "Durga Ashtottara Shatanamavali",
   "startingSound": "A",
   "source": "Durga Ashtottara Shatanamavali #6",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Aryan",
+  "gender": "M",
+  "meaning": "Noble",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Asha",
+  "gender": "F",
+  "meaning": "Hope",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ashish",
+  "gender": "M",
+  "meaning": "Blessing",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ashok",
+  "gender": "M",
+  "meaning": "Without sorrow; the great Mauryan emperor",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ashutosh",
+  "gender": "M",
+  "meaning": "One who is easily pleased; a name of Shiva",
+  "origin": "Shiva",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ashwini",
+  "gender": "F",
+  "meaning": "The first nakshatra; horse-tamer",
+  "origin": "Vedic",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Atharv",
+  "gender": "M",
+  "meaning": "The fourth Veda; a name of Ganesha",
+  "origin": "Vedic",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -333,12 +693,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Avani",
+  "gender": "F",
+  "meaning": "Earth",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Avinash",
+  "gender": "M",
+  "meaning": "Indestructible",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Avyaya",
   "gender": "M",
   "meaning": "Imperishable; never diminishing",
   "origin": "Ganesha Ashtottara Shatanamavali",
   "startingSound": "A",
   "source": "Ganesha Ashtottara Shatanamavali #9",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ayush",
+  "gender": "M",
+  "meaning": "Long life",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -931,7 +1318,7 @@
   "gender": "M",
   "meaning": "Little lamp",
   "origin": "Sanskrit",
-  "startingSound": "De",
+  "startingSound": "Di",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
@@ -1227,7 +1614,7 @@
   "name": "Dulari",
   "gender": "F",
   "meaning": "Beloved, darling",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Du",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -1260,6 +1647,51 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ekalavya",
+  "gender": "M",
+  "meaning": "The self-taught archer of the Mahabharata",
+  "origin": "Mahabharata",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ekansh",
+  "gender": "M",
+  "meaning": "Whole, complete",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ekta",
+  "gender": "F",
+  "meaning": "Unity",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ela",
+  "gender": "F",
+  "meaning": "Cardamom; the earth",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Enakshi",
+  "gender": "F",
+  "meaning": "Doe-eyed",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Esha",
   "gender": "F",
   "meaning": "Desire, wish",
@@ -1272,6 +1704,24 @@
   "name": "Eshan",
   "gender": "M",
   "meaning": "The one who is sought; a name of Lord Shiva",
+  "origin": "Shiva",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Eshita",
+  "gender": "F",
+  "meaning": "One who desires",
+  "origin": "Sanskrit",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Eshwar",
+  "gender": "M",
+  "meaning": "God; a name of Shiva",
   "origin": "Shiva",
   "startingSound": "E",
   "source": "Common Sanskrit/Hindi usage",
@@ -1603,7 +2053,7 @@
  },
  {
   "name": "Hamsa",
-  "gender": "M",
+  "gender": "U",
   "meaning": "The swan; the pure spirit that moves between worlds",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ha",
@@ -1723,7 +2173,7 @@
   "gender": "F",
   "meaning": "Diamond",
   "origin": "Sanskrit",
-  "startingSound": "He",
+  "startingSound": "Hi",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
@@ -1839,7 +2289,7 @@
   "name": "Hulas",
   "gender": "M",
   "meaning": "Joy, exhilaration",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Hu",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -1860,6 +2310,60 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Hu",
   "source": "Shiva Sahasranama (Linga Purana) #218",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Idhika",
+  "gender": "F",
+  "meaning": "The earth; another name for Parvati",
+  "origin": "Parvati",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ikshita",
+  "gender": "F",
+  "meaning": "Seen, beheld",
+  "origin": "Sanskrit",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ila",
+  "gender": "F",
+  "meaning": "Earth; daughter of Manu",
+  "origin": "Vedic",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ilesh",
+  "gender": "M",
+  "meaning": "Lord of the earth",
+  "origin": "Sanskrit",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Indra",
+  "gender": "M",
+  "meaning": "King of the gods; god of rain and thunder",
+  "origin": "Vedic",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Indrajit",
+  "gender": "M",
+  "meaning": "Conqueror of Indra; son of Ravana",
+  "origin": "Ramayana",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -1890,6 +2394,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Iravati",
+  "gender": "F",
+  "meaning": "The Ravi river",
+  "origin": "Sanskrit",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ishaan",
   "gender": "M",
   "meaning": "Sun; one of the names of Lord Shiva as ruler of the northeast direction",
@@ -1908,6 +2421,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ishani",
+  "gender": "F",
+  "meaning": "Consort of Shiva; a name of Parvati",
+  "origin": "Parvati",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ishvara",
   "gender": "M",
   "meaning": "The supreme lord; one with sovereign power",
@@ -1923,6 +2445,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "I",
   "source": "Lalita Sahasranama #271",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ishwar",
+  "gender": "M",
+  "meaning": "Supreme lord; God",
+  "origin": "Sanskrit",
+  "startingSound": "I",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -2469,7 +3000,7 @@
   "name": "Kheya",
   "gender": "F",
   "meaning": "A ferry boat",
-  "origin": "Sanskrit",
+  "origin": "Bengali",
   "startingSound": "Khe",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -2478,7 +3009,7 @@
   "name": "Khushal",
   "gender": "M",
   "meaning": "Happy and prosperous",
-  "origin": "Sanskrit",
+  "origin": "Persian-Hindi",
   "startingSound": "Khu",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -2487,7 +3018,7 @@
   "name": "Khushboo",
   "gender": "F",
   "meaning": "Fragrance",
-  "origin": "Sanskrit",
+  "origin": "Persian-Hindi",
   "startingSound": "Khu",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -2496,7 +3027,7 @@
   "name": "Khushi",
   "gender": "F",
   "meaning": "Happiness",
-  "origin": "Sanskrit",
+  "origin": "Persian-Hindi",
   "startingSound": "Khu",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -2602,7 +3133,7 @@
  },
  {
   "name": "Kshama",
-  "gender": "M",
+  "gender": "U",
   "meaning": "Patience; forgiveness",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ka",
@@ -2638,7 +3169,7 @@
  },
  {
   "name": "Kumuda",
-  "gender": "M",
+  "gender": "U",
   "meaning": "The night lotus; one who delights the earth",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ku",
@@ -2767,7 +3298,7 @@
   "gender": "F",
   "meaning": "Divine play; the cosmic play of the gods",
   "origin": "Sanskrit",
-  "startingSound": "Le",
+  "startingSound": "Li",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
@@ -3153,7 +3684,7 @@
   "name": "Mamta",
   "gender": "F",
   "meaning": "Motherly love",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Ma",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -3207,7 +3738,7 @@
   "name": "Mansi",
   "gender": "F",
   "meaning": "Of the mind",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Ma",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -3565,7 +4096,7 @@
  },
  {
   "name": "Nanda",
-  "gender": "M",
+  "gender": "U",
   "meaning": "Joy, delight",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Na",
@@ -3658,7 +4189,7 @@
   "gender": "M",
   "meaning": "Blue; a reference to Lord Krishna's complexion",
   "origin": "Krishna",
-  "startingSound": "Ne",
+  "startingSound": "Ni",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
@@ -3693,7 +4224,7 @@
   "name": "Neha",
   "gender": "F",
   "meaning": "Love, affection; rain",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Ne",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -3915,6 +4446,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ojasvi",
+  "gender": "M",
+  "meaning": "Radiant, energetic",
+  "origin": "Sanskrit",
+  "startingSound": "O",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ojaswini",
+  "gender": "F",
+  "meaning": "Radiant, full of energy",
+  "origin": "Sanskrit",
+  "startingSound": "O",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ojovati",
   "gender": "F",
   "meaning": "Full of vigour",
@@ -3927,6 +4476,24 @@
   "name": "Om",
   "gender": "U",
   "meaning": "The sacred primal sound; symbol of the universe and the absolute",
+  "origin": "Vedic",
+  "startingSound": "O",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Omkar",
+  "gender": "M",
+  "meaning": "The sacred syllable Om",
+  "origin": "Vedic",
+  "startingSound": "O",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Omprakash",
+  "gender": "M",
+  "meaning": "Light of Om",
   "origin": "Vedic",
   "startingSound": "O",
   "source": "Common Sanskrit/Hindi usage",
@@ -4143,7 +4710,7 @@
   "name": "Payal",
   "gender": "F",
   "meaning": "Anklet",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Pa",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -4179,7 +4746,7 @@
   "name": "Pihu",
   "gender": "F",
   "meaning": "The sweet call of a bird",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Pi",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -4233,7 +4800,7 @@
   "name": "Poonam",
   "gender": "F",
   "meaning": "Full moon",
-  "origin": "Sanskrit",
+  "origin": "Hindi",
   "startingSound": "Pu",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -4619,8 +5186,8 @@
  {
   "name": "Rahul",
   "gender": "M",
-  "meaning": "Efficient; the son of the Buddha",
-  "origin": "Sanskrit",
+  "meaning": "The Buddha's son; capable, able",
+  "origin": "Pali-Sanskrit",
   "startingSound": "Ra",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -4834,7 +5401,7 @@
  },
  {
   "name": "Ritu",
-  "gender": "M",
+  "gender": "U",
   "meaning": "The ordered season",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ri",
@@ -4881,7 +5448,7 @@
   "name": "Roshni",
   "gender": "F",
   "meaning": "Light",
-  "origin": "Sanskrit",
+  "origin": "Persian-Hindi",
   "startingSound": "Ro",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -5007,7 +5574,7 @@
   "name": "Sahil",
   "gender": "M",
   "meaning": "Shore",
-  "origin": "Sanskrit",
+  "origin": "Urdu-Hindi",
   "startingSound": "Sa",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -5329,7 +5896,7 @@
  },
  {
   "name": "Savita",
-  "gender": "M",
+  "gender": "U",
   "meaning": "The sun that brings forth life",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sa",
@@ -5358,7 +5925,7 @@
   "name": "Sejal",
   "gender": "F",
   "meaning": "River water; a flowing stream",
-  "origin": "Sanskrit",
+  "origin": "Gujarati",
   "startingSound": "Se",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -5428,7 +5995,7 @@
  },
  {
   "name": "Shama",
-  "gender": "M",
+  "gender": "U",
   "meaning": "Calm; stillness of mind",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sha",
@@ -6094,7 +6661,7 @@
  },
  {
   "name": "Stuti",
-  "gender": "M",
+  "gender": "U",
   "meaning": "Praise; a hymn",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sa",
@@ -6409,7 +6976,7 @@
  },
  {
   "name": "Suvrata",
-  "gender": "M",
+  "gender": "U",
   "meaning": "One firm in good vows",
   "origin": "Vishnu Sahasranama",
   "startingSound": "Su",
@@ -6672,7 +7239,7 @@
   "name": "Toral",
   "gender": "F",
   "meaning": "Graceful; a heroine of Gujarati folklore",
-  "origin": "Sanskrit",
+  "origin": "Gujarati",
   "startingSound": "To",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -6831,6 +7398,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Uday",
+  "gender": "M",
+  "meaning": "Sunrise; rising",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Udbhava",
   "gender": "M",
   "meaning": "Origin; that from which things arise",
@@ -6858,12 +7434,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ujjwal",
+  "gender": "M",
+  "meaning": "Bright, radiant",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ujjwala",
+  "gender": "F",
+  "meaning": "Bright, lustrous",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Uma",
   "gender": "F",
   "meaning": "The serene mother; light and tranquillity",
   "origin": "Lalita Sahasranama",
   "startingSound": "U",
   "source": "Lalita Sahasranama #633",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Umang",
+  "gender": "M",
+  "meaning": "Enthusiasm, zeal",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -6876,6 +7479,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Umesh",
+  "gender": "M",
+  "meaning": "Lord of Uma; a name of Shiva",
+  "origin": "Shiva",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Unnati",
+  "gender": "F",
+  "meaning": "Progress, prosperity",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Upendra",
   "gender": "M",
   "meaning": "The younger brother of Indra",
@@ -6885,9 +7506,54 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Urja",
+  "gender": "F",
+  "meaning": "Energy, vitality",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Urmila",
+  "gender": "F",
+  "meaning": "Enchantress; wife of Lakshmana",
+  "origin": "Ramayana",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Urvashi",
+  "gender": "F",
+  "meaning": "The most beautiful celestial nymph",
+  "origin": "Vedic",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Urvi",
   "gender": "F",
   "meaning": "The earth",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Usha",
+  "gender": "F",
+  "meaning": "Dawn; the Vedic goddess of dawn",
+  "origin": "Vedic",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Utkarsh",
+  "gender": "M",
+  "meaning": "Excellence, prosperity",
   "origin": "Sanskrit",
   "startingSound": "U",
   "source": "Common Sanskrit/Hindi usage",
@@ -6903,12 +7569,39 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Utsav",
+  "gender": "M",
+  "meaning": "Festival, celebration",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Uttam",
+  "gender": "M",
+  "meaning": "Best, excellent",
+  "origin": "Sanskrit",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Uttama",
   "gender": "M",
   "meaning": "The highest; the best",
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "U",
   "source": "Shiva Sahasranama (Linga Purana) #928",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Uttara",
+  "gender": "F",
+  "meaning": "North; wife of Abhimanyu",
+  "origin": "Mahabharata",
+  "startingSound": "U",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
