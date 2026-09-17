@@ -50,10 +50,11 @@ describe("names.json integrity", () => {
     expect(bad).toEqual([]);
   });
 
-  it("scriptural citations carry a verse number", () => {
-    const bad = names
-      .filter((e: Entry) => !e.source.startsWith("Common") && !/#\d+/.test(e.source))
-      .map((e) => `${e.name}: ${e.source}`);
+  it("every source is a verse citation or a recognised attribution", () => {
+    const ok = (s: string) =>
+      /#\d+/.test(s) ||
+      /^(Common |Character in |Historical figure|Form of the Devi|Name of |Consort of |Navagraha|Ashta Dikpalaka|Vedic |Puranic |Divine |Named after |Wife of )/.test(s);
+    const bad = names.filter((e: Entry) => !ok(e.source)).map((e) => `${e.name}: ${e.source}`);
     expect(bad).toEqual([]);
   });
 

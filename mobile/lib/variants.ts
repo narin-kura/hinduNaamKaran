@@ -103,3 +103,28 @@ export function suggestSpellings(name: string, birthDay: number, limit = 10): Sp
   out.sort((a, b) => RANK_VALUE[b.rank] - RANK_VALUE[a.rank] || a.edits - b.edits || a.spelling.localeCompare(b.spelling));
   return out.slice(0, limit);
 }
+
+/**
+ * A few natural one-change spellings of `name` with their ranks for this
+ * birth day, best first, regardless of whether they improve on the original.
+ * For showing "also spelt ..." on a result card.
+ */
+export function alternateSpellings(name: string, birthDay: number, limit = 3): SpellingVariant[] {
+  const original = name.trim();
+  if (original.length < 2) return [];
+  const birthNumber = getBirthNumber(birthDay);
+  const baseSyllable = detectSyllable(original).syllable;
+  const seen = new Set<string>([original.toLowerCase()]);
+  const out: SpellingVariant[] = [];
+  for (const e of possibleEdits(original)) {
+    const spelling = apply(original, [e]);
+    if (seen.has(spelling.toLowerCase())) continue;
+    seen.add(spelling.toLowerCase());
+    if (detectSyllable(spelling).syllable !== baseSyllable) continue;
+    const nameNumber = getNameNumber(spelling);
+    const rank = getCompatibility(birthNumber, nameNumber);
+    out.push({ spelling, nameNumber, rank, edits: 1, reason: explainCompatibility(birthNumber, nameNumber).short });
+  }
+  out.sort((a, b) => RANK_VALUE[b.rank] - RANK_VALUE[a.rank] || a.spelling.localeCompare(b.spelling));
+  return out.slice(0, limit);
+}

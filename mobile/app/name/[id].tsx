@@ -10,8 +10,11 @@ import { SpellingVariants } from "../../components/SpellingVariants";
 import { RankBadge } from "../../components/RankBadge";
 
 export default function NameDetailScreen() {
-  const { id, birthDay } = useLocalSearchParams<{ id: string; birthDay: string }>();
+  const { id, birthDay, spelling } = useLocalSearchParams<{ id: string; birthDay: string; spelling?: string }>();
   const entry = findNameById(id);
+  // A computed spelling variation opens the original name's page but is
+  // scored under the variant spelling.
+  const shownName = spelling && entry && spelling.toLowerCase() !== entry.name.toLowerCase() ? spelling : entry?.name ?? "";
 
   if (!entry) {
     return (
@@ -23,14 +26,17 @@ export default function NameDetailScreen() {
 
   const day = Number(birthDay);
   const birthNumber = getBirthNumber(day);
-  const nameNumber = getNameNumber(entry.name);
+  const nameNumber = getNameNumber(shownName);
   const rank = getCompatibility(birthNumber, nameNumber);
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 18, paddingBottom: 40 }}>
       <View style={styles.hero}>
         <View>
-          <Text style={styles.name}>{entry.name}</Text>
+          <Text style={styles.name}>{shownName}</Text>
+          {shownName !== entry.name && (
+            <Text style={styles.variantLine}>Spelling variation of {entry.name}</Text>
+          )}
           <Text style={styles.genderLine}>
             {entry.gender === "M" ? "Boy's name" : entry.gender === "F" ? "Girl's name" : "Used for boys and girls"}
           </Text>
@@ -60,8 +66,8 @@ export default function NameDetailScreen() {
         )}
       </View>
 
-      <NumerologyCard name={entry.name} birthDay={day} />
-      <SpellingVariants name={entry.name} birthDay={day} />
+      <NumerologyCard name={shownName} birthDay={day} />
+      <SpellingVariants name={shownName} birthDay={day} />
 
       <Text style={styles.disclaimer}>
         Numerology compatibility charts vary between traditions and practitioners -- treat this
@@ -78,6 +84,7 @@ const styles = StyleSheet.create({
   hero: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 18 },
   name: { fontSize: 26, fontWeight: "800", color: Colors.textPrimary },
   genderLine: { fontSize: 12, color: Colors.textMuted, fontWeight: "600", marginTop: 2 },
+  variantLine: { fontSize: 12, color: Colors.primaryDark, fontWeight: "700", marginTop: 2 },
   card: {
     backgroundColor: Colors.surface,
     borderRadius: 14,

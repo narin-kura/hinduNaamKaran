@@ -69,8 +69,15 @@ export default function ResultsScreen() {
   // or "Best: 0" looks like a bug.
   const neutralRuler = birthNumber === 4 ? "Rahu" : birthNumber === 7 ? "Ketu" : null;
 
-  const openName = (id: string) =>
-    router.push({ pathname: "/name/[id]", params: { id, birthDay: String(birthDay) } });
+  const openName = (item: RankedName) =>
+    router.push({
+      pathname: "/name/[id]",
+      params: {
+        id: item.variantOf ? item.variantOf.toLowerCase() : item.id,
+        birthDay: String(birthDay),
+        ...(item.variantOf ? { spelling: item.name } : {}),
+      },
+    });
 
   return (
     <SectionList
@@ -164,7 +171,7 @@ export default function ResultsScreen() {
           <View style={styles.sectionGap} />
         )
       }
-      renderItem={({ item }) => <NameCard entry={item} onPress={() => openName(item.id)} />}
+      renderItem={({ item }) => <NameCard entry={item} onPress={() => openName(item)} />}
       ListFooterComponent={
         <View style={styles.howCard}>
           <Text style={styles.howTitle}>How the ranks are decided</Text>

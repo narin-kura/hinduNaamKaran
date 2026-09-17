@@ -5,20 +5,79 @@ where each dataset came from and why we are entitled to ship it.
 
 ---
 
-## 1. Names (`data/names.json`) — 944 entries
+## 1. Names (`data/names.json`) — 2099 entries
 
-| Origin | Entries |
+| Source | Entries |
 |---|---|
-| Common Sanskrit/Hindi usage | 379 |
+| Common Sanskrit/Hindi usage | 1043 |
 | Vishnu Sahasranama | 187 |
 | Shiva Sahasranama (Linga Purana) | 139 |
 | Lalita Sahasranama | 134 |
+| Named after a holy place | 70 |
+| Historical figure | 58 |
+| Saraswati Ashtottara Shatanamavali | 38 |
 | Lakshmi Ashtottara Shatanamavali | 32 |
+| Subrahmanya Ashtottara Shatanamavali | 31 |
 | Durga Ashtottara Shatanamavali | 30 |
+| Character in the Mahabharata | 29 |
+| Character in the Ramayana | 23 |
 | Gauri Ashtottara Shatanamavali | 22 |
 | Ganesha Ashtottara Shatanamavali | 21 |
+| Character in the Bhagavata Purana | 19 |
+| Name of Shiva | 19 |
+| Name of Vishnu | 17 |
+| Vedic rishi | 15 |
+| Form of the Devi | 14 |
+| Name of Krishna | 12 |
+| Name of Ganesha | 11 |
+| Name of Kartikeya | 9 |
+| Puranic rishi | 8 |
+| Form of the Devi (Navadurga) | 7 |
+| Navagraha (Moon) | 7 |
+| Ashta Dikpalaka (Kubera, north) | 6 |
+| Name of Hanuman | 6 |
+| Name of Lakshmi | 6 |
+| Name of Brahma | 6 |
+| Named after a holy river | 5 |
+| Navagraha (Sun) | 5 |
+| Ashta Dikpalaka (Agni, south-east) | 4 |
+| Navagraha (Mars) | 4 |
+| Divine object | 4 |
+| Vedic rishika | 4 |
+| Ashta Dikpalaka (Vayu, north-west) | 4 |
+| Form of the Devi (Mahavidya) | 3 |
+| Divine vehicle (Vishnu) | 3 |
+| Divine object (Vishnu) | 3 |
+| Divine vehicle (Kartikeya) | 3 |
+| Ashta Dikpalaka (Indra, east) | 3 |
+| Divine vehicle (Indra) | 2 |
+| Wife of a Vedic rishi | 2 |
+| Navagraha (Venus) | 2 |
+| Navagraha (Jupiter) | 2 |
+| Divine object (Shiva) | 2 |
+| Ashta Dikpalaka (Yama, south) | 2 |
+| Consort of Kartikeya | 2 |
+| Name of Parvati | 2 |
+| Name of Ayyappa | 2 |
+| Ashta Dikpalaka (Varuna, west) | 2 |
+| Divine vehicle (Ganesha) | 2 |
+| Name of Rama | 2 |
+| Navagraha (Saturn) | 2 |
+| Divine object (Arjuna) | 1 |
+| Divine vehicle (Saraswati) | 1 |
+| Divine being | 1 |
+| Character in the Katha Upanishad | 1 |
+| Divine vehicle (Shiva) | 1 |
+| Divine object (Krishna) | 1 |
+| Divine vehicle (Kubera) | 1 |
+| Divine object (Indra) | 1 |
+| Vedic deity | 1 |
 
-Overall: 469 masculine, 408 feminine, 67 unisex.
+Overall: 1197 masculine, 804 feminine, 98 unisex.
+
+Regional and language origins include Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Rajasthani and Persian-Hindi loanwords in everyday Hindu use. Names without a verse number are attributed by category (character in an epic, form of the Devi, name of a deity, divine vehicle or object, holy place, historical figure).
+
+**Coverage rule** (`__tests__/coverage.test.ts`): every syllable that has any names must offer at least two Best-ranked names for every birth number, counting natural spelling variations. The app also fills a thin Best bucket at runtime with labelled spelling variations of real names, and shows alternate spellings with their ranks on every card.
 
 `__tests__/names-data.test.ts` runs the same checks over the whole file on every `npm test`.
 
@@ -58,13 +117,10 @@ the name detail screen, so every meaning shown to a user is attributed to the pr
 
 ### Known gaps
 
-14 of the 95 distinct pada syllables still have **no** names: Cho, Vu, Vo, Ing, Ho, Do, Tha, Po, No, Yi, Ye, Khi, Kho, Ge.
-These sounds essentially never begin a Sanskrit or Hindi given name — a search across
-~2,000 scriptural names and the common modern vocabulary found nothing honest to add.
-`lib/suggest.ts` handles this by widening to the rest of the nakshatra and telling the user
-it has done so. Do not fill these with invented names.
-
-5 syllables have only one name: Gha, Pe, Bhe, Khe, Jha.
+1 of the 95 pada syllables has no names: Yi. No Hindu given name begins with this sound.
+Regional usage filled the others that Sanskrit alone could not (Tamil "Tha" and "Cho" names,
+Kannada "Ho", Telugu "Ye", Gujarati "Kho", Bengali "No" and "Do"). `lib/suggest.ts` widens to the
+nakshatra or rashi syllables when a list is thin and says so on screen.
 
 ### Gender tagging caveat
 

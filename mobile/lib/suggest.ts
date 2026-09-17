@@ -1,6 +1,7 @@
 import namesData from "../data/names.json";
 import { BirthChart, getNakshatraSyllables, getRashiSyllables } from "./astro";
 import { getBirthNumber, getCompatibility, getNameNumber, explainCompatibility, Rank } from "./numerology";
+import { suggestSpellings, alternateSpellings, SpellingVariant } from "./variants";
 
 export type Gender = "M" | "F" | "U";
 
@@ -29,6 +30,14 @@ export type RankedName = NameEntry & {
   reason: string;
   /** True when the name begins with the exact pada syllable, not just a sibling one. */
   padaMatch: boolean;
+  /**
+   * Set when this entry is a computed spelling variation of a real name in
+   * the list (same sound, different letters) added because the Best bucket
+   * was thin. `name` then holds the variant spelling; `variantOf` the original.
+   */
+  variantOf?: string;
+  /** Other natural spellings of this name with their own ranks, best first. */
+  alternates: SpellingVariant[];
 };
 
 /**
@@ -42,6 +51,11 @@ export const SCOPES: Scope[] = ["pada", "nakshatra", "rashi"];
 
 /** Fewer than this and the scope is widened automatically. */
 export const MIN_RESULTS = 12;
+
+/** Fewer Best names than this and spelling variations of Good/Worst names are offered. */
+export const MIN_BEST = 2;
+/** At most this many computed spelling variations are added to the Best bucket. */
+export const MAX_VARIANT_FILL = 6;
 
 export type SuggestionResult = {
   scopeRequested: Scope;
@@ -109,6 +123,7 @@ export function suggestNames(
       rank: getCompatibility(birthNumber, nameNumber),
       reason: explainCompatibility(birthNumber, nameNumber).short,
       padaMatch: entry.startingSound.toLowerCase() === pada,
+      alternates: alternateSpellings(entry.name, birthDay, 3),
     };
   });
 
@@ -123,6 +138,29 @@ export function suggestNames(
   const best = ranked.filter((n) => n.rank === "best").sort(order);
   const good = ranked.filter((n) => n.rank === "good").sort(order);
   const worst = ranked.filter((n) => n.rank === "worst").sort(order);
+
+  // Too few Best names? Offer spelling variations of real names that reach
+  // Best, clearly labelled. Prefer exact-pada, everyday names, as a numerologist would.
+  if (best.length < MIN_BEST) {
+    const seen = new Set(best.map((n) => n.name.toLowerCase()));
+    const pool = [...good, ...worst].sort(order);
+    for (const base of pool) {
+      if (best.length >= MIN_BEST + MAX_VARIANT_FILL - 2) break;
+      const v = suggestSpellings(base.name, birthDay, 3).find((x) => x.rank === "best" && !seen.has(x.spelling.toLowerCase()));
+      if (!v) continue;
+      seen.add(v.spelling.toLowerCase());
+      best.push({
+        ...base,
+        id: `${base.id}~${v.spelling.toLowerCase()}`,
+        name: v.spelling,
+        nameNumber: v.nameNumber,
+        rank: "best",
+        reason: v.reason,
+        variantOf: base.name,
+      });
+      if (best.length >= MIN_BEST + 2) break;
+    }
+  }
 
   return {
     scopeRequested: scope,
