@@ -2295,6 +2295,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Buddhiman",
+  "gender": "M",
+  "meaning": "Possessing intellect; wise",
+  "origin": "Sanskrit",
+  "startingSound": "Vu",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Buddhinath",
   "gender": "M",
   "meaning": "Lord of wisdom",
@@ -3504,6 +3513,15 @@
   "name": "Dheer",
   "gender": "M",
   "meaning": "Brave; patient",
+  "origin": "Sanskrit",
+  "startingSound": "Dha",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Dhiman",
+  "gender": "M",
+  "meaning": "Possessing wisdom; intelligent",
   "origin": "Sanskrit",
   "startingSound": "Dha",
   "source": "Common Sanskrit/Hindi usage",
@@ -5733,6 +5751,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Jaimini",
+  "gender": "M",
+  "meaning": "Sage who compiled the Purva Mimamsa Sutras; disciple of Vyasa",
+  "origin": "Rishi",
+  "startingSound": "Ja",
+  "source": "Vedic rishi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Jalapati",
   "gender": "M",
   "meaning": "Lord of waters; Varuna, guardian of the west",
@@ -6099,6 +6126,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Yna",
   "source": "Lalita Sahasranama #643",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Jnanendra",
+  "gender": "M",
+  "meaning": "Lord of knowledge",
+  "origin": "Sanskrit",
+  "startingSound": "Yna",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -7497,6 +7533,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Kushagra",
+  "gender": "M",
+  "meaning": "Sharp-witted; keen intellect (literally sharp as kusha grass)",
+  "origin": "Sanskrit",
+  "startingSound": "Ku",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kushala",
   "gender": "F",
   "meaning": "Skilful; well and thriving",
@@ -8541,6 +8586,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Manish",
+  "gender": "M",
+  "meaning": "Lord of the mind; wise and intelligent",
+  "origin": "Sanskrit",
+  "startingSound": "Ma",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Manisha",
   "gender": "F",
   "meaning": "Intellect; desire",
@@ -8799,6 +8853,15 @@
   "origin": "Sanskrit",
   "startingSound": "Me",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Medhas",
+  "gender": "U",
+  "meaning": "The sage who first taught the glory of the Goddess",
+  "origin": "Puranic",
+  "startingSound": "Me",
+  "source": "Puranic being (sage of the Devi Mahatmya, Markandeya Purana)",
   "syllableMatch": "exact"
  },
  {
@@ -12186,6 +12249,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ribhu",
+  "gender": "M",
+  "meaning": "Sage of supreme wisdom; teacher of non-duality in the Ribhu Gita",
+  "origin": "Puranic",
+  "startingSound": "Ri",
+  "source": "Puranic being (sage of the Ribhu Gita, Shiva Purana)",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Riddhi",
   "gender": "F",
   "meaning": "Prosperity; a consort of Ganesha",
@@ -13626,6 +13698,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Shandilya",
+  "gender": "M",
+  "meaning": "Rishi and philosopher; author of the Bhakti Sutras",
+  "origin": "Rishi",
+  "startingSound": "Sha",
+  "source": "Vedic rishi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Shani",
   "gender": "M",
   "meaning": "The slow-moving one; Saturn",
@@ -14298,6 +14379,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Sha",
   "source": "Shiva Sahasranama (Linga Purana) #388",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shukracharya",
+  "gender": "M",
+  "meaning": "Guru and counsellor of the asuras; master of the Sanjivani revival lore",
+  "origin": "Puranic",
+  "startingSound": "Sha",
+  "source": "Puranic being (guru of the asuras)",
   "syllableMatch": "consonant-family"
  },
  {
@@ -17838,6 +17928,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vichakshana",
+  "gender": "M",
+  "meaning": "Discerning; wise and perceptive",
+  "origin": "Sanskrit",
+  "startingSound": "Vi",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vichar",
   "gender": "M",
   "meaning": "Thought; reflection",
@@ -17898,6 +17997,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Vi",
   "source": "Lalita Sahasranama #549",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vidyadhara",
+  "gender": "M",
+  "meaning": "Bearer of knowledge; a celestial being famed for magical learning",
+  "origin": "Puranic",
+  "startingSound": "Vi",
+  "source": "Puranic being (celestial keeper of knowledge and magic)",
   "syllableMatch": "exact"
  },
  {
@@ -17994,6 +18102,15 @@
   "name": "Vijeta",
   "gender": "U",
   "meaning": "Winner",
+  "origin": "Sanskrit",
+  "startingSound": "Vi",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vijnana",
+  "gender": "U",
+  "meaning": "Special knowledge; discernment, science",
   "origin": "Sanskrit",
   "startingSound": "Vi",
   "source": "Common Sanskrit/Hindi usage",
