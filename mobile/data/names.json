@@ -495,6 +495,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Alekya",
+  "gender": "F",
+  "meaning": "One beyond description; too wondrous to be written",
+  "origin": "Telugu",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Alka",
   "gender": "F",
   "meaning": "A lock of curly hair; the city of Kubera",
@@ -663,6 +672,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #119",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Amulya",
+  "gender": "F",
+  "meaning": "Priceless; invaluable",
+  "origin": "Sanskrit",
+  "startingSound": "A",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -6228,6 +6246,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Kalavathi",
+  "gender": "F",
+  "meaning": "Rich in art and skill",
+  "origin": "Lalita Sahasranama",
+  "startingSound": "Ka",
+  "source": "Lalita Sahasranama #327",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kalavati",
   "gender": "F",
   "meaning": "Rich in art and skill",
@@ -9488,10 +9515,10 @@
  {
   "name": "Narin",
   "gender": "M",
-  "meaning": "Manly, of noble bearing; a short form of Narendra used as a given name in Telugu families",
-  "origin": "Telugu",
+  "meaning": "Short form of Naren, the boyhood name of Swami Vivekananda (born Narendranath Datta)",
+  "origin": "Historical",
   "startingSound": "Na",
-  "source": "Common Sanskrit/Hindi usage",
+  "source": "Historical figure",
   "syllableMatch": "exact"
  },
  {
@@ -11763,6 +11790,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Raja",
+  "gender": "M",
+  "meaning": "King; ruler",
+  "origin": "Sanskrit",
+  "startingSound": "Ra",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Rajani",
   "gender": "F",
   "meaning": "Night",
@@ -11907,6 +11943,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ram",
+  "gender": "M",
+  "meaning": "Colloquial form of Rama; hero-king of the Ramayana, seventh avatar of Vishnu",
+  "origin": "Common usage",
+  "startingSound": "Ra",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Rama",
   "gender": "U",
   "meaning": "One who delights; the source of joy",
@@ -12003,6 +12048,15 @@
   "origin": "Vishnu",
   "startingSound": "Ra",
   "source": "Name of Vishnu",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Rani",
+  "gender": "F",
+  "meaning": "Queen",
+  "origin": "Sanskrit",
+  "startingSound": "Ra",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
  },
  {
@@ -16305,6 +16359,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Ti",
   "source": "Lalita Sahasranama #628",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Trinayana",
+  "gender": "F",
+  "meaning": "The three-eyed one; the Devi's eyes of sun, moon and fire",
+  "origin": "Lalita Sahasranama",
+  "startingSound": "Ti",
+  "source": "Lalita Sahasranama #453",
   "syllableMatch": "consonant-family"
  },
  {
