@@ -198,6 +198,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Adilakshmi",
+  "gender": "F",
+  "meaning": "The primordial form of Lakshmi",
+  "origin": "Telugu",
+  "startingSound": "A",
+  "source": "Name of Lakshmi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Aditi",
   "gender": "F",
   "meaning": "Boundless, limitless; mother of the gods (Adityas) in Vedic myth",
@@ -1467,6 +1476,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Balagangadhara",
+  "gender": "M",
+  "meaning": "The child form of Gangadhara; Shiva as bearer of the Ganga",
+  "origin": "Puranic",
+  "startingSound": "Va",
+  "source": "Name of Shiva",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Balaji",
   "gender": "M",
   "meaning": "Venkateshwara of Tirupati; the child Vishnu",
@@ -1485,12 +1503,39 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Balamurugan",
+  "gender": "M",
+  "meaning": "The child form of Murugan (Kartikeya)",
+  "origin": "Puranic",
+  "startingSound": "Va",
+  "source": "Name of Murugan",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Balaraju",
+  "gender": "M",
+  "meaning": "Child-king; an affectionate Telugu name for the young Krishna",
+  "origin": "Telugu",
+  "startingSound": "Va",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Balaram",
   "gender": "M",
   "meaning": "Strong Rama; Krishna's elder brother",
   "origin": "Sanskrit",
   "startingSound": "Va",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Balasubramanyam",
+  "gender": "M",
+  "meaning": "The child form of Subrahmanya (Murugan)",
+  "origin": "Puranic",
+  "startingSound": "Va",
+  "source": "Name of Subrahmanya (Murugan)",
   "syllableMatch": "consonant-family"
  },
  {
@@ -1704,6 +1749,15 @@
   "name": "Bharadwaj",
   "gender": "M",
   "meaning": "The sage of great learning; father of Drona",
+  "origin": "Rishi",
+  "startingSound": "Bha",
+  "source": "Vedic rishi",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Bharadwaja",
+  "gender": "M",
+  "meaning": "One of the Saptarishi; sage and physician of the gods",
   "origin": "Rishi",
   "startingSound": "Bha",
   "source": "Vedic rishi",
@@ -3393,6 +3447,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Dhanalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi of wealth",
+  "origin": "Telugu",
+  "startingSound": "Dha",
+  "source": "Name of Lakshmi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Dhananjaya",
   "gender": "M",
   "meaning": "Winner of wealth; one who gains true riches",
@@ -3444,6 +3507,15 @@
   "origin": "Lalita Sahasranama",
   "startingSound": "Dha",
   "source": "Lalita Sahasranama #957",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dhanyalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi of grain and agricultural abundance",
+  "origin": "Telugu",
+  "startingSound": "Dha",
+  "source": "Name of Lakshmi",
   "syllableMatch": "exact"
  },
  {
@@ -4086,6 +4158,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Gajalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi flanked by elephants, giver of royal power",
+  "origin": "Telugu",
+  "startingSound": "Ga",
+  "source": "Name of Lakshmi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Gajanan",
   "gender": "M",
   "meaning": "Elephant-faced; Ganesha",
@@ -4587,6 +4668,15 @@
   "origin": "Krishna",
   "startingSound": "Go",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Gopalakrishna",
+  "gender": "M",
+  "meaning": "Krishna the cowherd, protector of cows",
+  "origin": "Puranic",
+  "startingSound": "Go",
+  "source": "Name of Krishna",
   "syllableMatch": "exact"
  },
  {
@@ -7281,6 +7371,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Krishnamurthy",
+  "gender": "M",
+  "meaning": "Krishna in his embodied, sacred form",
+  "origin": "Puranic",
+  "startingSound": "Ka",
+  "source": "Name of Krishna",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Krishnaveni",
   "gender": "F",
   "meaning": "The river Krishna",
@@ -7647,6 +7746,15 @@
   "origin": "Historical",
   "startingSound": "La",
   "source": "Historical figure",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Lakshminarayana",
+  "gender": "M",
+  "meaning": "Vishnu together with Lakshmi, the divine couple",
+  "origin": "Puranic",
+  "startingSound": "La",
+  "source": "Name of Vishnu",
   "syllableMatch": "exact"
  },
  {
@@ -8475,6 +8583,15 @@
   "origin": "Shiva",
   "startingSound": "Ma",
   "source": "Name of Shiva",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mallikarjuna",
+  "gender": "M",
+  "meaning": "Shiva bright as jasmine; the Jyotirlinga at Srisailam",
+  "origin": "Holy place",
+  "startingSound": "Ma",
+  "source": "Named after a holy place",
   "syllableMatch": "exact"
  },
  {
@@ -10656,6 +10773,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Parthasarathy",
+  "gender": "M",
+  "meaning": "Charioteer of Partha (Arjuna); Krishna in the Bhagavad Gita",
+  "origin": "Puranic",
+  "startingSound": "Pa",
+  "source": "Name of Krishna",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Parvata",
   "gender": "M",
   "meaning": "Mountain",
@@ -11781,6 +11907,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Radharaman",
+  "gender": "M",
+  "meaning": "One who delights Radha; Krishna",
+  "origin": "Puranic",
+  "startingSound": "Ra",
+  "source": "Name of Krishna",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Radheshyam",
   "gender": "M",
   "meaning": "Radha and Shyam together; Krishna",
@@ -11859,6 +11994,15 @@
   "origin": "Sanskrit",
   "startingSound": "Ra",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Rajagopal",
+  "gender": "M",
+  "meaning": "The king who is Gopala; Krishna as sovereign cowherd",
+  "origin": "Puranic",
+  "startingSound": "Ra",
+  "source": "Name of Krishna",
   "syllableMatch": "exact"
  },
  {
@@ -13101,6 +13245,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Sa",
   "source": "Shiva Sahasranama (Linga Purana) #826",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Santanalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi who blesses with children",
+  "origin": "Telugu",
+  "startingSound": "Sa",
+  "source": "Name of Lakshmi",
   "syllableMatch": "exact"
  },
  {
@@ -14577,6 +14730,15 @@
   "origin": "Telugu",
   "startingSound": "Si",
   "source": "Historical figure",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sivakumar",
+  "gender": "M",
+  "meaning": "Son of Shiva; Murugan or Ganesha",
+  "origin": "Puranic",
+  "startingSound": "Si",
+  "source": "Name of Murugan",
   "syllableMatch": "exact"
  },
  {
@@ -16443,6 +16605,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Trimbakeshwar",
+  "gender": "M",
+  "meaning": "The three-eyed lord; the Jyotirlinga near Nashik",
+  "origin": "Holy place",
+  "startingSound": "Ti",
+  "source": "Named after a holy place",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Trimurti",
   "gender": "F",
   "meaning": "She of the threefold form",
@@ -16863,6 +17034,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "U",
   "source": "Shiva Sahasranama (Linga Purana) #95",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Umashankar",
+  "gender": "M",
+  "meaning": "Uma and Shankar together; the divine couple Parvati and Shiva",
+  "origin": "Puranic",
+  "startingSound": "U",
+  "source": "Name of Shiva",
   "syllableMatch": "exact"
  },
  {
@@ -17793,6 +17973,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Veeralakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi of courage",
+  "origin": "Telugu",
+  "startingSound": "Vi",
+  "source": "Name of Lakshmi",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vegavan",
   "gender": "M",
   "meaning": "Swift; full of momentum",
@@ -17847,12 +18036,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Venkataramana",
+  "gender": "M",
+  "meaning": "The Lord of Tirumala who delights and removes sin",
+  "origin": "Puranic",
+  "startingSound": "Ve",
+  "source": "Name of Vishnu",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Venkatesh",
   "gender": "M",
   "meaning": "Lord of Venkata hill; Vishnu",
   "origin": "Telugu",
   "startingSound": "Ve",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Venkateswara",
+  "gender": "M",
+  "meaning": "The Lord of Tirumala who destroys sins",
+  "origin": "Puranic",
+  "startingSound": "Ve",
+  "source": "Name of Vishnu",
   "syllableMatch": "exact"
  },
  {
@@ -18006,6 +18213,15 @@
   "origin": "Puranic",
   "startingSound": "Vi",
   "source": "Puranic being (celestial keeper of knowledge and magic)",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Vidyalakshmi",
+  "gender": "F",
+  "meaning": "Lakshmi of knowledge and learning",
+  "origin": "Telugu",
+  "startingSound": "Vi",
+  "source": "Name of Lakshmi",
   "syllableMatch": "exact"
  },
  {
