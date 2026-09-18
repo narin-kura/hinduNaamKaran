@@ -9486,6 +9486,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Narin",
+  "gender": "M",
+  "meaning": "Manly, of noble bearing; a short form of Narendra used as a given name in Telugu families",
+  "origin": "Telugu",
+  "startingSound": "Na",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Narmada",
   "gender": "F",
   "meaning": "Giver of joy; the sacred river",
@@ -18540,12 +18549,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Yaksha",
+  "gender": "M",
+  "meaning": "A nature-spirit demigod, guardian of forests, treasure and natural wealth",
+  "origin": "Puranic",
+  "startingSound": "Ya",
+  "source": "Puranic being (attendant of Kubera)",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Yaksharaja",
   "gender": "M",
   "meaning": "King of the yakshas; Kubera",
   "origin": "Dikpalaka",
   "startingSound": "Ya",
   "source": "Ashta Dikpalaka (Kubera, north)",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Yakshini",
+  "gender": "F",
+  "meaning": "A female nature-spirit; guardian of trees and hidden treasure",
+  "origin": "Puranic",
+  "startingSound": "Ya",
+  "source": "Puranic being (attendant of Kubera)",
   "syllableMatch": "exact"
  },
  {
