@@ -162,6 +162,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Abhivadya",
+  "gender": "M",
+  "meaning": "He who is worthy of reverent salutation",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #30",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Abhu",
   "gender": "M",
   "meaning": "The unborn - existence without becoming",
@@ -312,6 +321,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #334",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Adikara",
+  "gender": "M",
+  "meaning": "The primal doer; author of the beginning",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #58",
   "syllableMatch": "exact"
  },
  {
@@ -510,6 +528,15 @@
   "origin": "Telugu",
   "startingSound": "A",
   "source": "Named after a holy place",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ahoratra",
+  "gender": "M",
+  "meaning": "Day and night; the ceaseless one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #145",
   "syllableMatch": "exact"
  },
  {
@@ -990,6 +1017,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Amriteshvara",
+  "gender": "M",
+  "meaning": "Lord of immortality",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #166",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Amrityu",
   "gender": "M",
   "meaning": "Beyond death",
@@ -1320,6 +1356,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "A",
   "source": "Vishnu Sahasranama #215",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Anindita",
+  "gender": "M",
+  "meaning": "The blameless, flawless one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #182",
   "syllableMatch": "exact"
  },
  {
@@ -2214,6 +2259,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ayudhi",
+  "gender": "M",
+  "meaning": "The wielder of weapons",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "A",
+  "source": "Shiva Sahasranama (Linga Purana) #115",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Ayush",
   "gender": "M",
   "meaning": "Long life",
@@ -2292,6 +2346,24 @@
   "origin": "Devi Bhagavata",
   "startingSound": "Va",
   "source": "Form of the Devi (Mahavidya)",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Bahubhuta",
+  "gender": "M",
+  "meaning": "He who has become manifold",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #163",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Bahudhana",
+  "gender": "M",
+  "meaning": "Possessor of great wealth",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #164",
   "syllableMatch": "consonant-family"
  },
  {
@@ -2421,6 +2493,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Balavira",
+  "gender": "M",
+  "meaning": "The mighty hero",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #98",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Balchandra",
   "gender": "M",
   "meaning": "Crested with the young moon; Ganesha",
@@ -2436,6 +2517,15 @@
   "origin": "Sanskrit",
   "startingSound": "Va",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Banahasta",
+  "gender": "M",
+  "meaning": "He whose hand holds the arrow",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Va",
+  "source": "Shiva Sahasranama (Linga Purana) #109",
   "syllableMatch": "consonant-family"
  },
  {
@@ -3222,6 +3312,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Bhutadharana",
+  "gender": "M",
+  "meaning": "The sustainer of all beings",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Bhu",
+  "source": "Shiva Sahasranama (Linga Purana) #33",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Bhutadi",
   "gender": "M",
   "meaning": "The origin of all beings",
@@ -3816,6 +3915,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Chatushpatha",
+  "gender": "M",
+  "meaning": "Lord of the crossroads",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Cha",
+  "source": "Shiva Sahasranama (Linga Purana) #158",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Chaya",
   "gender": "F",
   "meaning": "Shadow, reflection",
@@ -4041,6 +4149,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Chiravasa",
+  "gender": "M",
+  "meaning": "Clad in the ascetic's bark garment",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Chi",
+  "source": "Shiva Sahasranama (Linga Purana) #141",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Chita",
   "gender": "F",
   "meaning": "Pure consciousness itself",
@@ -4230,6 +4347,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Daityaghni",
+  "gender": "M",
+  "meaning": "Slayer of the daitya titans",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #150",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Daksh",
   "gender": "M",
   "meaning": "Capable, skillful; also a Vedic deity of ritual and order",
@@ -4245,6 +4371,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Da",
   "source": "Vishnu Sahasranama #423",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dakshaghni",
+  "gender": "M",
+  "meaning": "He who humbled Daksha's sacrifice",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #187",
   "syllableMatch": "exact"
  },
  {
@@ -4452,6 +4587,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Da",
   "source": "Vishnu Sahasranama #569",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dashabahu",
+  "gender": "M",
+  "meaning": "The ten-armed one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Da",
+  "source": "Shiva Sahasranama (Linga Purana) #92",
   "syllableMatch": "exact"
  },
  {
@@ -4776,6 +4920,15 @@
   "origin": "Dikpalaka",
   "startingSound": "Dha",
   "source": "Ashta Dikpalaka (Kubera, north)",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dhanasadhaka",
+  "gender": "M",
+  "meaning": "Accomplisher of wealth",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Dha",
+  "source": "Shiva Sahasranama (Linga Purana) #77",
   "syllableMatch": "exact"
  },
  {
@@ -5139,6 +5292,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Digvasa",
+  "gender": "M",
+  "meaning": "Clothed by the directions; the sky-clad one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Di",
+  "source": "Shiva Sahasranama (Linga Purana) #102",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Dilip",
   "gender": "M",
   "meaning": "An ancestor of Rama; protector",
@@ -5208,6 +5370,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Di",
   "source": "Shiva Sahasranama (Linga Purana) #126",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Dirghatapa",
+  "gender": "M",
+  "meaning": "Of long and enduring penance",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Di",
+  "source": "Shiva Sahasranama (Linga Purana) #75",
   "syllableMatch": "exact"
  },
  {
@@ -5850,6 +6021,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Gajaghni",
+  "gender": "M",
+  "meaning": "Slayer of the elephant demon",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #149",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Gajalakshmi",
   "gender": "F",
   "meaning": "Lakshmi flanked by elephants, giver of royal power",
@@ -5910,6 +6090,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Ga",
   "source": "Shiva Sahasranama (Linga Purana) #735",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ganakartri",
+  "gender": "M",
+  "meaning": "The creator and leader of Shiva's attendants",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #100",
   "syllableMatch": "exact"
  },
  {
@@ -6228,6 +6417,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Girichara",
+  "gender": "M",
+  "meaning": "The wanderer of the mountains",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Gi",
+  "source": "Shiva Sahasranama (Linga Purana) #178",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Giridhar",
   "gender": "M",
   "meaning": "Lifter of the mountain; Krishna",
@@ -6435,6 +6633,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Gopikishan",
+  "gender": "M",
+  "meaning": "Beloved of the gopis; Krishna",
+  "origin": "Puranic",
+  "startingSound": "Go",
+  "source": "Name of Krishna",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Gopinath",
   "gender": "M",
   "meaning": "Lord of the cowherd girls; Krishna",
@@ -6516,6 +6723,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Grahapati",
+  "gender": "M",
+  "meaning": "Lord of the celestial bodies",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ga",
+  "source": "Shiva Sahasranama (Linga Purana) #68",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Gramani",
   "gender": "M",
   "meaning": "The leader of the flock of all beings",
@@ -6594,6 +6810,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Gu",
   "source": "Vishnu Sahasranama #839",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Gunakara",
+  "gender": "M",
+  "meaning": "The source of all virtues",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Gu",
+  "source": "Shiva Sahasranama (Linga Purana) #153",
   "syllableMatch": "exact"
  },
  {
@@ -6927,6 +7152,24 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Ha",
   "source": "Shiva Sahasranama (Linga Purana) #127",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Harikishan",
+  "gender": "M",
+  "meaning": "Hari and Krishna together, both names of Vishnu",
+  "origin": "Puranic",
+  "startingSound": "Ha",
+  "source": "Name of Krishna",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Harinaksha",
+  "gender": "M",
+  "meaning": "The deer-eyed one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ha",
+  "source": "Shiva Sahasranama (Linga Purana) #19",
   "syllableMatch": "exact"
  },
  {
@@ -8586,6 +8829,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Kamanashana",
+  "gender": "M",
+  "meaning": "The destroyer of desire",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #186",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kamandaludhara",
+  "gender": "M",
+  "meaning": "Bearer of the ascetic's water-pot",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #107",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kamapala",
   "gender": "M",
   "meaning": "The protector of his devotees' longings",
@@ -8835,6 +9096,15 @@
   "origin": "Murugan",
   "startingSound": "Ka",
   "source": "Name of Kartikeya",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Kartri",
+  "gender": "M",
+  "meaning": "The doer; the creator",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ka",
+  "source": "Shiva Sahasranama (Linga Purana) #71",
   "syllableMatch": "exact"
  },
  {
@@ -9124,6 +9394,24 @@
   "startingSound": "Ke",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
+ },
+ {
+  "name": "Khachara",
+  "gender": "M",
+  "meaning": "The sky-wanderer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Khe",
+  "source": "Shiva Sahasranama (Linga Purana) #28",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Khadgi",
+  "gender": "M",
+  "meaning": "The sword-bearer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Khe",
+  "source": "Shiva Sahasranama (Linga Purana) #113",
+  "syllableMatch": "consonant-family"
  },
  {
   "name": "Khem",
@@ -10053,6 +10341,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Lakshmikanta",
+  "gender": "M",
+  "meaning": "Beloved of Lakshmi; Vishnu",
+  "origin": "Puranic",
+  "startingSound": "La",
+  "source": "Name of Vishnu",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Lakshmikanth",
+  "gender": "M",
+  "meaning": "Beloved of Lakshmi; Vishnu",
+  "origin": "Puranic",
+  "startingSound": "La",
+  "source": "Name of Vishnu",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Lakshminarayana",
   "gender": "M",
   "meaning": "Vishnu together with Lakshmi, the divine couple",
@@ -10323,6 +10629,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Lokadhatri",
+  "gender": "M",
+  "meaning": "Sustainer of the worlds",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Lo",
+  "source": "Shiva Sahasranama (Linga Purana) #152",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Lokadhishthanam",
   "gender": "M",
   "meaning": "The substratum on which the worlds stand",
@@ -10575,6 +10890,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Madhyama",
+  "gender": "M",
+  "meaning": "The one in the middle; the mediator",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #190",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Madri",
   "gender": "F",
   "meaning": "Princess of Madra; mother of Nakula and Sahadeva",
@@ -10644,6 +10968,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ma",
   "source": "Vishnu Sahasranama #805",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahabija",
+  "gender": "M",
+  "meaning": "The great cosmic seed",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #85",
   "syllableMatch": "exact"
  },
  {
@@ -10779,6 +11112,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ma",
   "source": "Vishnu Sahasranama #672",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahakarmani",
+  "gender": "M",
+  "meaning": "Of great and mighty deeds",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #31",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahakaya",
+  "gender": "M",
+  "meaning": "The great-bodied one; of cosmic form",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #38",
   "syllableMatch": "exact"
  },
  {
@@ -10935,6 +11286,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Maharupa",
+  "gender": "M",
+  "meaning": "Of vast and mighty form",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #37",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mahasena",
   "gender": "M",
   "meaning": "Leader of the great army; Skanda",
@@ -10962,6 +11322,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Mahashara",
+  "gender": "M",
+  "meaning": "Of the mighty arrow",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #175",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Mahashraya",
   "gender": "F",
   "meaning": "The great refuge",
@@ -10986,6 +11355,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ma",
   "source": "Vishnu Sahasranama #41",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahat",
+  "gender": "M",
+  "meaning": "The great cosmic principle",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #52",
   "syllableMatch": "exact"
  },
  {
@@ -11085,6 +11463,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ma",
   "source": "Vishnu Sahasranama #676",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mahayasha",
+  "gender": "M",
+  "meaning": "Of boundless fame and glory",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #40",
   "syllableMatch": "exact"
  },
  {
@@ -11535,6 +11922,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Ma",
   "source": "Shiva Sahasranama (Linga Purana) #80",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Mantravidi",
+  "gender": "M",
+  "meaning": "Knower of the sacred mantras",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ma",
+  "source": "Shiva Sahasranama (Linga Purana) #104",
   "syllableMatch": "exact"
  },
  {
@@ -12102,6 +12498,15 @@
   "origin": "Gauri Ashtottara Shatanamavali",
   "startingSound": "Mi",
   "source": "Gauri Ashtottara Shatanamavali #56",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Mrigarupa",
+  "gender": "M",
+  "meaning": "He who takes the form of a deer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Mi",
+  "source": "Shiva Sahasranama (Linga Purana) #118",
   "syllableMatch": "consonant-family"
  },
  {
@@ -13185,6 +13590,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Nityanritya",
+  "gender": "M",
+  "meaning": "Ever dancing; the eternal dancer",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #168",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Nivrittatma",
   "gender": "M",
   "meaning": "The self untouched by the world's turning",
@@ -13218,6 +13632,24 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ni",
   "source": "Vishnu Sahasranama #864",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Niyata",
+  "gender": "M",
+  "meaning": "The self-restrained, ever-steady one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #53",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Niyatashraya",
+  "gender": "M",
+  "meaning": "The refuge of the disciplined",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #54",
   "syllableMatch": "exact"
  },
  {
@@ -13264,6 +13696,15 @@
   "startingSound": "No",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
+ },
+ {
+  "name": "Nrityapriya",
+  "gender": "M",
+  "meaning": "Lover of the sacred dance",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ni",
+  "source": "Shiva Sahasranama (Linga Purana) #167",
+  "syllableMatch": "consonant-family"
  },
  {
   "name": "Nupur",
@@ -13806,6 +14247,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Parantapa",
+  "gender": "M",
+  "meaning": "The scorcher of foes",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #82",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Pararddhi",
   "gender": "M",
   "meaning": "Supreme abundance",
@@ -14019,6 +14469,15 @@
   "origin": "Durga Ashtottara Shatanamavali",
   "startingSound": "Pa",
   "source": "Durga Ashtottara Shatanamavali #41",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Pattishi",
+  "gender": "M",
+  "meaning": "The wielder of the spiked mace",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #114",
   "syllableMatch": "exact"
  },
  {
@@ -14454,6 +14913,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Prachchanna",
+  "gender": "M",
+  "meaning": "The one who conceals himself",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #35",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Pracheta",
   "gender": "M",
   "meaning": "The wise one; Varuna",
@@ -14532,6 +15000,15 @@
   "origin": "Sanskrit",
   "startingSound": "Pa",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Prahasa",
+  "gender": "M",
+  "meaning": "Great, resounding laughter",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Pa",
+  "source": "Shiva Sahasranama (Linga Purana) #189",
   "syllableMatch": "consonant-family"
  },
  {
@@ -15453,6 +15930,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Radhakishan",
+  "gender": "M",
+  "meaning": "Radha and Krishna together, the divine pair",
+  "origin": "Puranic",
+  "startingSound": "Ra",
+  "source": "Name of Krishna",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Radhakrishna",
   "gender": "M",
   "meaning": "Radha and Krishna together",
@@ -15738,6 +16224,15 @@
   "origin": "Telugu",
   "startingSound": "Ra",
   "source": "Name of Rama",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ramakanth",
+  "gender": "M",
+  "meaning": "Husband of Ramaa (Lakshmi); Vishnu",
+  "origin": "Puranic",
+  "startingSound": "Ra",
+  "source": "Name of Vishnu",
   "syllableMatch": "exact"
  },
  {
@@ -16521,6 +17016,15 @@
   "origin": "Sanskrit",
   "startingSound": "Sa",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sahasrahasta",
+  "gender": "M",
+  "meaning": "The thousand-handed one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #179",
   "syllableMatch": "exact"
  },
  {
@@ -17316,6 +17820,42 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvabhavakara",
+  "gender": "M",
+  "meaning": "The source of all existence",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #105",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvabhavana",
+  "gender": "M",
+  "meaning": "The origin and being of all things",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #17",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvabhuta",
+  "gender": "M",
+  "meaning": "He who is present in all beings",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #42",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvabhutahara",
+  "gender": "M",
+  "meaning": "He who withdraws all beings at the end of time",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #20",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvadanavaghatini",
   "gender": "F",
   "meaning": "Slayer of all the danava titans",
@@ -17397,12 +17937,66 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvakara",
+  "gender": "M",
+  "meaning": "The maker and form of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #11",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvakarmani",
+  "gender": "M",
+  "meaning": "Master of every action and rite",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #56",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvalokaprajapati",
+  "gender": "M",
+  "meaning": "Lord of creation over all the worlds",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #36",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvamantramayi",
   "gender": "F",
   "meaning": "She who embodies every sacred mantra",
   "origin": "Durga Ashtottara Shatanamavali",
   "startingSound": "Sa",
   "source": "Durga Ashtottara Shatanamavali #22",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvartha",
+  "gender": "M",
+  "meaning": "He who is the meaning and purpose of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #131",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvarupa",
+  "gender": "M",
+  "meaning": "He whose form is everything",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #39",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvasadhaka",
+  "gender": "M",
+  "meaning": "The accomplisher of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #170",
   "syllableMatch": "exact"
  },
  {
@@ -17415,12 +18009,30 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvasara",
+  "gender": "M",
+  "meaning": "The essence of everything",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #165",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvashastramayi",
   "gender": "F",
   "meaning": "She who embodies every sacred scripture",
   "origin": "Durga Ashtottara Shatanamavali",
   "startingSound": "Sa",
   "source": "Durga Ashtottara Shatanamavali #74",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvashubhankara",
+  "gender": "M",
+  "meaning": "The bringer of all auspiciousness",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #133",
   "syllableMatch": "exact"
  },
  {
@@ -17460,6 +18072,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvatma",
+  "gender": "M",
+  "meaning": "The Self of all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #8",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvatmaka",
   "gender": "M",
   "meaning": "The self of all",
@@ -17487,6 +18108,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Sarvavasa",
+  "gender": "M",
+  "meaning": "He who dwells in all things",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #157",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Sarvavidbhanu",
   "gender": "M",
   "meaning": "All-knowing and radiant as the sun",
@@ -17511,6 +18141,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sa",
   "source": "Vishnu Sahasranama #799",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sarvavikhyata",
+  "gender": "M",
+  "meaning": "Renowned to all",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #9",
   "syllableMatch": "exact"
  },
  {
@@ -18216,6 +18855,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Shantatma",
+  "gender": "M",
+  "meaning": "The tranquil-souled one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #23",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Shanti",
   "gender": "U",
   "meaning": "Peace",
@@ -18420,6 +19068,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sha",
   "source": "Vishnu Sahasranama #206",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Shataghni",
+  "gender": "M",
+  "meaning": "The wielder of the shataghni, a weapon that fells a hundred foes",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sha",
+  "source": "Shiva Sahasranama (Linga Purana) #112",
   "syllableMatch": "exact"
  },
  {
@@ -18636,6 +19293,15 @@
   "origin": "Historical",
   "startingSound": "Sha",
   "source": "Historical figure",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Shivakanth",
+  "gender": "M",
+  "meaning": "One dear to Shiva",
+  "origin": "Sanskrit",
+  "startingSound": "Sha",
+  "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "consonant-family"
  },
  {
@@ -19323,6 +19989,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Simhashardularupa",
+  "gender": "M",
+  "meaning": "He who takes the form of the lion and the tiger",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Si",
+  "source": "Shiva Sahasranama (Linga Purana) #134",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Simran",
   "gender": "U",
   "meaning": "Meditation; remembrance of God",
@@ -19887,6 +20562,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Su",
   "source": "Vishnu Sahasranama #265",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Subija",
+  "gender": "M",
+  "meaning": "The auspicious source of creation",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #90",
   "syllableMatch": "exact"
  },
  {
@@ -20556,6 +21240,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Suryakanta",
+  "gender": "M",
+  "meaning": "Beloved of the sun; also the legendary sun-gem",
+  "origin": "Sanskrit",
+  "startingSound": "Su",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Suryakanth",
+  "gender": "M",
+  "meaning": "Beloved of the sun; also the legendary sun-gem",
+  "origin": "Sanskrit",
+  "startingSound": "Su",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Suryaputra",
   "gender": "M",
   "meaning": "Son of the sun; Saturn, and Karna",
@@ -20652,6 +21354,15 @@
   "origin": "Shiva Sahasranama (Linga Purana)",
   "startingSound": "Su",
   "source": "Shiva Sahasranama (Linga Purana) #123",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Suvarcha",
+  "gender": "M",
+  "meaning": "Of brilliant radiance",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Su",
+  "source": "Shiva Sahasranama (Linga Purana) #148",
   "syllableMatch": "exact"
  },
  {
@@ -20895,6 +21606,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Sa",
   "source": "Vishnu Sahasranama #37",
+  "syllableMatch": "consonant-family"
+ },
+ {
+  "name": "Svayamshreshtha",
+  "gender": "M",
+  "meaning": "The self-existent, supreme one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Sa",
+  "source": "Shiva Sahasranama (Linga Purana) #97",
   "syllableMatch": "consonant-family"
  },
  {
@@ -21237,6 +21957,15 @@
   "origin": "Sanskrit",
   "startingSound": "Te",
   "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Tejaskara",
+  "gender": "M",
+  "meaning": "The generator of radiant energy",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Te",
+  "source": "Shiva Sahasranama (Linga Purana) #120",
   "syllableMatch": "exact"
  },
  {
@@ -21600,6 +22329,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Trijati",
+  "gender": "M",
+  "meaning": "He of the triple matted locks",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ti",
+  "source": "Shiva Sahasranama (Linga Purana) #140",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Trikakubdhama",
   "gender": "M",
   "meaning": "Support of the three regions: above, below, between",
@@ -21960,6 +22698,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Udagra",
+  "gender": "M",
+  "meaning": "The towering, supreme one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "U",
+  "source": "Shiva Sahasranama (Linga Purana) #124",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Udar",
   "gender": "M",
   "meaning": "Generous; noble",
@@ -22308,6 +23055,15 @@
   "origin": "Navagraha",
   "startingSound": "U",
   "source": "Navagraha (Venus)",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ushnishi",
+  "gender": "M",
+  "meaning": "He who wears the sacred crown",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "U",
+  "source": "Shiva Sahasranama (Linga Purana) #122",
   "syllableMatch": "exact"
  },
  {
@@ -23481,6 +24237,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Vidita",
+  "gender": "M",
+  "meaning": "The renowned, well-known one",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #193",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vidura",
   "gender": "M",
   "meaning": "The wise; the incorruptible counsellor of Hastinapura",
@@ -24012,6 +24777,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Virupa",
+  "gender": "M",
+  "meaning": "He of boundless, unconventional form",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #43",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Vishakha",
   "gender": "U",
   "meaning": "A nakshatra; a name of Skanda",
@@ -24525,6 +25299,15 @@
   "syllableMatch": "consonant-family"
  },
  {
+  "name": "Vrishavahana",
+  "gender": "M",
+  "meaning": "He whose vehicle is the bull Nandi",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Vi",
+  "source": "Shiva Sahasranama (Linga Purana) #91",
+  "syllableMatch": "consonant-family"
+ },
+ {
   "name": "Vrishodara",
   "gender": "M",
   "meaning": "From whose depths creation pours forth",
@@ -24666,6 +25449,15 @@
   "origin": "Vishnu Sahasranama",
   "startingSound": "Ya",
   "source": "Vishnu Sahasranama #979",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Yajnaghni",
+  "gender": "M",
+  "meaning": "He who humbled the flawed sacrifice",
+  "origin": "Shiva Sahasranama (Linga Purana)",
+  "startingSound": "Ya",
+  "source": "Shiva Sahasranama (Linga Purana) #185",
   "syllableMatch": "exact"
  },
  {
