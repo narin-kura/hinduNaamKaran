@@ -32,6 +32,9 @@ const CLUSTER_MAP: [string, string][] = [
   ["gra", "Ga"], ["gri", "Ga"], ["gla", "Ga"], ["bhra", "Bha"], ["bhri", "Bha"],
   ["dra", "Da"], ["dri", "Da"], ["dva", "Da"], ["dvi", "Da"], ["dya", "Da"],
   ["pla", "Pa"], ["kla", "Ka"], ["kva", "Ka"], ["gya", "Yna"], ["jna", "Yna"],
+  // Gha is the only pada for the aspirated gh- family (like Dha and Sha for
+  // their families), so other gh+vowel combinations fall back to it.
+  ["gho", "Gha"], ["ghi", "Gha"], ["ghe", "Gha"], ["ghu", "Gha"],
   // Va and Ba are the same akshara in many traditions (Sanskrit व is written
   // and pronounced ब across eastern India and elsewhere), so Ba-names take
   // the Va padas. Bha is a different letter and is matched exactly above.
