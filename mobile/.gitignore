@@ -4,6 +4,7 @@ node_modules/
 # Expo / EAS
 .expo/
 dist/
+dist-build/
 web-build/
 *.orig.*
 

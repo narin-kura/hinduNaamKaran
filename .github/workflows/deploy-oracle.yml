@@ -1,0 +1,51 @@
+name: Deploy to Oracle Cloud VM
+
+# HinduNaamKaran's web build is a static export (no backend) served directly
+# by Caddy on the same Oracle VM as the other apps. Push a v* tag to go live,
+# or run manually.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Export static web build
+        run: npx expo export --platform web
+
+      - name: Sync to Oracle VM
+        env:
+          ORACLE_SSH_KEY: ${{ secrets.ORACLE_SSH_KEY }}
+          ORACLE_HOST: ${{ secrets.ORACLE_HOST }}
+        run: |
+          install -m 600 -D /dev/null key.pem
+          echo "$ORACLE_SSH_KEY" > key.pem
+          rsync -avz --delete -e "ssh -i key.pem -o StrictHostKeyChecking=accept-new" \
+            dist/ ubuntu@"$ORACLE_HOST":~/apps/deploy-oracle/static/hindunaamkaran/
+
+      - name: Summary
+        run: |
+          echo "## HinduNaamKaran web deployed to Oracle" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Live URL:** https://hindunaamkaran.vigyatri.com" >> $GITHUB_STEP_SUMMARY
+          echo "| | |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| Ref | \`${{ github.ref_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Triggered by | ${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY
