@@ -4770,6 +4770,24 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Devangi",
+  "gender": "F",
+  "meaning": "Like a goddess",
+  "origin": "Sanskrit",
+  "startingSound": "De",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Devanshi",
+  "gender": "F",
+  "meaning": "A part of the divine",
+  "origin": "Sanskrit",
+  "startingSound": "De",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Devarshi",
   "gender": "M",
   "meaning": "A divine sage",
@@ -5944,6 +5962,15 @@
   "gender": "M",
   "meaning": "The one who is sought; a name of Lord Shiva",
   "origin": "Shiva",
+  "startingSound": "E",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Eshana",
+  "gender": "F",
+  "meaning": "A search; a longing",
+  "origin": "Sanskrit",
   "startingSound": "E",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -7470,6 +7497,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Himani",
+  "gender": "F",
+  "meaning": "Of the snows; Parvati",
+  "origin": "Sanskrit",
+  "startingSound": "Hi",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Himanshu",
   "gender": "M",
   "meaning": "Cool-rayed; the moon",
@@ -7483,6 +7519,15 @@
   "gender": "M",
   "meaning": "Courage",
   "origin": "Persian-Hindi",
+  "startingSound": "Hi",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Hiral",
+  "gender": "F",
+  "meaning": "Precious like a diamond",
+  "origin": "Gujarati",
   "startingSound": "Hi",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -9450,6 +9495,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Ketki",
+  "gender": "F",
+  "meaning": "A fragrant screwpine flower",
+  "origin": "Hindi",
+  "startingSound": "Ke",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Kevala",
   "gender": "F",
   "meaning": "The absolute; alone and complete",
@@ -9517,6 +9571,15 @@
   "gender": "M",
   "meaning": "Lion of welfare",
   "origin": "Hindi",
+  "startingSound": "Khe",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Khevna",
+  "gender": "F",
+  "meaning": "One who carries others across; a guide",
+  "origin": "Gujarati",
   "startingSound": "Khe",
   "source": "Common Sanskrit/Hindi usage",
   "syllableMatch": "exact"
@@ -12420,6 +12483,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Mekhala",
+  "gender": "F",
+  "meaning": "A jewelled girdle",
+  "origin": "Sanskrit",
+  "startingSound": "Me",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Menaka",
   "gender": "F",
   "meaning": "The celestial nymph, mother of Shakuntala",
@@ -14913,6 +14985,15 @@
   "syllableMatch": "exact"
  },
  {
+  "name": "Pinakini",
+  "gender": "F",
+  "meaning": "The river Penna; of Shiva's bow Pinaka",
+  "origin": "Sanskrit",
+  "startingSound": "Pi",
+  "source": "Named after a holy river",
+  "syllableMatch": "exact"
+ },
+ {
   "name": "Pingala",
   "gender": "M",
   "meaning": "Tawny, golden-red",
@@ -16887,6 +16968,15 @@
   "name": "Ritam",
   "gender": "M",
   "meaning": "Cosmic order; truth",
+  "origin": "Sanskrit",
+  "startingSound": "Ri",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Ritika",
+  "gender": "F",
+  "meaning": "A little stream",
   "origin": "Sanskrit",
   "startingSound": "Ri",
   "source": "Common Sanskrit/Hindi usage",
@@ -20469,6 +20559,15 @@
   "name": "Sohan",
   "gender": "M",
   "meaning": "Handsome; charming",
+  "origin": "Sanskrit",
+  "startingSound": "So",
+  "source": "Common Sanskrit/Hindi usage",
+  "syllableMatch": "exact"
+ },
+ {
+  "name": "Sohini",
+  "gender": "F",
+  "meaning": "Beautiful; a late-night raga",
   "origin": "Sanskrit",
   "startingSound": "So",
   "source": "Common Sanskrit/Hindi usage",
