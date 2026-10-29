@@ -5,7 +5,7 @@ where each dataset came from and why we are entitled to ship it.
 
 ---
 
-## 1. Names (`data/names.json`) — 2099 entries
+## 1. Names (`data/names.json`) — 2930 entries
 
 | Source | Entries |
 |---|---|
@@ -73,7 +73,7 @@ where each dataset came from and why we are entitled to ship it.
 | Divine object (Indra) | 1 |
 | Vedic deity | 1 |
 
-Overall: 1197 masculine, 804 feminine, 98 unisex.
+Overall: 1927 masculine, 903 feminine, 100 unisex. (Per-source table above predates the latest batches.)
 
 Regional and language origins include Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi, Gujarati, Punjabi, Rajasthani and Persian-Hindi loanwords in everyday Hindu use. Names without a verse number are attributed by category (character in an epic, form of the Devi, name of a deity, divine vehicle or object, holy place, historical figure).
 
