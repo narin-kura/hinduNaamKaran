@@ -38,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8d4d1ff2-fef3-4456-ba4c-a892b5d665db"
+      }
+    },
+    "owner": "vigyatri"
   }
 }
