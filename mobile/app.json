@@ -7,11 +7,6 @@
     "icon": "./assets/icon.png",
     "scheme": "hindunaamkaran",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#c2410c"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.vigyatri.hindunaamkaran"
@@ -30,7 +25,16 @@
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#c2410c"
+        }
+      ],
+      "expo-status-bar"
     ],
     "experiments": {
       "typedRoutes": true
