@@ -70,9 +70,9 @@ content. Expect a rating of **Everyone**.
 
 | Asset | Requirement | Status |
 |---|---|---|
-| App icon | 512×512 PNG | export from `assets/icon.png` (1024²; Play accepts it or downscale) |
+| App icon | 512×512 PNG | `store/icon-512.png` ✅ |
 | Feature graphic | 1024×500 | `store/feature-graphic-1024x500.png` ✅ |
-| Phone screenshots | 2–8, 16:9 to 9:16, ≥320px | **take from the preview APK on a real phone** — home, results, name detail |
+| Phone screenshots | 2–8, 9:16, ≥320px | `store/screenshots/` (5 × 1080×1920, captured from the web build) ✅ |
 
 Suggested screenshot sequence: (1) birth-details form, (2) results with Best/Good/Worst,
 (3) a name-detail card showing the meaning and source citation.

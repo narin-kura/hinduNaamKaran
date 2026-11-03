@@ -20,6 +20,17 @@ const ALL_CITIES = cityTimezones.cityMapping as {
   timezone: string;
 }[];
 
+// The bundled city-timezones data predates some Indian state changes. Coordinates and
+// timezones (what the calculation uses) are correct; only the displayed state is fixed here.
+const TELANGANA_CITIES = new Set(["Hyderabad", "Warangal", "Karimnagar", "Nizamabad", "Khammam"]);
+const RENAMED_STATES: Record<string, string> = { Orissa: "Odisha", Uttaranchal: "Uttarakhand" };
+
+function currentProvince(c: { city_ascii: string; province: string; country: string }): string {
+  if (c.country !== "India") return c.province;
+  if (c.province === "Andhra Pradesh" && TELANGANA_CITIES.has(c.city_ascii)) return "Telangana";
+  return RENAMED_STATES[c.province] ?? c.province;
+}
+
 export function searchCities(query: string, limit = 15): CityMatch[] {
   const trimmed = query.trim().toLowerCase();
   if (trimmed.length < 2) return [];
@@ -29,7 +40,7 @@ export function searchCities(query: string, limit = 15): CityMatch[] {
     .slice(0, limit)
     .map((c) => ({
       city: c.city,
-      province: c.province,
+      province: currentProvince(c),
       country: c.country,
       lat: c.lat,
       lng: c.lng,

@@ -161,9 +161,10 @@ intentional and matches classical doctrine. It is not a bug.
 ## 4. Cities (`city-timezones` npm package)
 
 7,326 cities with latitude, longitude and IANA timezone, bundled offline so no geocoding API
-is needed. Note the province names are dated — Hyderabad is listed under "Andhra Pradesh"
-rather than Telangana (formed 2014). Coordinates and timezones, which are what the
-calculation actually uses, are correct.
+is needed. The bundled province names predate Telangana (2014) and the Odisha/Uttarakhand renames;
+`constants/cities.ts` corrects the displayed state (Hyderabad, Warangal, Karimnagar, Nizamabad,
+Khammam → Telangana; Orissa → Odisha; Uttaranchal → Uttarakhand). Coordinates and timezones,
+which are what the calculation actually uses, were already correct.
 
 ---
 

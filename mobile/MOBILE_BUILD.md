@@ -113,8 +113,7 @@ npx expo start          # scan the QR with Expo Go (expo.dev/go) on your phone
   were corrected by hand; more deserve a review by someone who knows current usage.
 - **Numerology compatibility table** (`data/numerologyCompatibility.json`): the most
   debatable file in the project. Worth checking against a source or pandit you trust.
-- **City provinces are dated** in the bundled `city-timezones` data (Hyderabad shows as
-  Andhra Pradesh, not Telangana). Coordinates and timezones — what the maths actually
-  uses — are correct.
+- **City provinces**: the bundled `city-timezones` data predates Telangana, Odisha and
+  Uttarakhand; `constants/cities.ts` corrects the displayed state (Hyderabad → Telangana).
 - **Privacy policy**: both stores require one. The honest version is short: this app makes
   no network calls and collects nothing; birth details never leave the device.
