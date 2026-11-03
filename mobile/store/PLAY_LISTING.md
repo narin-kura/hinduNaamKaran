@@ -36,8 +36,8 @@ Enter the date, time and place of birth. The app calculates the Moon's position 
 
 Names are then ranked Best, Good or Worst using Chaldean numerology, comparing each name's number with the baby's birth number.
 
-NAMES FROM SCRIPTURE
-Names are drawn from the Vishnu Sahasranama, the Lalita Sahasranama and the Ganesha Ashtottara Shatanamavali, alongside widely used Sanskrit and Hindi names. Every name shows its meaning and cites where it comes from, down to the verse number.
+NAMES FROM SCRIPTURE AND TRADITION
+Nearly 3,000 names drawn from the Vishnu, Shiva and Lalita Sahasranamas, the Ashtottara Shatanamavalis of Ganesha, Lakshmi, Saraswati, Durga and Subrahmanya, the Ramayana and Mahabharata, alongside names in everyday use across Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi, Gujarati and Hindi families. Every name shows its meaning and where it comes from — down to the verse number for scriptural names.
 
 WORKS COMPLETELY OFFLINE
 Everything runs on your phone. No account, no sign-in, no internet needed. Birth details are never sent anywhere and are not stored.
