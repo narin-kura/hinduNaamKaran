@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { View, Text, SectionList, StyleSheet, TouchableOpacity } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
@@ -36,6 +37,12 @@ const SCOPE_HELP: Record<Scope, string> = {
 };
 
 export default function ResultsScreen() {
+  const params = useLocalSearchParams<Params>();
+  if (!hasBirthParams(params)) return <MissingBirthDetails />;
+  return <ResultsScreenInner />;
+}
+
+function ResultsScreenInner() {
   const params = useLocalSearchParams<Params>();
   const router = useRouter();
   const [scope, setScope] = useState<Scope>("nakshatra");

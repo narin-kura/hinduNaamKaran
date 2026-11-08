@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { View, Text, ScrollView, TextInput, StyleSheet, TouchableOpacity } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
@@ -14,6 +15,12 @@ type Params = { date: string; time: string; timeZone: string };
 type Fit = "pada" | "nakshatra" | "rashi" | "none";
 
 export default function CheckNameScreen() {
+  const params = useLocalSearchParams<Params>();
+  if (!hasBirthParams(params)) return <MissingBirthDetails />;
+  return <CheckNameScreenInner />;
+}
+
+function CheckNameScreenInner() {
   const params = useLocalSearchParams<Params>();
   const router = useRouter();
   const [name, setName] = useState("");
