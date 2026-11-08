@@ -275,6 +275,13 @@ export default function BirthDetailsScreen() {
         </TouchableOpacity>
       )}
 
+      {Platform.OS === "web" && (
+        <TouchableOpacity style={styles.vgBadge} onPress={() => Linking.openURL("https://vigyatri.com")} accessibilityRole="link">
+          <Image source={require("../assets/vigyatri-mark.png")} style={{ width: 18, height: 18 }} />
+          <Text style={styles.vgBadgeText}>A Vigyatri app</Text>
+        </TouchableOpacity>
+      )}
+
       <Text style={styles.disclaimer}>
         Suggestions blend traditional Nakshatra naming with Chaldean numerology. They're a
         starting point for reflection and family discussion, not a substitute for guidance
@@ -397,5 +404,11 @@ const styles = StyleSheet.create({
   secondaryText: { color: Colors.primary, fontSize: 15, fontWeight: "700" },
   methodLink: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, marginTop: 14 },
   methodText: { fontSize: 12, color: Colors.textMuted, fontWeight: "600" },
+  vgBadge: {
+    flexDirection: "row", alignItems: "center", gap: 6, alignSelf: "center", marginTop: 18,
+    paddingVertical: 4, paddingLeft: 6, paddingRight: 11, borderRadius: 999,
+    backgroundColor: "rgba(99,102,241,0.12)", borderWidth: 1, borderColor: "rgba(99,102,241,0.35)",
+  },
+  vgBadgeText: { fontSize: 12, fontWeight: "600", color: "#312e81" },
   disclaimer: { fontSize: 11, color: Colors.textMuted, textAlign: "center", marginTop: 16, lineHeight: 16, paddingHorizontal: 8 },
 });
