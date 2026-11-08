@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Linking } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors, SCREEN_BG } from "../constants/Colors";
 
 function Section({ icon, title, children }: { icon: keyof typeof Ionicons.glyphMap; title: string; children: React.ReactNode }) {
   return (
@@ -163,7 +163,7 @@ export default function MethodScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.background },
+  container: { flex: 1, backgroundColor: SCREEN_BG },
   intro: { fontSize: 14, color: Colors.textSecondary, lineHeight: 21, marginBottom: 16 },
   card: { backgroundColor: Colors.surface, borderRadius: 14, borderWidth: 1, borderColor: Colors.border, padding: 16, marginBottom: 14 },
   headerRow: { flexDirection: "row", alignItems: "center", gap: 6, marginBottom: 10 },

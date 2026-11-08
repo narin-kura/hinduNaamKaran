@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors, SCREEN_BG } from "../constants/Colors";
 
 /** True when the birth details needed by results/check are present and well-formed. */
 export function hasBirthParams(p: { date?: string; time?: string; timeZone?: string }): boolean {
@@ -25,7 +25,7 @@ export function MissingBirthDetails() {
 }
 
 const styles = StyleSheet.create({
-  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 28, backgroundColor: Colors.background },
+  wrap: { flex: 1, alignItems: "center", justifyContent: "center", padding: 28, backgroundColor: SCREEN_BG },
   title: { fontSize: 20, fontWeight: "800", color: Colors.textPrimary, marginTop: 12 },
   text: { fontSize: 14, color: Colors.textSecondary, textAlign: "center", marginTop: 8, lineHeight: 20, maxWidth: 360 },
   btn: { backgroundColor: Colors.primary, borderRadius: 14, paddingVertical: 13, paddingHorizontal: 26, marginTop: 18 },

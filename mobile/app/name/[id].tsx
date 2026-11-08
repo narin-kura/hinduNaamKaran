@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
 import { useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../../constants/Colors";
+import { Colors, SCREEN_BG } from "../../constants/Colors";
 import { findNameById } from "../../lib/suggest";
 import { getBirthNumber, getNameNumber, getCompatibility } from "../../lib/numerology";
 import { NumerologyCard } from "../../components/NumerologyCard";
@@ -78,7 +78,7 @@ export default function NameDetailScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.background },
+  container: { flex: 1, backgroundColor: SCREEN_BG },
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
   notFound: { color: Colors.textMuted, fontSize: 14 },
   hero: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 18 },

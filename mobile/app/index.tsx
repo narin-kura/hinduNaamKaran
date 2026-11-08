@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Image, Platform, Linking } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors, SCREEN_BG } from "../constants/Colors";
 import { CityMatch } from "../constants/cities";
 import { CityPicker } from "../components/CityPicker";
 import { PickerField } from "../components/PickerField";
@@ -27,10 +27,32 @@ const FACTS: { icon: keyof typeof Ionicons.glyphMap; text: string }[] = [
   { icon: "heart-outline", text: "Free · no ads" },
 ];
 
+const TORAN_STYLE = {
+  alignSelf: "stretch",
+  height: 88,
+  margin: "-18px -18px 4px",
+  backgroundImage: "url(/babytoran.png)", // marigold version kept in public/toran.png
+  backgroundRepeat: "repeat-x",
+  backgroundSize: "384px 88px",
+  backgroundPosition: "center top",
+} as const;
+
+const PILL_COLORS: Record<string, { fg: string; bg: string }> = {
+  ANY: { fg: "#6d28d9", bg: "#ede9fe" },
+  M: { fg: "#0369a1", bg: "#e0f2fe" },
+  F: { fg: "#be185d", bg: "#fce7f3" },
+};
+
 const STEPS = [
-  { n: "1", title: "Birth details", text: "Date, time and place" },
-  { n: "2", title: "Nakshatra", text: "Birth star and naming syllable" },
-  { n: "3", title: "Names", text: "Ranked Best, Good or Avoid" },
+  { n: "1", emoji: "📅", tint: "#cffafe", title: "Birth details", text: "Date, time and place" },
+  { n: "2", emoji: "🌙", tint: "#ede9fe", title: "Nakshatra", text: "Birth star and naming syllable" },
+  { n: "3", emoji: "✨", tint: "#dcfce7", title: "Names", text: "Ranked Best, Good or Avoid" },
+];
+
+const WHY = [
+  { emoji: "🔭", color: "#7c3aed", title: "Real astronomy", text: "The Moon's exact position at the birth time and city." },
+  { emoji: "🔢", color: "#ca8a04", title: "Numerology ranked", text: "Every name marked Best, Good or Avoid." },
+  { emoji: "🔒", color: "#15803d", title: "Private & offline", text: "Works without internet. Birth details never leave your device." },
 ];
 
 const GENDER_OPTIONS: { key: Gender | "ANY"; label: string }[] = [
@@ -101,8 +123,15 @@ export default function BirthDetailsScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.scroll}>
+      {Platform.OS === "web" &&
+        // Baby-props toran (rattle, bottle, cradle, booties...) across the top (web only; file in public/).
+        React.createElement("div", { "aria-hidden": true, style: TORAN_STYLE })}
       <View style={styles.column}>
       <View style={styles.hero}>
+        {Platform.OS === "web" && React.createElement("div", { className: "hnk-hero-bg", "aria-hidden": true })}
+        <View pointerEvents="none" style={[styles.blob, { top: -50, left: -50, backgroundColor: "rgba(255,255,255,0.10)" }]} />
+        <View pointerEvents="none" style={[styles.blob, { bottom: -60, right: -40, backgroundColor: "rgba(45,212,191,0.35)" }]} />
+        <View pointerEvents="none" style={[styles.blob, { top: 40, right: -70, width: 120, height: 120, backgroundColor: "rgba(255,255,255,0.10)" }]} />
         <Image
           source={require("../assets/babies.png")}
           style={styles.babies}
@@ -118,7 +147,7 @@ export default function BirthDetailsScreen() {
         <View style={styles.factRow}>
           {FACTS.map((f) => (
             <View key={f.text} style={styles.fact}>
-              <Ionicons name={f.icon} size={13} color={Colors.primaryDark} />
+              <Ionicons name={f.icon} size={13} color="#fff" />
               <Text style={styles.factText}>{f.text}</Text>
             </View>
           ))}
@@ -146,8 +175,8 @@ export default function BirthDetailsScreen() {
       <View style={styles.stepRow}>
         {STEPS.map((st) => (
           <View key={st.n} style={styles.step}>
-            <View style={styles.stepNum}>
-              <Text style={styles.stepNumText}>{st.n}</Text>
+            <View style={[styles.stepIcon, { backgroundColor: st.tint }]}>
+              <Text style={styles.stepEmoji}>{st.emoji}</Text>
             </View>
             <Text style={styles.stepTitle}>{st.title}</Text>
             <Text style={styles.stepText}>{st.text}</Text>
@@ -156,6 +185,13 @@ export default function BirthDetailsScreen() {
       </View>
 
       <View style={styles.card}>
+        <View style={styles.cardHead}>
+          <Text style={styles.cardHeadEmoji}>👶</Text>
+          <View>
+            <Text style={styles.cardHeadTitle}>Baby's birth details</Text>
+            <Text style={styles.cardHeadSub}>Exact time gives the most accurate birth star</Text>
+          </View>
+        </View>
         <View style={styles.fieldGroup}>
           <PickerField label="Date of Birth" value={date} mode="date" icon="calendar-outline" onChange={setDate} />
         </View>
@@ -187,10 +223,13 @@ export default function BirthDetailsScreen() {
             {GENDER_OPTIONS.map((opt) => (
               <TouchableOpacity
                 key={opt.key}
-                style={[styles.genderPill, gender === opt.key && styles.genderPillActive]}
+                style={[
+                  styles.genderPill,
+                  gender === opt.key && { borderColor: PILL_COLORS[opt.key].fg, backgroundColor: PILL_COLORS[opt.key].bg },
+                ]}
                 onPress={() => setGender(opt.key)}
               >
-                <Text style={[styles.genderText, gender === opt.key && styles.genderTextActive]}>
+                <Text style={[styles.genderText, gender === opt.key && { color: PILL_COLORS[opt.key].fg }]}>
                   {opt.label}
                 </Text>
               </TouchableOpacity>
@@ -200,6 +239,7 @@ export default function BirthDetailsScreen() {
       </View>
 
       <TouchableOpacity style={styles.submitBtn} onPress={onSubmit}>
+        {Platform.OS === "web" && React.createElement("div", { className: "hnk-cta-bg", "aria-hidden": true })}
         <Text style={styles.submitText}>Find Names</Text>
         <Ionicons name="arrow-forward" size={18} color="#fff" />
       </TouchableOpacity>
@@ -213,6 +253,17 @@ export default function BirthDetailsScreen() {
         <Ionicons name="book-outline" size={14} color={Colors.textMuted} />
         <Text style={styles.methodText}>How it works: panchang, ayanamsa and numerology used</Text>
       </TouchableOpacity>
+
+      <Text style={styles.whyTitle}>Why families like it</Text>
+      <View style={styles.whyRow}>
+        {WHY.map((w) => (
+          <View key={w.title} style={[styles.why, { borderTopColor: w.color }]}>
+            <Text style={styles.whyEmoji}>{w.emoji}</Text>
+            <Text style={styles.whyHead}>{w.title}</Text>
+            <Text style={styles.whyText}>{w.text}</Text>
+          </View>
+        ))}
+      </View>
 
       {Platform.OS === "web" && !IS_IOS_WEB && (
         <TouchableOpacity style={styles.playBtn} onPress={() => Linking.openURL(PLAY_URL)}>
@@ -235,40 +286,43 @@ export default function BirthDetailsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.background },
+  container: { flex: 1, backgroundColor: SCREEN_BG },
   scroll: { padding: 18, paddingBottom: 40, alignItems: "center" },
   column: { width: "100%", maxWidth: 560 },
   hero: {
     alignItems: "center",
-    backgroundColor: Colors.primaryLight,
-    borderRadius: 22,
-    paddingTop: 18,
-    paddingBottom: 18,
-    paddingHorizontal: 16,
+    backgroundColor: Colors.primary,
+    borderRadius: 24,
+    paddingTop: 20,
+    paddingBottom: 22,
+    paddingHorizontal: 18,
     marginBottom: 14,
-    borderWidth: 1,
-    borderColor: "#fed7aa",
+    overflow: "hidden",
+    shadowColor: "#155e75",
+    shadowOpacity: 0.25,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 6,
   },
+  blob: { position: "absolute", width: 200, height: 200, borderRadius: 100 },
   babies: { width: 300, height: 100 },
-  heroKicker: { fontSize: 11, fontWeight: "800", letterSpacing: 1.4, color: Colors.secondary, marginTop: 12 },
-  introTitle: { fontSize: 23, fontWeight: "800", color: Colors.textPrimary, marginTop: 6, textAlign: "center", lineHeight: 29 },
-  introText: { fontSize: 13, color: Colors.textSecondary, textAlign: "center", marginTop: 8, lineHeight: 19 },
+  heroKicker: { fontSize: 11, fontWeight: "800", letterSpacing: 1.4, color: "#fde68a", marginTop: 12 },
+  introTitle: { fontSize: 25, fontWeight: "800", color: "#fff", marginTop: 6, textAlign: "center", lineHeight: 31, maxWidth: 380 },
+  introText: { fontSize: 13.5, color: "#e0f7fa", textAlign: "center", marginTop: 8, lineHeight: 20 },
   factRow: { flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: 6, marginTop: 14 },
   fact: {
     flexDirection: "row", alignItems: "center", gap: 5,
-    backgroundColor: Colors.surface, borderRadius: 999, paddingVertical: 5, paddingHorizontal: 10,
+    backgroundColor: "rgba(255,255,255,0.18)", borderWidth: 1, borderColor: "rgba(255,255,255,0.35)",
+    borderRadius: 999, paddingVertical: 5, paddingHorizontal: 10,
   },
-  factText: { fontSize: 12, fontWeight: "700", color: Colors.primaryDark },
+  factText: { fontSize: 12, fontWeight: "700", color: "#fff" },
   stepRow: { flexDirection: "row", gap: 8, marginBottom: 14 },
   step: {
     flex: 1, alignItems: "center", backgroundColor: Colors.surface, borderRadius: 14,
     borderWidth: 1, borderColor: Colors.border, paddingVertical: 12, paddingHorizontal: 6,
   },
-  stepNum: {
-    width: 26, height: 26, borderRadius: 13, backgroundColor: Colors.primary,
-    alignItems: "center", justifyContent: "center",
-  },
-  stepNumText: { color: "#fff", fontWeight: "800", fontSize: 13 },
+  stepIcon: { width: 40, height: 40, borderRadius: 20, alignItems: "center", justifyContent: "center" },
+  stepEmoji: { fontSize: 20 },
   stepTitle: { fontSize: 13, fontWeight: "800", color: Colors.textPrimary, marginTop: 6, textAlign: "center" },
   stepText: { fontSize: 11, color: Colors.textSecondary, marginTop: 2, textAlign: "center", lineHeight: 15 },
   playBtn: {
@@ -288,9 +342,24 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     borderWidth: 1,
     borderColor: Colors.border,
+    borderTopWidth: 4,
+    borderTopColor: Colors.primary,
     padding: 16,
     gap: 16,
   },
+  cardHead: { flexDirection: "row", alignItems: "center", gap: 10 },
+  cardHeadEmoji: { fontSize: 28 },
+  cardHeadTitle: { fontSize: 17, fontWeight: "800", color: Colors.textPrimary },
+  cardHeadSub: { fontSize: 12, color: Colors.textSecondary, marginTop: 1 },
+  whyTitle: { fontSize: 16, fontWeight: "800", color: Colors.textPrimary, textAlign: "center", marginTop: 22, marginBottom: 10 },
+  whyRow: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
+  why: {
+    flexGrow: 1, flexBasis: 150, backgroundColor: Colors.surface, borderRadius: 14, borderWidth: 1,
+    borderColor: Colors.border, borderTopWidth: 4, padding: 12, alignItems: "center",
+  },
+  whyEmoji: { fontSize: 26 },
+  whyHead: { fontSize: 13.5, fontWeight: "800", color: Colors.textPrimary, marginTop: 4, textAlign: "center" },
+  whyText: { fontSize: 11.5, color: Colors.textSecondary, marginTop: 3, textAlign: "center", lineHeight: 16 },
   fieldGroup: { gap: 0 },
   label: { fontSize: 13, fontWeight: "600", color: Colors.textSecondary, marginBottom: 6 },
   errorRow: { flexDirection: "row", alignItems: "center", gap: 5, marginTop: 7 },
@@ -313,10 +382,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     gap: 8,
-    backgroundColor: Colors.primary,
+    backgroundColor: "#db2777",
     borderRadius: 14,
     paddingVertical: 15,
     marginTop: 18,
+    overflow: "hidden",
   },
   submitText: { color: "#fff", fontSize: 16, fontWeight: "700" },
   secondaryBtn: {

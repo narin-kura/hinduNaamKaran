@@ -3,7 +3,7 @@ import { View, Text, ScrollView, TextInput, StyleSheet, TouchableOpacity } from 
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors, SCREEN_BG } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
 import { syllablesForScope, findNameById } from "../lib/suggest";
 import { detectSyllable } from "../lib/syllable";
@@ -129,7 +129,7 @@ function CheckNameScreenInner() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.background },
+  container: { flex: 1, backgroundColor: SCREEN_BG },
   summaryCard: { backgroundColor: Colors.surface, borderRadius: 16, borderWidth: 1.5, borderColor: Colors.primaryLight, padding: 16, marginBottom: 18 },
   summaryLabel: { fontSize: 12, color: Colors.textMuted, fontWeight: "600", textTransform: "uppercase" },
   summaryValue: { fontSize: 17, fontWeight: "800", color: Colors.textPrimary, marginTop: 4 },

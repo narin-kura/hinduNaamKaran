@@ -3,7 +3,7 @@ import { View, Text, SectionList, StyleSheet, TouchableOpacity } from "react-nat
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
 import { Ionicons } from "@expo/vector-icons";
-import { Colors } from "../constants/Colors";
+import { Colors, SCREEN_BG } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
 import { suggestNames, syllablesForScope, Gender, RankedName, Scope, MIN_RESULTS } from "../lib/suggest";
 import { getBirthNumber } from "../lib/numerology";
@@ -200,7 +200,7 @@ function ResultsScreenInner() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: Colors.background },
+  container: { flex: 1, backgroundColor: SCREEN_BG },
   content: { padding: 18, paddingBottom: 40 },
   summaryCard: {
     backgroundColor: Colors.surface,

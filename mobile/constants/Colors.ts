@@ -1,7 +1,11 @@
+import { Platform } from "react-native";
+
 export const Colors = {
-  primary: "#c2410c",
-  primaryDark: "#9a3412",
-  primaryLight: "#ffedd5",
+  // Brand bar keeps the traditional saffron; the rest of the UI uses peacock blue.
+  saffron: "#c2410c",
+  primary: "#0e7490",
+  primaryDark: "#155e75",
+  primaryLight: "#cffafe",
   secondary: "#a16207",
   secondaryLight: "#fef3c7",
   success: "#15803d",
@@ -10,12 +14,12 @@ export const Colors = {
   warningLight: "#fef3c7",
   danger: "#b91c1c",
   dangerLight: "#fee2e2",
-  background: "#fffbf5",
+  background: "#f6fbfc",
   surface: "#ffffff",
-  border: "#f1e3d3",
-  textPrimary: "#292018",
-  textSecondary: "#6b5b4d",
-  textMuted: "#a8988a",
+  border: "#d5e9ee",
+  textPrimary: "#1f2a30",
+  textSecondary: "#4f6168",
+  textMuted: "#8fa3a9",
   best: "#15803d",
   bestLight: "#dcfce7",
   good: "#a16207",
@@ -23,3 +27,6 @@ export const Colors = {
   worst: "#b91c1c",
   worstLight: "#fee2e2",
 };
+
+// Page background: transparent on the web so the festive pattern from app/+html.tsx shows through.
+export const SCREEN_BG = Platform.OS === "web" ? "transparent" : Colors.background;
