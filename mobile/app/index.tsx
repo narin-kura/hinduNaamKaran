@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Image, Platform, Linking } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
@@ -12,6 +12,14 @@ import namesData from "../data/names.json";
 const PLAY_URL = "https://play.google.com/store/apps/details?id=com.vigyatri.hindunaamkaran";
 // Rounded down so the claim stays true as names are added: 2941 -> "2,900+".
 const NAME_COUNT = `${(Math.floor(namesData.length / 100) * 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}+`;
+
+// iPhone/iPad visitors can't use the Play link; show them Safari's Add to Home Screen instead.
+// Checked after mount: the web build is pre-rendered, where navigator doesn't exist.
+const detectIosWeb = () =>
+  Platform.OS === "web" &&
+  typeof navigator !== "undefined" &&
+  (/iPhone|iPad|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1));
 
 const FACTS: { icon: keyof typeof Ionicons.glyphMap; text: string }[] = [
   { icon: "book-outline", text: `${NAME_COUNT} names` },
@@ -51,6 +59,8 @@ export default function BirthDetailsScreen() {
   const [city, setCity] = useState<CityMatch | null>(null);
   const [gender, setGender] = useState<Gender | "ANY">("ANY");
   const [cityError, setCityError] = useState(false);
+  const [IS_IOS_WEB, setIosWeb] = useState(false);
+  useEffect(() => setIosWeb(detectIosWeb()), []);
 
   const birthParams = () =>
     city && {
@@ -113,7 +123,16 @@ export default function BirthDetailsScreen() {
             </View>
           ))}
         </View>
-        {Platform.OS === "web" && (
+        {IS_IOS_WEB && (
+          <View style={styles.iosHint}>
+            <Ionicons name="share-outline" size={20} color={Colors.primaryDark} />
+            <Text style={styles.iosHintText}>
+              On iPhone? Tap <Text style={styles.iosHintBold}>Share</Text>, then{" "}
+              <Text style={styles.iosHintBold}>Add to Home Screen</Text> to use HinduNaamKaran like an app.
+            </Text>
+          </View>
+        )}
+        {Platform.OS === "web" && !IS_IOS_WEB && (
           <TouchableOpacity style={styles.playBtn} onPress={() => Linking.openURL(PLAY_URL)}>
             <Ionicons name="logo-google-playstore" size={20} color="#fff" />
             <View>
@@ -195,7 +214,7 @@ export default function BirthDetailsScreen() {
         <Text style={styles.methodText}>How it works: panchang, ayanamsa and numerology used</Text>
       </TouchableOpacity>
 
-      {Platform.OS === "web" && (
+      {Platform.OS === "web" && !IS_IOS_WEB && (
         <TouchableOpacity style={styles.playBtn} onPress={() => Linking.openURL(PLAY_URL)}>
           <Ionicons name="logo-google-playstore" size={20} color="#fff" />
           <View>
@@ -256,6 +275,12 @@ const styles = StyleSheet.create({
     flexDirection: "row", alignItems: "center", gap: 10, alignSelf: "center",
     backgroundColor: "#111", borderRadius: 10, paddingVertical: 8, paddingHorizontal: 16, marginTop: 18,
   },
+  iosHint: {
+    flexDirection: "row", alignItems: "center", gap: 10, marginTop: 16,
+    backgroundColor: Colors.surface, borderRadius: 12, paddingVertical: 10, paddingHorizontal: 12,
+  },
+  iosHintText: { flex: 1, fontSize: 13, color: Colors.textSecondary, lineHeight: 18 },
+  iosHintBold: { fontWeight: "800", color: Colors.primaryDark },
   playSmall: { color: "#fff", fontSize: 9, fontWeight: "600", letterSpacing: 0.6 },
   playBig: { color: "#fff", fontSize: 16, fontWeight: "700" },
   card: {
