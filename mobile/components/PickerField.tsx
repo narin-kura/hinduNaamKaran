@@ -102,7 +102,7 @@ const webInputStyle = {
   fontSize: 15,
   fontWeight: 600,
   color: Colors.textPrimary,
-  fontFamily: "inherit",
+  fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
   padding: 0,
   cursor: "pointer",
 } as const;

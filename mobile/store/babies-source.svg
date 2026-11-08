@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <radialGradient id="glowA" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#fff3d6"/><stop offset="1" stop-color="#ffd9a0"/></radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#ffe9ef"/><stop offset="1" stop-color="#ffc6d3"/></radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#fff6e0"/><stop offset="1" stop-color="#fbd38d"/></radialGradient>
+  </defs>
+
+  <!-- ===== Baby 1: boy with shikha tuft and tilak ===== -->
+  <g transform="translate(100,100)">
+    <circle r="92" fill="url(#glowA)"/>
+    <circle cx="-58" cy="8" r="13" fill="#c98b5e"/><circle cx="58" cy="8" r="13" fill="#c98b5e"/>
+    <circle cx="-60" cy="20" r="4.5" fill="#f2b705" stroke="#c48a00" stroke-width="1"/>
+    <circle cx="60" cy="20" r="4.5" fill="#f2b705" stroke="#c48a00" stroke-width="1"/>
+    <circle cy="6" r="58" fill="#d99a6c"/>
+    <path d="M-40,-30 Q-30,-58 0,-56 Q30,-58 40,-30 Q20,-44 0,-42 Q-20,-44 -40,-30Z" fill="#2b1d16"/>
+    <path d="M0,-54 q-4,-16 8,-20 q12,-3 10,9 q-2,8 -10,5" fill="none" stroke="#2b1d16" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,-30 v18" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-7,-30 h14" stroke="#f4a261" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-21" cy="4" rx="7.5" ry="9" fill="#1f140f"/><ellipse cx="21" cy="4" rx="7.5" ry="9" fill="#1f140f"/>
+    <circle cx="-18" cy="0" r="2.6" fill="#fff"/><circle cx="24" cy="0" r="2.6" fill="#fff"/>
+    <path d="M-31,-3 q10,-6 20,0" fill="none" stroke="#1f140f" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M11,-3 q10,-6 20,0" fill="none" stroke="#1f140f" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="-34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".45"/><ellipse cx="34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".45"/>
+    <path d="M-12,28 q12,14 24,0" fill="#8a2c2c" stroke="#7a2424" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="44" cy="-20" r="3.4" fill="#1f140f"/>
+  </g>
+
+  <!-- ===== Baby 2: girl with bindi, top-knot and jasmine ===== -->
+  <g transform="translate(300,100)">
+    <circle r="92" fill="url(#glowB)"/>
+    <circle cx="-58" cy="8" r="13" fill="#a8704a"/><circle cx="58" cy="8" r="13" fill="#a8704a"/>
+    <circle cx="-60" cy="21" r="4.5" fill="#f2b705" stroke="#c48a00" stroke-width="1"/>
+    <circle cx="60" cy="21" r="4.5" fill="#f2b705" stroke="#c48a00" stroke-width="1"/>
+    <circle cy="6" r="58" fill="#b97c52"/>
+    <path d="M-50,-14 Q-48,-56 0,-56 Q48,-56 50,-14 Q34,-40 0,-40 Q-34,-40 -50,-14Z" fill="#241712"/>
+    <circle cy="-62" r="15" fill="#241712"/>
+    <g fill="#ffffff" stroke="#e9d8b8" stroke-width="1">
+      <circle cx="-15" cy="-68" r="5"/><circle cx="-6" cy="-76" r="5"/><circle cx="6" cy="-76" r="5"/><circle cx="15" cy="-68" r="5"/>
+    </g>
+    <circle cx="-14" cy="-56" r="5.5" fill="#f77f00"/><circle cx="14" cy="-56" r="5.5" fill="#f77f00"/>
+    <circle cy="-22" r="5" fill="#c1121f"/>
+    <path d="M-30,4 q9,-9 18,0" fill="none" stroke="#1f140f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M12,4 q9,-9 18,0" fill="none" stroke="#1f140f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-31,2 l-5,-4 M31,2 l5,-4" stroke="#1f140f" stroke-width="2" stroke-linecap="round"/>
+    <ellipse cx="-34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".45"/><ellipse cx="34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".45"/>
+    <path d="M-14,24 q14,16 28,0 q-14,6 -28,0Z" fill="#8a2c2c"/>
+    <circle cx="-42" cy="-14" r="3.2" fill="#1f140f"/>
+  </g>
+
+  <!-- ===== Baby 3: sleeping baby with nazar dot and black thread ===== -->
+  <g transform="translate(500,100)">
+    <circle r="92" fill="url(#glowC)"/>
+    <circle cx="-58" cy="8" r="13" fill="#8d5a3b"/><circle cx="58" cy="8" r="13" fill="#8d5a3b"/>
+    <circle cy="6" r="58" fill="#9a6442"/>
+    <path transform="translate(0,7)" d="M-30,-44 q8,-16 18,-6 q4,-16 16,-8 q10,-10 16,6 q-26,-6 -50,8Z" fill="#20140f"/>
+    <path d="M-30,4 q9,8 18,0" fill="none" stroke="#1f140f" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M12,4 q9,8 18,0" fill="none" stroke="#1f140f" stroke-width="3.6" stroke-linecap="round"/>
+    <ellipse cx="-34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".4"/><ellipse cx="34" cy="22" rx="10" ry="6" fill="#ef7d7d" opacity=".4"/>
+    <ellipse cy="30" rx="6" ry="4.5" fill="#7a2424"/>
+    <circle cx="-40" cy="-12" r="3.4" fill="#1f140f"/>
+    <path d="M-44,58 q44,22 88,0" fill="none" stroke="#1f140f" stroke-width="2.2"/>
+    <circle cy="69" r="4" fill="#f2b705" stroke="#c48a00" stroke-width="1"/>
+    <text x="40" y="-40" font-family="Georgia,serif" font-size="18" fill="#c2410c" font-weight="700">z</text>
+    <text x="54" y="-56" font-family="Georgia,serif" font-size="13" fill="#c2410c" font-weight="700">z</text>
+  </g>
+</svg>
