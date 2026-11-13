@@ -9,11 +9,11 @@ Paste-ready content for the Play Console. Character limits are Google's.
 | Field | Value |
 |---|---|
 | Developer account | **Vigyatri Solutions LLP** (organization account — exempt from the 12-tester rule) |
-| App name (≤30) | `HinduNaamKaran` |
+| App name (≤30) | `HinduNaamKaran: Baby Names` (26; was `HinduNaamKaran`. Play search weighs the name most, and "baby names" is what parents type) |
 | Package name | `com.vigyatri.hindunaamkaran` — **cannot change after first upload** |
 | Category | Parenting |
 | Contact email | info@vigyatrisolutions.com |
-| Website | https://vigyatri.com |
+| Website | https://hindunaamkaran.com (was vigyatri.com; pointing at the app's own site helps Google tie the app and the site together) |
 | Privacy policy URL | https://vigyatri.com/hindunaamkaran/privacy/ |
 | Price | Free |
 | Contains ads | No |
@@ -22,9 +22,9 @@ Paste-ready content for the Play Console. Character limits are Google's.
 ## Short description (≤80 chars)
 
 ```
-Hindu baby names by birth star (Nakshatra), ranked with numerology. Works offline.
+Hindu & Indian baby names by Nakshatra & Rashi, with meanings. Free & offline.
 ```
-(78 characters)
+(78 characters. Was "Hindu baby names by birth star (Nakshatra), ranked with numerology. Works offline."; the new one adds "Indian", "Rashi" and "meanings", which parents search for.)
 
 ## Full description (≤4000 chars)
 
@@ -48,6 +48,9 @@ WHAT YOU SEE
 • Meaning and scriptural source for every name
 • Birth number vs name number, explained
 • Filter by boy, girl, or either
+
+BROWSE EVERY NAME ONLINE
+All Hindu baby boy and girl names, names by nakshatra and rashi, and names of Vishnu, Shiva, Krishna and the Devi are also on hindunaamkaran.com.
 
 A NOTE ON TRADITION
 Naming customs vary by region and family. Numerology systems differ between practitioners. Treat these suggestions as a starting point for reflection and family discussion, not a substitute for guidance from your family priest or astrologer.
