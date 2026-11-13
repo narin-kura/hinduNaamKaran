@@ -1,0 +1,36 @@
+# {{name}}
+
+> {{name}} is a free Hindu baby name finder. Enter the baby's birth date, time and place; it works out the nakshatra (birth star), pada and traditional naming syllable from the Moon's position, then lists matching names ranked Best, Good or Avoid by Chaldean numerology. It has {{count}} Hindu and Indian baby names, each with its meaning, origin and source.
+
+{{name}} is free with no ads, on the web at {{origin}}/ and as an Android app ({{playUrl}}). It works offline and birth details never leave the device. Made by {{makerName}} ({{makerUrl}}).
+
+Naming traditions and numerology charts differ between families and practitioners; the suggestions are a starting point, not a substitute for a family priest or astrologer.
+
+## Use it
+
+- [Find names for a birth date, time and place]({{origin}}/)
+- [How it works: panchang, ayanamsa and numerology]({{origin}}/method)
+
+## Browse names
+
+- [All Hindu baby names with meanings]({{origin}}/names)
+- [Hindu baby boy names]({{origin}}/names/boy)
+- [Hindu baby girl names]({{origin}}/names/girl)
+- One page per name: {{origin}}/names/NAME in lower case (for example {{origin}}/names/aarav) gives the meaning, the nakshatra and rashi it suits, and its numerology
+
+## Names by nakshatra (birth star)
+
+{{nakshatraLines}}
+
+## Names by rashi (moon sign)
+
+{{rashiLines}}
+
+## Themed lists
+
+{{collectionLines}}
+
+## Sources
+
+- Nakshatra pada syllables: https://www.drikpanchang.com/swar-siddhanta/nakshatra/nakshatra-pada-swar-siddhanta.html
+- Where every name and meaning comes from: https://github.com/narin-kura/hinduNaamKaran/blob/main/mobile/DATA_SOURCES.md

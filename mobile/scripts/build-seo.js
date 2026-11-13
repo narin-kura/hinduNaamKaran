@@ -636,7 +636,25 @@ function buildSite() {
     sitemapUrls.map((u) => `  <url><loc>${esc(u)}</loc></url>`).join("\n") +
     "\n</urlset>\n";
   const robots = `User-agent: *\nAllow: /\n\nSitemap: ${SITE.origin}/sitemap.xml\n`;
-  return { pages, css, sitemap, robots, sitemapUrls };
+  return { pages, css, sitemap, robots, sitemapUrls, llms: llmsTxt() };
+}
+
+/** Plain-text summary for AI assistants (seo/llms.txt filled from the same data as the pages). */
+function llmsTxt() {
+  const line = (label, href) => `- [${label}](${abs(href)})`;
+  return fill(fs.readFileSync(path.join(SEO_DIR, "llms.txt"), "utf8"), {
+    name: SITE.name,
+    origin: SITE.origin,
+    playUrl: SITE.playUrl,
+    makerName: SITE.makerName,
+    makerUrl: SITE.makerUrl,
+    count: fmtCount(names.length),
+    nakshatraLines: nakshatras
+      .map((nk) => line(`${nk.name} nakshatra names (${naming.unique(nk.padas.map((p) => p.syllable)).join(", ")})${nk.aka.length ? `, also called ${nk.aka.join(", ")}` : ""}`, nk.href))
+      .join("\n"),
+    rashiLines: rashis.map((r) => line(`${r.name} rashi (${r.english}) names`, r.href)).join("\n"),
+    collectionLines: collections.map((c) => line(c.h1.replace(/^./, (s) => s.toUpperCase()), c.href)).join("\n"),
+  });
 }
 
 /** "/names/aarav" -> dist/names/aarav.html (Caddy's try_files maps {path}.html). */
@@ -655,6 +673,7 @@ function writeSite(outDir) {
   fs.writeFileSync(path.join(outDir, "site.css"), site.css);
   fs.writeFileSync(path.join(outDir, "sitemap.xml"), site.sitemap);
   fs.writeFileSync(path.join(outDir, "robots.txt"), site.robots);
+  fs.writeFileSync(path.join(outDir, "llms.txt"), site.llms);
   // Expo Router's dev-only route list; not a page anyone should land on from search.
   fs.rmSync(path.join(outDir, "_sitemap.html"), { force: true });
   return site;

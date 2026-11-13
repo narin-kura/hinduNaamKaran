@@ -95,4 +95,12 @@ describe("generated site", () => {
     expect(site.robots).toContain("Sitemap: https://hindunaamkaran.com/sitemap.xml");
     expect(site.sitemapUrls.some((u: string) => u.includes("404"))).toBe(false);
   });
+
+  it("llms.txt is filled in and only links to real pages", () => {
+    expect(site.llms.startsWith("# HinduNaamKaran")).toBe(true);
+    expect(site.llms).not.toMatch(/\{\{\w+\}\}/);
+    const links = [...site.llms.matchAll(/\]\((https:\/\/hindunaamkaran\.com[^)]*)\)/g)].map((m: any) => m[1]);
+    expect(links.length).toBeGreaterThan(40);
+    for (const url of links) expect(site.sitemapUrls).toContain(url);
+  });
 });
