@@ -1,0 +1,31 @@
+<article class="name-page">
+  <p class="kicker">Hindu {{genderPhrase}} name</p>
+  <h1>{{name}}</h1>
+  <p class="lead">Meaning: <strong>{{meaning}}</strong></p>
+
+  <dl class="facts">
+    <dt>Gender</dt><dd>{{genderLabel}}</dd>
+    <dt>Origin</dt><dd>{{origin}}</dd>
+    <dt>Source</dt><dd>{{source}}</dd>
+    <dt>Starting syllable</dt><dd>{{syllable}}{{syllableVariants}}</dd>
+    <dt>Chaldean name number</dt><dd>{{number}}, ruled by {{planet}}</dd>
+  </dl>
+
+  <h2>Which nakshatra and rashi suit the name {{name}}?</h2>
+  <p>{{name}} begins with the syllable <strong>{{syllable}}</strong>. In nakshatra naming, that syllable belongs to:</p>
+  <ul class="fit">{{{fitList}}}</ul>
+  {{{clusterNote}}}
+
+  <h2>{{name}} name numerology</h2>
+  <p>In Chaldean numerology each letter has a value. For {{name}}: {{breakdown}}. The name number is <strong>{{number}}</strong>, ruled by {{planet}}.</p>
+  <p>Whether that suits your baby depends on the birth number, the day of the month the baby was born:</p>
+  <ul class="ranks">
+    <li><span class="rank rank-best">Best</span> for babies born on the {{bestDays}}</li>
+    <li><span class="rank rank-good">Good</span> for babies born on the {{goodDays}}</li>
+    {{{worstLine}}}
+  </ul>
+
+  {{{similar}}}
+
+  <nav class="prevnext" aria-label="Neighbouring names">{{{prevNext}}}</nav>
+</article>

@@ -1,0 +1,17 @@
+{
+  "_note": "The 12 rashis in the order used by lib/astro.ts (RASHI_NAMES). 'english' is the Western sign with the same name; 'aka' are other spellings and regional names people search for.",
+  "rashis": [
+    { "name": "Mesha", "english": "Aries", "aka": ["Mesham", "Mesh"] },
+    { "name": "Vrishabha", "english": "Taurus", "aka": ["Vrishabham", "Vrushabha", "Rishabam"] },
+    { "name": "Mithuna", "english": "Gemini", "aka": ["Mithunam", "Mithun"] },
+    { "name": "Karka", "english": "Cancer", "aka": ["Karkataka", "Katakam", "Kadagam", "Karkidakam"] },
+    { "name": "Simha", "english": "Leo", "aka": ["Simham", "Singh"] },
+    { "name": "Kanya", "english": "Virgo", "aka": ["Kanni"] },
+    { "name": "Tula", "english": "Libra", "aka": ["Thulam", "Tulam"] },
+    { "name": "Vrischika", "english": "Scorpio", "aka": ["Vrischikam", "Vrushchika"] },
+    { "name": "Dhanu", "english": "Sagittarius", "aka": ["Dhanus", "Dhanusu"] },
+    { "name": "Makara", "english": "Capricorn", "aka": ["Makaram", "Makar"] },
+    { "name": "Kumbha", "english": "Aquarius", "aka": ["Kumbham", "Kumbh"] },
+    { "name": "Meena", "english": "Pisces", "aka": ["Meenam", "Meen"] }
+  ]
+}

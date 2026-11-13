@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { View, Text, ScrollView, TextInput, StyleSheet, TouchableOpacity } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
+import { PageHead } from "../components/PageHead";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors, SCREEN_BG } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
@@ -16,8 +17,10 @@ type Fit = "pada" | "nakshatra" | "rashi" | "none";
 
 export default function CheckNameScreen() {
   const params = useLocalSearchParams<Params>();
-  if (!hasBirthParams(params)) return <MissingBirthDetails />;
-  return <CheckNameScreenInner />;
+  // Depends on the family's birth details, so search engines are told not to index it.
+  const head = <PageHead page="check" path="/check" noindex />;
+  if (!hasBirthParams(params)) return <>{head}<MissingBirthDetails /></>;
+  return <>{head}<CheckNameScreenInner /></>;
 }
 
 function CheckNameScreenInner() {

@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { View, Text, SectionList, StyleSheet, TouchableOpacity } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { MissingBirthDetails, hasBirthParams } from "../components/MissingBirthDetails";
+import { PageHead } from "../components/PageHead";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors, SCREEN_BG } from "../constants/Colors";
 import { getBirthChart } from "../lib/astro";
@@ -38,8 +39,10 @@ const SCOPE_HELP: Record<Scope, string> = {
 
 export default function ResultsScreen() {
   const params = useLocalSearchParams<Params>();
-  if (!hasBirthParams(params)) return <MissingBirthDetails />;
-  return <ResultsScreenInner />;
+  // Depends on the family's birth details, so search engines are told not to index it.
+  const head = <PageHead page="results" path="/results" noindex />;
+  if (!hasBirthParams(params)) return <>{head}<MissingBirthDetails /></>;
+  return <>{head}<ResultsScreenInner /></>;
 }
 
 function ResultsScreenInner() {

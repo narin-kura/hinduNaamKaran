@@ -35,6 +35,16 @@ body {
   background: linear-gradient(90deg, #c2410c 0%, #b8336a 40%, #6d4fc4 72%, #0e7490 100%);
   background: linear-gradient(in oklch shorter hue 90deg, #c2410c, #0e7490);
 }
+/* Home-page links into the static name pages (components/PageHead.tsx BrowseLinks). */
+.hnk-browse { margin: 18px 0 6px; }
+.hnk-browse h2 { font: 800 16px/1.3 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1f2937; margin: 0 0 8px; text-align: center; }
+.hnk-browse ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.hnk-browse a {
+  display: inline-block; padding: 7px 12px; border-radius: 999px; text-decoration: none;
+  font: 600 13px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #0e7490; background: #fff; border: 1px solid #cbe7ec;
+}
+.hnk-browse a:hover { color: #c2410c; border-color: #f5c3a5; }
 `;
 
 export default function Root({ children }: PropsWithChildren) {

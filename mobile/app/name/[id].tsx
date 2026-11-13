@@ -8,6 +8,7 @@ import { getBirthNumber, getNameNumber, getCompatibility } from "../../lib/numer
 import { NumerologyCard } from "../../components/NumerologyCard";
 import { SpellingVariants } from "../../components/SpellingVariants";
 import { RankBadge } from "../../components/RankBadge";
+import { PageHead } from "../../components/PageHead";
 
 export default function NameDetailScreen() {
   const { id, birthDay, spelling } = useLocalSearchParams<{ id: string; birthDay: string; spelling?: string }>();
@@ -19,6 +20,7 @@ export default function NameDetailScreen() {
   if (!entry) {
     return (
       <View style={styles.center}>
+        <PageHead page="nameDetail" path="/name" noindex />
         <Text style={styles.notFound}>Name not found.</Text>
       </View>
     );
@@ -31,6 +33,8 @@ export default function NameDetailScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 18, paddingBottom: 40 }}>
+      {/* Scored for one family's birth date; the indexable page for each name is /names/<name>. */}
+      <PageHead page="nameDetail" path="/name" noindex />
       <View style={styles.hero}>
         <View>
           <Text style={styles.name}>{shownName}</Text>

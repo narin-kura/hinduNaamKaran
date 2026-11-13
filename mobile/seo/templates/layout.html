@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="theme-color" content="{{themeColor}}">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{siteName}}">
+<meta property="og:locale" content="{{locale}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{ogImage}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{ogImage}}">
+<link rel="stylesheet" href="{{cssHref}}">
+<script type="application/ld+json">{{{jsonld}}}</script>
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="/">{{siteName}}</a>
+  <nav aria-label="Browse names">
+    <a href="/names">All names</a>
+    <a href="/names/boy">Boy names</a>
+    <a href="/names/girl">Girl names</a>
+    <a href="/nakshatra">By nakshatra</a>
+    <a href="/rashi">By rashi</a>
+  </nav>
+</header>
+<main>
+{{{breadcrumbs}}}
+{{{content}}}
+<aside class="cta">
+  <p class="cta-head">Find names for your baby's exact birth star</p>
+  <p>Enter the birth date, time and place. HinduNaamKaran works out the nakshatra and pada from the Moon's position and ranks every matching name by numerology. Free, no ads.</p>
+  <p class="cta-links"><a class="btn" href="/">Find my baby's names</a> <a class="btn btn-ghost" href="/method">How it works</a> <a class="btn btn-ghost" href="{{playUrl}}" rel="noopener">Get the Android app</a></p>
+</aside>
+<section class="sources">
+  <h2>Sources</h2>
+  <ul>{{{sources}}}</ul>
+  <p class="small">Naming traditions and numerology charts differ between families, regions and practitioners. Treat these pages as a starting point for family discussion, not a substitute for your family priest or astrologer.</p>
+</section>
+</main>
+<footer>
+  <p><a href="/">{{siteName}}</a>: {{tagline}}. Made by <a href="{{makerUrl}}">{{makerName}}</a>.</p>
+  <p><a href="/names">Hindu baby names</a> · <a href="/nakshatra">Names by nakshatra</a> · <a href="/rashi">Names by rashi</a> · <a href="/method">How it works</a> · <a href="https://vigyatri.com/hindunaamkaran/privacy/">Privacy</a></p>
+</footer>
+</body>
+</html>

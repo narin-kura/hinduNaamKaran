@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Linking } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors, SCREEN_BG } from "../constants/Colors";
+import { PageHead } from "../components/PageHead";
 
 function Section({ icon, title, children }: { icon: keyof typeof Ionicons.glyphMap; title: string; children: React.ReactNode }) {
   return (
@@ -44,6 +45,7 @@ function Link({ url, label }: { url: string; label: string }) {
 export default function MethodScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 18, paddingBottom: 40 }}>
+      <PageHead page="method" path="/method" />
       <Text style={styles.intro}>
         Everything below runs on your phone. Nothing is sent anywhere. This page says exactly which
         calculations and traditions are used, so you can judge them for yourself or check them

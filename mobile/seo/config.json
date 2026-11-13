@@ -1,0 +1,151 @@
+{
+  "_note": "Search-engine wording for every page of hindunaamkaran.com: titles, descriptions, headings and the phrases people actually search for. Used by scripts/build-seo.js (the static name/nakshatra/rashi pages) and by app/*.tsx (the app screens' <Head>). Keep titles near 60 characters and descriptions under 160; Google cuts off the rest. {{placeholders}} are filled in per page.",
+
+  "site": {
+    "name": "HinduNaamKaran",
+    "origin": "https://hindunaamkaran.com",
+    "playUrl": "https://play.google.com/store/apps/details?id=com.vigyatri.hindunaamkaran",
+    "makerName": "Vigyatri Solutions",
+    "makerUrl": "https://vigyatri.com",
+    "ogImage": "/og-image.png",
+    "locale": "en_IN",
+    "themeColor": "#c2410c",
+    "tagline": "Hindu baby names by Nakshatra, Rashi and Numerology",
+    "alternateNames": ["Hindu Naam Karan", "Hindu NaamKaran"]
+  },
+
+  "homeLinks": {
+    "_note": "Crawlable links on the app's home page (web only) into the static name pages. The link text is what Google reads as the topic of the page it points to.",
+    "heading": "Browse Hindu baby names",
+    "links": [
+      { "label": "Hindu baby boy names", "href": "/names/boy" },
+      { "label": "Hindu baby girl names", "href": "/names/girl" },
+      { "label": "Names by nakshatra", "href": "/nakshatra" },
+      { "label": "Names by rashi", "href": "/rashi" },
+      { "label": "Names of Lord Vishnu", "href": "/names/vishnu-names" },
+      { "label": "Lord Shiva names", "href": "/names/shiva-names" },
+      { "label": "Krishna names", "href": "/names/krishna-names" },
+      { "label": "Devi names for girls", "href": "/names/devi-names" },
+      { "label": "Sanskrit baby names", "href": "/names/sanskrit-baby-names" },
+      { "label": "Telugu baby names", "href": "/names/telugu-baby-names" },
+      { "label": "Tamil baby names", "href": "/names/tamil-baby-names" },
+      { "label": "All Indian baby names A to Z", "href": "/names" }
+    ]
+  },
+
+  "keywords": [
+    "Hindu baby names",
+    "Indian baby names",
+    "Hindu baby boy names",
+    "Hindu baby girl names",
+    "baby names with meaning",
+    "Sanskrit baby names",
+    "baby names by nakshatra",
+    "baby names by rashi",
+    "nakshatra names",
+    "naming syllable",
+    "namkaran",
+    "naamkaran",
+    "naming ceremony names",
+    "numerology baby names"
+  ],
+
+  "sources": {
+    "padaTable": { "label": "Drik Panchang: Nakshatra pada syllables", "url": "https://www.drikpanchang.com/swar-siddhanta/nakshatra/nakshatra-pada-swar-siddhanta.html" },
+    "nameData": { "label": "Where every name and meaning comes from (DATA_SOURCES.md)", "url": "https://github.com/narin-kura/hinduNaamKaran/blob/main/mobile/DATA_SOURCES.md" },
+    "method": { "label": "How HinduNaamKaran works: panchang, ayanamsa and numerology", "url": "/method" }
+  },
+
+  "app": {
+    "home": {
+      "title": "Hindu Baby Names by Nakshatra, Rashi & Numerology | HinduNaamKaran",
+      "description": "Free Hindu baby name finder. Enter the birth date, time and place to get the baby's nakshatra, naming syllable and 2,900+ Indian boy and girl names with meanings, ranked by numerology."
+    },
+    "check": {
+      "title": "Check a Baby Name: Nakshatra & Numerology Match | HinduNaamKaran",
+      "description": "Already have a name in mind? Check whether it matches your baby's nakshatra syllable and birth-date numerology, with spelling variations that score better."
+    },
+    "method": {
+      "title": "How Nakshatra Baby Naming Works: Pada Syllables, Rashi & Numerology",
+      "description": "How HinduNaamKaran finds the baby's birth star from the Moon's position, picks the pada naming syllable, and ranks names with Chaldean numerology. Sources included."
+    },
+    "results": {
+      "title": "Suggested Hindu Baby Names | HinduNaamKaran",
+      "description": "Hindu baby names that match your baby's nakshatra syllable, ranked by numerology."
+    },
+    "nameDetail": {
+      "title": "Name Details | HinduNaamKaran",
+      "description": "Meaning, source and numerology of a Hindu baby name."
+    }
+  },
+
+  "pages": {
+    "namesHub": {
+      "path": "/names",
+      "title": "Hindu Baby Names with Meanings: {{count}} Indian Names | HinduNaamKaran",
+      "h1": "Hindu baby names with meanings",
+      "description": "Browse {{count}} Hindu and Indian baby names with meanings: boy and girl names A to Z, names by nakshatra and rashi, names of Vishnu, Shiva, Krishna and the Devi, plus Telugu, Tamil and Bengali names.",
+      "intro": "{{count}} Hindu baby names, each with its meaning, origin and naming syllable. Browse boy and girl names from A to Z, find names that suit the baby's nakshatra (birth star) or rashi (moon sign), or pick from names of the gods and from Indian regional languages."
+    },
+    "gender": {
+      "M": {
+        "path": "/names/boy",
+        "title": "Hindu Baby Boy Names with Meanings ({{count}}) | HinduNaamKaran",
+        "h1": "Hindu baby boy names with meanings",
+        "description": "{{count}} Hindu and Indian baby boy names with meanings, from Aadarsh to Yuvraj, including names of Vishnu, Shiva and Krishna. Each shows its nakshatra syllable and numerology."
+      },
+      "F": {
+        "path": "/names/girl",
+        "title": "Hindu Baby Girl Names with Meanings ({{count}}) | HinduNaamKaran",
+        "h1": "Hindu baby girl names with meanings",
+        "description": "{{count}} Hindu and Indian baby girl names with meanings, including names of Lakshmi, Saraswati, Durga and Parvati. Each shows its nakshatra syllable and numerology."
+      }
+    },
+    "letter": {
+      "path": "/names/starting-with/{{slug}}",
+      "title": "Hindu Baby Names Starting with {{letter}}: Boy & Girl Names",
+      "h1": "Hindu baby names starting with {{letter}}",
+      "description": "{{count}} Hindu baby names starting with {{letter}}: {{boys}} boy names and {{girls}} girl names, each with its meaning, nakshatra syllable and numerology number."
+    },
+    "name": {
+      "path": "/names/{{slug}}",
+      "title": "{{name}} Name Meaning, Nakshatra & Rashi | Hindu {{genderTitle}} Name",
+      "h1": "{{name}}",
+      "description": "{{name}} is a Hindu {{genderPhrase}} name meaning “{{meaning}}”. It starts with the syllable {{syllable}}, which suits {{fitShort}}. Chaldean name number {{number}}."
+    },
+    "nakshatraHub": {
+      "path": "/nakshatra",
+      "title": "Baby Names by Nakshatra: All 27 Birth Stars & Syllables",
+      "h1": "Hindu baby names by nakshatra",
+      "description": "Find baby names for all 27 nakshatras (birth stars): the four pada syllables of each, the rashi they fall in, and Hindu boy and girl names that start with them.",
+      "intro": "In the Hindu naming ceremony (namkaran), a baby's name traditionally begins with the syllable of the pada (quarter) of the nakshatra the Moon was in at birth. Each of the 27 nakshatras has four padas, so there are 108 naming syllables. Pick your baby's birth star to see its syllables and matching names."
+    },
+    "nakshatra": {
+      "path": "/nakshatra/{{slug}}",
+      "title": "{{nakshatra}} Nakshatra Baby Names: Starting with {{syllables}}",
+      "h1": "{{nakshatra}} nakshatra baby names",
+      "description": "Hindu baby boy and girl names for {{nakshatra}} nakshatra{{akaShort}}: {{count}} names starting with {{syllables}}, with meanings, pada and rashi."
+    },
+    "rashiHub": {
+      "path": "/rashi",
+      "title": "Baby Names by Rashi (Moon Sign): All 12 Rashis",
+      "h1": "Hindu baby names by rashi",
+      "description": "Baby names for all 12 rashis (moon signs), from Mesha (Aries) to Meena (Pisces): the naming syllables of each rashi and Hindu boy and girl names that start with them.",
+      "intro": "Each rashi (moon sign) covers nine nakshatra padas, so it has up to nine naming syllables. Many families choose a name from any syllable of the baby's rashi when the exact nakshatra syllable gives too few options."
+    },
+    "rashi": {
+      "path": "/rashi/{{slug}}",
+      "title": "{{rashi}} Rashi ({{english}}) Baby Names: {{syllables}}",
+      "h1": "{{rashi}} rashi baby names",
+      "description": "Hindu baby boy and girl names for {{rashi}} rashi ({{english}}{{akaShort}}): {{count}} names starting with {{syllables}}, with meanings and nakshatra pada."
+    },
+    "collection": {
+      "path": "/names/{{slug}}"
+    },
+    "notFound": {
+      "title": "Page not found | HinduNaamKaran",
+      "h1": "That page isn't here",
+      "description": "The page you asked for doesn't exist."
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "_note": "Themed name lists, each its own page at /names/<slug>. A name belongs to a collection when its 'origin' is listed in 'origins' or its 'source' starts with one of 'sourcePrefixes'. 'group' picks the heading it is listed under on /names. Slugs must contain a hyphen so they can never clash with a single name's page. Pages with fewer than 'minNames' names are skipped.",
+  "minNames": 8,
+  "groups": {
+    "gods": "Names of the gods and goddesses",
+    "language": "Sanskrit and regional Indian names",
+    "stories": "Names from the epics, rishis and holy places"
+  },
+  "collections": [
+    {
+      "slug": "vishnu-names",
+      "group": "gods",
+      "title": "Names of Lord Vishnu for Baby Boys: Vishnu Sahasranama Names",
+      "h1": "Names of Lord Vishnu for baby names",
+      "description": "{{count}} baby names from the names of Lord Vishnu, most from the Vishnu Sahasranama, each with its meaning, nakshatra syllable and numerology.",
+      "intro": "The Vishnu Sahasranama, the “thousand names of Vishnu”, is a hymn in the Anushasana Parva of the Mahabharata. These {{count}} names come from it and from other names of Vishnu.",
+      "origins": ["Vishnu Sahasranama", "Vishnu"],
+      "sourcePrefixes": ["Name of Vishnu"]
+    },
+    {
+      "slug": "shiva-names",
+      "group": "gods",
+      "title": "Names of Lord Shiva for Baby Boys with Meanings",
+      "h1": "Names of Lord Shiva for baby names",
+      "description": "{{count}} baby names from the names of Lord Shiva, including the Shiva Sahasranama of the Linga Purana, each with its meaning and nakshatra syllable.",
+      "intro": "These {{count}} names are names of Shiva, most from the Shiva Sahasranama (thousand names of Shiva) in the Linga Purana.",
+      "origins": ["Shiva Sahasranama (Linga Purana)", "Shiva"],
+      "sourcePrefixes": ["Name of Shiva"]
+    },
+    {
+      "slug": "krishna-names",
+      "group": "gods",
+      "title": "Lord Krishna Names for Baby Boys with Meanings",
+      "h1": "Lord Krishna names for baby boys",
+      "description": "{{count}} baby names from the names and stories of Lord Krishna, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of Krishna and names from the Bhagavata Purana, where Krishna's life is told.",
+      "origins": ["Krishna", "Bhagavata Purana"],
+      "sourcePrefixes": ["Name of Krishna", "Character in the Bhagavata Purana"]
+    },
+    {
+      "slug": "devi-names",
+      "group": "gods",
+      "title": "Names of Goddess Durga, Lalita & Parvati for Baby Girls",
+      "h1": "Names of the Devi for baby girls",
+      "description": "{{count}} baby girl names from the names of the Goddess: Lalita Sahasranama, Durga and Gauri Ashtottara, with meanings and nakshatra syllable.",
+      "intro": "{{count}} names of the Devi, the Goddess, from the Lalita Sahasranama, the Durga and Gauri Ashtottara Shatanamavali (108 names) and the Devi Bhagavata.",
+      "origins": ["Lalita Sahasranama", "Durga Ashtottara Shatanamavali", "Gauri Ashtottara Shatanamavali", "Devi Bhagavata", "Parvati"],
+      "sourcePrefixes": ["Form of the Devi"]
+    },
+    {
+      "slug": "lakshmi-names",
+      "group": "gods",
+      "title": "Names of Goddess Lakshmi for Baby Girls with Meanings",
+      "h1": "Names of Goddess Lakshmi for baby girls",
+      "description": "{{count}} baby girl names from the 108 names of Goddess Lakshmi, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of Lakshmi, mostly from the Lakshmi Ashtottara Shatanamavali (108 names of Lakshmi).",
+      "origins": ["Lakshmi Ashtottara Shatanamavali", "Lakshmi"],
+      "sourcePrefixes": ["Name of Lakshmi"]
+    },
+    {
+      "slug": "saraswati-names",
+      "group": "gods",
+      "title": "Names of Goddess Saraswati for Baby Girls with Meanings",
+      "h1": "Names of Goddess Saraswati for baby girls",
+      "description": "{{count}} baby girl names from the 108 names of Goddess Saraswati, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of Saraswati, mostly from the Saraswati Ashtottara Shatanamavali (108 names of Saraswati).",
+      "origins": ["Saraswati Ashtottara Shatanamavali", "Saraswati"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "ganesha-names",
+      "group": "gods",
+      "title": "Lord Ganesha Names for Baby Boys with Meanings",
+      "h1": "Lord Ganesha names for baby boys",
+      "description": "{{count}} baby boy names from the names of Lord Ganesha, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of Ganesha, mostly from the Ganesha Ashtottara Shatanamavali (108 names of Ganesha).",
+      "origins": ["Ganesha Ashtottara Shatanamavali", "Ganesha"],
+      "sourcePrefixes": ["Name of Ganesha"]
+    },
+    {
+      "slug": "murugan-names",
+      "group": "gods",
+      "title": "Lord Murugan (Kartikeya, Subramanya) Names for Baby Boys",
+      "h1": "Lord Murugan names for baby boys",
+      "description": "{{count}} baby boy names from the names of Lord Murugan, also called Kartikeya, Skanda and Subramanya, with meanings and nakshatra syllable.",
+      "intro": "{{count}} names of Murugan (Kartikeya, Skanda, Subrahmanya), mostly from the Subrahmanya Ashtottara Shatanamavali (108 names).",
+      "origins": ["Subrahmanya Ashtottara Shatanamavali", "Murugan"],
+      "sourcePrefixes": ["Name of Kartikeya"]
+    },
+    {
+      "slug": "mahabharata-names",
+      "group": "stories",
+      "title": "Baby Names from the Mahabharata with Meanings",
+      "h1": "Baby names from the Mahabharata",
+      "description": "{{count}} Hindu baby names of characters in the Mahabharata, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of people in the Mahabharata.",
+      "origins": ["Mahabharata"],
+      "sourcePrefixes": ["Character in the Mahabharata"]
+    },
+    {
+      "slug": "ramayana-names",
+      "group": "stories",
+      "title": "Baby Names from the Ramayana with Meanings",
+      "h1": "Baby names from the Ramayana",
+      "description": "{{count}} Hindu baby names of characters in the Ramayana, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of people in the Ramayana.",
+      "origins": ["Ramayana"],
+      "sourcePrefixes": ["Character in the Ramayana"]
+    },
+    {
+      "slug": "rishi-names",
+      "group": "stories",
+      "title": "Names of Vedic Rishis and Sages for Babies",
+      "h1": "Names of rishis and sages",
+      "description": "{{count}} baby names of Vedic and Puranic rishis (sages) and their families, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of rishis, the seers and sages of the Vedas and Puranas, and of their families.",
+      "origins": ["Rishi"],
+      "sourcePrefixes": ["Vedic rishi", "Puranic rishi"]
+    },
+    {
+      "slug": "holy-place-names",
+      "group": "stories",
+      "title": "Baby Names After Holy Places, Rivers and Tirthas",
+      "h1": "Baby names after holy places",
+      "description": "{{count}} Hindu baby names taken from holy places and rivers of India, with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names of tirthas: holy places, temple towns and rivers.",
+      "origins": ["Holy place"],
+      "sourcePrefixes": ["Named after a holy place", "Named after a holy river"]
+    },
+    {
+      "slug": "navagraha-names",
+      "group": "gods",
+      "title": "Navagraha and Dikpalaka Names for Baby Boys",
+      "h1": "Navagraha and Dikpalaka names",
+      "description": "{{count}} baby names from the names of the nine planets (Navagraha) and the guardians of the directions (Dikpalaka), with meanings.",
+      "intro": "{{count}} names of the Navagraha (the nine planets of Jyotisha) and the Ashta Dikpalaka (guardians of the eight directions).",
+      "origins": ["Navagraha", "Dikpalaka"],
+      "sourcePrefixes": ["Navagraha", "Ashta Dikpalaka"]
+    },
+    {
+      "slug": "sanskrit-baby-names",
+      "group": "language",
+      "title": "Sanskrit Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Sanskrit baby names with meanings",
+      "description": "{{count}} Sanskrit baby boy and girl names with meanings, each with its nakshatra syllable and numerology number.",
+      "intro": "{{count}} names of Sanskrit origin in everyday use across India. Names from the sahasranamas and ashtottaras have their own pages.",
+      "origins": ["Sanskrit"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "telugu-baby-names",
+      "group": "language",
+      "title": "Telugu Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Telugu baby names with meanings",
+      "description": "{{count}} Telugu baby boy and girl names with meanings, nakshatra syllable and numerology, for families in Andhra Pradesh, Telangana and abroad.",
+      "intro": "{{count}} names in everyday Telugu use.",
+      "origins": ["Telugu"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "tamil-baby-names",
+      "group": "language",
+      "title": "Tamil Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Tamil baby names with meanings",
+      "description": "{{count}} Tamil baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Tamil use.",
+      "origins": ["Tamil"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "hindi-baby-names",
+      "group": "language",
+      "title": "Hindi Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Hindi baby names with meanings",
+      "description": "{{count}} Hindi baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Hindi use, including names of Persian and Urdu origin common in Hindi.",
+      "origins": ["Hindi", "Persian-Hindi", "Urdu-Hindi"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "bengali-baby-names",
+      "group": "language",
+      "title": "Bengali Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Bengali baby names with meanings",
+      "description": "{{count}} Bengali baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Bengali use.",
+      "origins": ["Bengali"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "gujarati-baby-names",
+      "group": "language",
+      "title": "Gujarati Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Gujarati baby names with meanings",
+      "description": "{{count}} Gujarati baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Gujarati use.",
+      "origins": ["Gujarati"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "kannada-baby-names",
+      "group": "language",
+      "title": "Kannada Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Kannada baby names with meanings",
+      "description": "{{count}} Kannada baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Kannada use.",
+      "origins": ["Kannada"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "punjabi-baby-names",
+      "group": "language",
+      "title": "Punjabi Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Punjabi baby names with meanings",
+      "description": "{{count}} Punjabi baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Punjabi use.",
+      "origins": ["Punjabi-Hindi", "Punjabi"],
+      "sourcePrefixes": []
+    },
+    {
+      "slug": "marathi-baby-names",
+      "group": "language",
+      "title": "Marathi Baby Names with Meanings: Boy & Girl Names",
+      "h1": "Marathi baby names with meanings",
+      "description": "{{count}} Marathi baby boy and girl names with meanings, nakshatra syllable and numerology.",
+      "intro": "{{count}} names in everyday Marathi use.",
+      "origins": ["Marathi"],
+      "sourcePrefixes": []
+    }
+  ]
+}

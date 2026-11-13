@@ -8,6 +8,7 @@ import { CityPicker } from "../components/CityPicker";
 import { PickerField } from "../components/PickerField";
 import { Gender } from "../lib/suggest";
 import namesData from "../data/names.json";
+import { PageHead, HOME_JSON_LD, BrowseLinks } from "../components/PageHead";
 
 const PLAY_URL = "https://play.google.com/store/apps/details?id=com.vigyatri.hindunaamkaran";
 // Rounded down so the claim stays true as names are added: 2941 -> "2,900+".
@@ -123,6 +124,7 @@ export default function BirthDetailsScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.scroll}>
+      <PageHead page="home" path="/" jsonLd={HOME_JSON_LD} />
       {Platform.OS === "web" &&
         // Baby-props toran (rattle, bottle, cradle, booties...) across the top (web only; file in public/).
         React.createElement("div", { "aria-hidden": true, style: TORAN_STYLE })}
@@ -274,6 +276,8 @@ export default function BirthDetailsScreen() {
           </View>
         </TouchableOpacity>
       )}
+
+      <BrowseLinks />
 
       {Platform.OS === "web" && (
         <TouchableOpacity style={styles.vgBadge} onPress={() => Linking.openURL("https://vigyatri.com")} accessibilityRole="link">
